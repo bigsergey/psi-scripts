@@ -1,0 +1,8 @@
+{
+  "name": "psi-scripts",
+  "description": "Scripts to evaluation machine translation (pl-ru)",
+  "author": "bolszo@gmail.com",
+  "dependencies": {
+    "yandex-translate": "^1.0.1"
+  }
+}
