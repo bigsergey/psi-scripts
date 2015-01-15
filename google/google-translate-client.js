@@ -7,16 +7,19 @@ var prepareUrl = function(text) {
 		client: 'gtx',
 		sl: 'pl', //source language
 		tl: 'ru', //target language
-		dt: 't',
+		dt: 't', //response data format
+		ie: 'UTF-8',
+		oe: 'UTF-8',
 		q: text
 	};
-	return 'https://translate.googleapis.com/translate_a/single?' + querystring.stringify(opts);
+
+	return 'http://translate.googleapis.com/translate_a/single?' + querystring.stringify(opts);
 };
 
 var getTranslation = function(url, callback) {
-	console.log(url);
 	request(url, function(error, response, body) {
 		if (!error && response.statusCode == 200) {
+
 			body = JSON.parse(body);
 
 			var translation = '';
@@ -29,7 +32,7 @@ var getTranslation = function(url, callback) {
 	});
 };
 
-var text = 'Witam! Przetłumacz to! Tak';
+var text = 'Google Translate przetłumaczył to na rosyjski!';
 
 getTranslation(prepareUrl(text), function(translation) {
 	console.log(translation);
