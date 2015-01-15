@@ -3,6 +3,9 @@
   "description": "Scripts to evaluation machine translation (pl-ru)",
   "author": "bolszo@gmail.com",
   "dependencies": {
+    "lodash-node": "^2.4.1",
+    "request": "^2.51.0",
+    "urlencode": "^0.2.0",
     "yandex-translate": "^1.0.1"
   }
 }
