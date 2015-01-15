@@ -1,0 +1,1 @@
+/path_to_moses/mosesdecoder/scripts/generic/multi-bleu.perl reference_translation < machine_translation
