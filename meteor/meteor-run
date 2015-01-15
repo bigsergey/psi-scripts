@@ -1,0 +1,2 @@
+You must do segmentation, tokenization and lowercase
+java -Xmx2G -jar meteor-*.jar machine_translation reference -l ru
