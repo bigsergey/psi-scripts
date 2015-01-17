@@ -1,5 +1,4 @@
 var translate = require('yandex-translate');
-var js = require('jsonfile');
 var util = require('util');
 
 var getTranslation = function(textToTranslate, callback) {
@@ -16,6 +15,6 @@ var getTranslation = function(textToTranslate, callback) {
 };
 
 var translation = getTranslation('Yandex-translate przetłumaczył to na rosyjski!', function (translation) {
-	console.log(translation);
+	console.log(translation[0]);
 });
 

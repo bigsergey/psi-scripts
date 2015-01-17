@@ -20,6 +20,8 @@ var getTranslation = function(url, callback) {
 	request(url, function(error, response, body) {
 		if (!error && response.statusCode == 200) {
 
+			//remove .."pl" on the end
+			body = body.substring(0, body.length - 7) + "]"; 
 			body = JSON.parse(body);
 
 			var translation = '';
