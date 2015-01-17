@@ -3,6 +3,7 @@
   "description": "Scripts to evaluation machine translation (pl-ru)",
   "author": "bolszo@gmail.com",
   "dependencies": {
+    "line-by-line": "^0.1.3",
     "lodash-node": "^2.4.1",
     "request": "^2.51.0",
     "urlencode": "^0.2.0",
