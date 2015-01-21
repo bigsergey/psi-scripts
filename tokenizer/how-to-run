@@ -1,0 +1,1 @@
+tokenizer.perl -l lang < input > output
