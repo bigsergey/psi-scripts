@@ -1,2 +1,6 @@
 You must do segmentation, tokenization and lowercase
 java -Xmx2G -jar meteor-*.jar machine_translation reference -l ru
+
+java -Xmx2G -jar meteor-*.jar ../Projects/psi-scripts/machine-translation/tatoeba/yandex/tatoeba.ru.tok ../Projects/psi-scripts/reference-translation/tatoeba/tatoeba.ru.tok -l ru > /home/sergey/Projects/psi-scripts/results/meteor/tatoeba/yandex-results
+
+java -Xmx2G -jar meteor-*.jar ../Projects/psi-scripts/machine-translation/tatoeba/google/tatoeba.ru.tok ../Projects/psi-scripts/reference-translation/tatoeba/tatoeba.ru.tok -l ru > /home/sergey/Projects/psi-scripts/results/meteor/tatoeba/google-results
