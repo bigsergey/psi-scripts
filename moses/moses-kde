@@ -1,0 +1,1500 @@
+Przewodnik po & amarok.
+Mike diehl
+Madpenguin8 yahoo. com /
+Drużyna twórców amarok
+Разработчики
+.:: / nikita lyalin tinman321 gmail. com
+Drużyna twórców amarok
+Drużyna dokymotion
+& amarok - to odtwarzacz na audio death desktop environment.
+Kde
+Multimedia
+Odtwarzacz
+Audio
+Ogg
+Mp3
+Wav
+Muzyka
+Dźwięk
+Scenariusz
+Wprowadzenie
+Logo
+& amarok - to odtwarzacz na audio & kde, z liczbą funkcji i, na zaskoczonego, więc zaczęłam myśleć:
+W & amarok, zamiast szukać, niekończących się w menu, można dodać do listy воспроизведения перетащив po prostu je znaleźć jedną piosenkę w kolekcji nie problem: przeglądarka kolekcji & amarok, z строкой i poszukiwań pomoże ci znaleźć że w ciągu sekundy.
+Może się wydawać, że & amarok, ma w normalnym функционалом, że i аудиопроигрыватель, ale na tym функционале to nie koniec. wystarczy spojrzeć na przeglądarka kontekstu i zobaczyć, że & amarok, krok przed przeglądarka kontekstu pokazuje wszystkie informacje, pasujące do проигрываемой podjazdu okładkę albumu: od drugiej do muzyki od tego wykonawcy. tak samo wykonawcy - informatywny i sposób, by zbadać swoją kolekcję.
+Z wielu listę воспроизведения nie da się rozwiązać z którym dziś tu będzie przeglądarka listę. / jeśli nie robię, jaką muzykę, to mogą динамические listy, a ci listę воспроизведения pozwolą przejść do указанным partie kolekcji.
+Świetny w amarok wsparcie проигрывателей ipoda z apple, i wielu iriver ifp od rutynowych usb- проигрывателей. dzięki, duża ilość аудиопротоколов malo, позволяющих wybrać, jak słuchać muzyki, to i robi amarok продвинутым аудиопроигрывателем najbardziej ze wszystkich доступных. & amarok, продвинут, czarujący i zręczny, mamy nadzieję, że to naprawdę pomoże &quot; zobaczyć muzykę nagranie innego &quot;.
+Wdzięczność i pozwolenie
+Na program: 2003- 2005 do kretschmann markey / web. de i załoga twórców amarok.
+Drużyna twórców amarok
+Christian babe- magnet muehlhaeuser chris / chris. de
+Ich bin frederik kein deustcher holljen fh ez. / nie!
+Generacja 'to jest dobry, ale nie' irssi kretschmann markey / web. de
+Max turtle- power howell max. howell methylblue. com /
+Mike purple nie girly diehl madpenguin8 yahoo. com /!
+Spaghetti pierpaolo coder di panfilo pippo dp libero. to kurwa.
+Roman, i boże, będzie tam kurwa mac becker roman formmorf. de
+Seb surfin 'down pod ruiz mnie / sebruiz. net
+Stanislav czy ktoś powiedział dcop? karchebny stanislav karchebny / kdemail. net.
+Członkowie:
+Adam pigg &apos; a, заплатки. / adam piggz. fsnet. co. uk
+Adeodato simo заплатки) (asp16 / alu. ua. es
+Alexandre oliveira - o, naprawienie aleprj gmail. com / błędów.
+Andreas mair wsparcia mysql) (ml linogate. com / jestem.
+Andrew de quincey postgresql) (wsparcie adq dvb / lidskialf. net.
+Christie harris) (rokymoter dangle. baby / gmail. com
+Dan leinir turthra jensen (asystentka przy pierwszym po admin / dk removeleinir..
+Dan meltzer rokymoter) (hydrogen notyetimplemented. com /
+(enrico ros, a król opengl eros. kde email. to kurwa.
+Florian 'da- flow' egerer (odznaka niebieskiego &quot; nie &quot; dla amarok, flo. / / for nie gmx. w
+Gérard dürrmeyer dobra robota z odznakami i изображениями randomtree. com / gerard.
+Greg meyer (wielka do naprawy błędów, 1... 2) greg gkmweb. com /
+Harald sitter (rokymoter, переводы. błędów, zdjęcia приложения harald. sitter / kdemail. net.
+Ian, monroe (заплатки wzór scenariusza (ruby eean. / ian monroe. nu
+Jarkko lehti (tester grue / iki. fi.
+Jocke andersson rokymoter) (ajocke gmail. com /
+Kenneth wesley wimer ii. / (medaliony kwwii bootsplash. org
+Kenny lemieux (веб- mistrz amarok swaft / pwsp. net.
+Melchior napisy24.pl (рутинная praca nad fft. / kde. org mfranz błędów.
+Michael pyne - kod экспорта w k3b michael. pyne / kdemail. net.
+Nenad grujicic (всплывающий ekran na 1 1 / mchitman neobee. net
+Olivier bédard (hosting stronę paleo / pwsp. net.
+Reigo reinmets wsparcie,) (wikipedii заплатки xatax / ją hot.
+Roland gigler - silnik mas michael. pyne / kdemail. net.
+Sami nieminen (wsparcie audioscrobbler sami. nieminen / iki. fi.
+Scott wheeler taglib wheeler / kde.) (org
+Ze bogner szczegóły,) (loadsa bochi / online. pani
+Siegel ze mną,) (заплатки błędów kde / sdas. de
+Sven krohlas rokymoter) (sven / asbest- online. de
+Whitehawk stormchaser tester,) (заплатки zerokode / gmx. net
+Na документацию: 2005 mike diehl madpenguin8 yahoo. com /
+& underfdl, & undergpl.
+Instalacja
+Jak zdobyć & amarok.
+& amarok, mogę ściągnąć z kobrą strony & amarok.
+Ostatnia gra wersja może być скачана z svn projektu & kde, w trunk = = = = = extragear multimedia amarok.
+Jak skompilować & amarok.
+Dla компиляции, amarok do systemu, / kolejne tekst do konsoli z katalogu z amarok:
+.: configure - prefix = 'kde- config - prefix', su - z ", install"
+Flaga - enable- final już jest.
+Odkąd & amarok, i zaczął używać autoconf automake problemu z компиляцией być nie może. jeśli właśnie mieliśmy problemy koni, muszę powiedzieć o nich w to lista & kde;.
+-parametry konfiguracji
+& amarok, jak wielu innych programów ma pewne parametry компиляции, które można włączyć i wyłączyć podczas конфигурирования. że lista parametry, które mogą być zmienione.
+Niektórzy z zadowolenia parametry wymaga pewnych зависимостей. w sekcji зависимостей można wiedzieć więcej.
+Parametr
+W умолчанию
+Opis
+- enable- debug =
+Nie.
+Na отладки o zaostrzonym rygorze. tak, albo full do отладочного вывода, / czy departament zdobywania informacji... отладочной. użyj full, jeśli będziecie pomóc w & amarok;.
+- enable- mysql
+Wyłączyli
+Wsparcie z baz danych w mysql & amarok.
+- disable- amazon
+Jest włączony
+Отключает wsparcie być обложек z albumów amazon
+- without- arts
+Z arts
+Отключает wsparcie arts w & amarok.
+- without- gstreamer
+Отключает wsparcie gstreamer w & amarok.
+- with- helix
+Włącza wsparcie движка helix w & amarok.
+- without- xine
+Отключает wsparcie xine w & amarok.
+- with- nmm
+Bez nmm
+Włącza wsparcie nmm w & amarok.
+- with- mas
+Wsparcie z mas w & amarok.
+- without- opengl
+Отключает wsparcie opengl (анализаторов w & amarok.
+- without- included- sqlite
+Nie może być включенную wsparcie sqlite
+Gopher
+& lauri. watts, & lauri. watts. mail.
+Gopher разрабатывался jak распределенная ze służby i zdobywania informacji w promieniu piątka... uniwersytet minnesoty. ten protokół dzięki za informacje na серверах gopher, запущенных na узлах w sieci.
+Używa gopher interfejs. пользователи wybierają соответствующих z menu, która może wyświadczyć menu albo текстовым файлом. запрошенный element może się jak są na serwerze, z którym pracujesz w, na drugim gopher- сервере. na pobranie danych z serwera, nie tobą, używane do piwnicy. prawdziwy adres węzły, z którego запрашиваются, nie widać żadnego iluzję пользователю, że w hierarchii взаимосвязанных menu.
+Gopher pozwala tworzyć закладки na pewne elementy, więc mogę przejść do niego, nie bezpośrednio z powrotem za wszystkie karty menu gopher nie стандартизованы i определяются każdym serwerem.
+Źródło: tlc. nlm. nih. gov = = = = resources tutorials internetdistlrn gophrdef. htm.
+Zarząd & kmag.
+Sarang lakare
+Sarang / users. sf. net
+Olaf schmidt
+Ojschmidt / kde. org
+Anton горбачёв justoff / hotmail. balistyczną na rosyjski oleg mróz qmor / rambler. - odnowienie przeniesienie
+Sarang lakare
+Olaf schmidt
+& kmag. - to экранная lupa. możesz użyć & kmag,, tych części, tak jak szkło kontaktowe, żeby czytać mały tekst albo obejrzeć zdjęcie. ten program może być pomocna различным: разработчикам, artyści, веб- дизайнерам czy ludzie z ослабленным. ten dokument jest nadzorem & kmag, a do programu.
+Kde
+Kmag
+Death magnifier
+Wprowadzenie
+& kmag. - to dla экранная lupa графического интерфейса kde. ona jest, części. ten program może być pomocna различным: ludzie z ослабленным wzrokiem mogą użyć jej, żeby zwiększyć część, której trudno im się przyjrzeć, artyści - by stworzyć i naprawiać małe obrazki, badacze обработки графических obrazów - żeby podnieść i ich się uważnie. / oprócz tego & kmag, może to i inne funkcje, na przykład, "" robienia tych okolicach to dla bezpieczeństwa obrazy do plik na płycie - to obraz przed nagraniem może być увеличено.
+& kmag. - to bardzo potężna, na którego ciągle rosną dzięki появляющимся нововведениям. program оптимизирована do pracy na komputerach z невысокой производительностью.
+Używanie & kmag.
+Tak wygląda & kmag.
+Okno & kmag.
+Po startu & kmag, zobaczysz, jak jeden z dzięki. to okno & kmag, pokazuje zbliżenie. będziemy go nazywać смотровым. zdjęcie, które widzimy w oknie, смотровом tygodni albo jakiś z tych części. tę część ekrany będziemy mówić селектором obrazu.
+,, умолчанию & kmag, zwiększa obszar wokół курсора myszy - wyobraź sobie двигающуюся лупу. też mogę wybrać wzrost фиксированной części ekranu selektor obrazy) (czy lewa górnej części ekranu (cały obraz.
+Jeśli nie chcesz zobaczyć spis na myszy увеличенном jest znak, wybierz ukryć. widzicie, że & kmag, nie zawsze się sprawdza gotującą указателя i pokazuje ten znak & kde, / i qt.
+Zmiana увеличиваемой ekranu...
+W trybie selektor obrazu zawsze można zmienić kraj, którą trzeba zwiększyć, jeśli tylko nie jest włączony tryb podążać za myszą z pomocą strzelec albo całkiem смотровом na oknie.
+Strzelcy клавиши- czy lewa jest mysz
+Удерживая нажатой przycisk myszy i перемещая mysz, możecie zwozić zawartość смотрового okna. / zamiast ruchu myszą mogę użyć клавиши-.
+Strzelcy клавиши- zmianę, albo & zmianę, plus lewa czy środkowy przycisk.
+Jeśli & zmianę wcisnąć przycisk i użyć promowała picie, możecie zwozić selektor obrazu.
+Strzelcy ctrl, albo ctrl przycisk myszy.
+Wykorzystując ten szyfr klawiszy, możesz zmienić rozmiar селектора obrazu. musisz tylko pamiętać, że można przenieść prawy, lewy dolny róg, a ostatnie na miejscu.
+Dodatkowe funkcje & kmag.
+& kmag, ma wiele więcej funkcji. możesz napisać zbliżenie na принтере, zatrzymać obraz w, ale go w zderzak wymiany - skąd to możesz wsadzić w aplikacji, za to co innego.
+Poradnik do w menu.
+Menu plik
+Ctrl... nowe akta okno.
+Otwiera nowe & kmag okno.
+Ctrl plik jest zachować jak zdjęcie.
+Zachować zbliżenie na plik.
+Ctrl; p plik pieczęć...
+Nadrukowywać nasze aktualne zbliżenie.
+Ctrl, q, potrzebuję pomocy w drogę.
+Zamknąć aplikacja.
+Menu adiustacja
+Ctrl, z poprawki kopiować
+Kopiować nasze aktualne zbliżenie na zderzak wymiany, możesz umieścić go w innym.
+Menu widok
+F5 widok / start!
+Zacząć odnowa. / nie przestaje nie czas na aktualizację cpu.
+Widok skala
+Wybierz współczynnik увеличения.
+Ctrl - widok zmniejszyć
+Naciśnij ten przycisk, aby zmniejszyć zakres выделенную.
+Ctrl + zwiększyć widok.
+Naciśnij ten przycisk, żeby zwiększyć выделенную obszar.
+Kolory na f6 odwracać
+Odwracać koloru jest na, to jest jeden na białym.
+Widok obrót
+Wybierz do zakrętu bez zestarzeję (10 stopni w lewo,) (90 stopni, zmienić (180 stopni w prawo,) (270 stopni.
+Wygląda na
+Wybierz częstotliwość aktualizację (bardzo niska, niska, średnia, wysoka, niewysoki. wysoka częstotliwość aktualizację процессорного wymaga więcej czasu.
+Menu regulacja
+Ctrl, ustawić pokazać... / ukryć menu.
+Gasi / panel z menu.
+Regulacja pokazać / główny panel иструментов ukryć
+Gasi / główny panel z narzędzi.
+Regulacja pokazać / panel narzędzi, żeby ukryć
+Gasi / panel z narzędzi, żeby
+Regulacja pokazać / panel ukryć narzędzi "" regulacja
+Gasi odzwierciedlenie / zawiera płytki włączyłam go
+Regulacja f1 podążać za myszą
+To jest teren wokół курсора myszy отображается w oknie.
+Ustawić obwód f2 выделенная okna.
+W trybie выбранное okno jest otwarte. выбранная obszar отображается w oknie.
+Regulacja górna część tych
+To jest teren wokół курсора się na górze.
+Regulacja lewa strona ekranu
+To jest teren wokół курсора się w lewej stronie.
+Regulacja prawa strona ekranu
+To jest teren wokół курсора się w prawej stronie.
+Dolna część tych regulacja
+To jest teren wokół курсора się na dole.
+Regulacja f4 pokazać / ukryć myszy kursor
+Albo do ukrycia kursor myszy увеличиваемой w okolicy.
+Regulacja przepyszną klawiszy.
+Otwiera okno w którym możesz obrócić клавиатурные cięcia większość drużyny.
+Regulacja pasku narzędzi.
+Otwiera okno w którym możesz wybrać jakie będą komponenty odzwierciedlać się na pasku narzędzi.
+Menu plik
+& help. menu. documentation.
+Według podręcznika do
+& kmag, automatycznie używa wasze przepyszną klawisz w pliku умолчанию dla bezpieczeństwa, otwarcia nowego okna, / / (включения aktualizację jakiś przycisk resetujący w konqueror приближения отдаления, / i tak dalej.
+Przepyszną klawisz w умолчанию
+& ctrl jest.
+Zachować zawartość смотрового do okna.
+F1
+Przestawić się w tryb "podążać za myszą".
+F2
+Przestawić się w tryb "cелектор" obrazu.
+F4
+F5
+Włączyć odnowa смотрового okna, jeśli to był wyłączony, czy to restauracja смотрового okna, jeśli to jest włączony.
+F6
+Kolory odwracać
+& ctrl,...
+To otworzy okno nowe & kmag.
+& ctrl p;
+Otworzyć dialog druku by wydrukować zawartość смотрового okna.
+& ctrl z.
+Kopiować zawartość смотрового okna w zderzak wymiany.
+& ctrl m.
+Odzwierciedlić / panel ukryć.
+& ctrl -
+Zmniejszyć
+& ctrl +.
+Powiększenie
+& ctrl q, potrzebuję pomocy.
+Wyjście z приложения.
+Wdzięczność i pozwolenie
+& kmag.
+- program & copy, 2001- 2003 sarang lakare sarang / users. sf. net i 2003- 2005 olaf ojschmidt kde. org / schmidt.
+Brał udział w:
+Michael forster forster / fmi. uni- passau. de (oryginalny scenariusz.
+Dokumentacja - & copy, 2002 sarang lakare sarang / users. sf. net i 2004- 2005 olaf / schmidt ojschmidt kde. org
+.:: / anton горбачёв justoff hotmail. tresci.
+& underfdl, & undergpl.
+Instalacja
+Gdzie jest & kmag.
+& install. intro. documentation.
+Montaż i urządzenie
+& install. compile. documentation.
+Informacja systemu & kde.
+& lauri. watts, & lauri. watts. mail.
+12 czerwca 2005 kde
+Kmag
+1.
+Ekranowy powiększalnik
+Kmag & kde klucz, klucz & qt.
+Opis
+- to kmag экранная lupa. możesz użyć & kmag,, tych części, tak jak szkło kontaktowe, żeby czytać mały tekst albo obejrzeć zdjęcie. ten program może być pomocna различным: разработчикам, artyści, веб- дизайнерам czy ludzie z ослабленным wzrokiem.
+Cm.
+Bardziej więcej jest dostępna na pomóc. / (kmag ten & url, w & konqueror, albo запустите khelpcenter pomóc: kmag.
+Tak i na stronie projektu & kde, accessibility.
+Z
+& kmagnifier, bo olaf ojschmidt kde. org / schmidt, sarang lakare sarang / users. sf. net i michael forster forster / fmi. uni- passau. de
+Zarząd & kmousetool.
+Jeff roush
+Jeff kmousetool. com /
+Nikolai шафоростов shaforostoff gmail. com / bilu
+Jeff roush
+& kmousetool momentu, naciśnięcie przyciski myszy przy zjeździe курсора na niego. jest program, żeby pomóc ludziom, których nie wciskać guziki.
+Kde
+Kdeutils
+Kmousetool
+Эргономичность
+Тендинит
+Pędzelkowy tunelowy syndrom
+Wprowadzenie
+& kmousetool momentu, naciśnięcie przyciski myszy przy zjeździe курсора na niego. jest program, żeby pomóc ludziom, których nie wciskać przyciski. może i wykonywanie czasowego, że w tym.
+& kmousetool, może wyeliminować problem z bólem w нажатии na guziki. niestety, to może być nawet i przeprowadzka. jeśli naprawdę wystawiasz, związane z pracą na komputerze, proszę, proszę iść do lekarza.
+Więc, & kmousetool, może złagodzić ból tylko w нажатии przyciski, ale nie. / jak ze wszystkimi эргономическими утилитами, rząd ma być może разной.
+Używanie & kmousetool.
+Użyć & kmousetool, to proste: & kmousetool, obserwuje ruchów курсора, i robi naciśnięcie przystanku.
+W trybie перетаскивания & kmousetool, pozwala ci przesuwać kursor.
+W trybie включённом перетаскивания & kmousetool, "зажимает" przycisk, i możesz przenieść. / t., (...) i drag '', a na koniec przesłania "kręci" przycisk. będziesz musiał trochę poćwiczyć, by się to.
+Według podręcznika do
+To okno & kmousetool.
+Opcje & kmousetool указываются, głównie.
+Oddzielenie
+Zaczyna & kmousetool, albo nie.
+Minimalny rajd:
+Liczba пикселов, które musi przejść do myszy kliki.
+(opóźnienie w 1 / 10 z.
+Przerwa na naciśnięciem guzika. powiększ to znaczy, jeśli & kmousetool, trudno.
+Mądrego przeciąganie
+Włącza albo gasi tryb "mądrego перетаскивания".
+W trybie включенном перетаскивания się do wolnej czas перетаскивания opcja 1 / 10 i ustawienie odpowiada za ten czas, проходящее między регистрацией нажатия клавиши myszy i jej pozbądź. w razie, jeśli nie пермещалась mysz.
+Włączyć росчерки
+& kmousetool, utrzymuje "росчерки" /.::. tłumaczenie mouse gestures wolne i w prawo zwrot pieniędzy, które robi, naciśnięcie prawej. wolne i podróż w lewo zwrot temu - podwójne czy te parametry niespodziewanie i mogą być отредактированы w aktach $kdehome = = tłumaczenie: share config kmousetool strokes. txt, który & kmousetool создастпри, po pierwszej.
+Udźwiękowienie нажатия
+Воспроизводит dźwięk przy нажатии. to szczególnie w trybie перетаскивания.
+Jeśli dźwięk воспроизводится, otwórz & kcontrolcenter, na вкладке, звуковая system - ustaw / ale przynajmniej ma znaczenie słowa od аудиобуфера (się podobam.
+Автозапуск z kde
+Uruchamiać & kmousetool, przy bloku & kde, nie. pracuje w gnome albo innych менеджерах okien, dla których musisz skorzystać z innymi środkami автозапуска programu.
+W умолчанию
+Do wszystkich pierwotne znaczenia.
+Zrzut
+Na wszystkie ustawienia w stanie, w którym byli na początku, albo pójdziesz na ostatniej chwili нажатия przyciski "użyć".
+Zastosować
+Naciśnij dla zmian włączyłam go.
+Podpowiadanie
+Otwiera / zarząd пользователя.
+Zamknąć
+Zamknąć naszą rozmowę bez zmian.
+Wyjście
+Wyjście z & kmousetool.
+Rad
+Wskazówki pomogą zbadać & kmousetool, szybciej.
+Możesz zmienić jednakże пауз przed нажатием i перемещением.
+Lepiej najpierw poćwiczyć z & kmousetool, używając znaczenia w умолчанию. po sprzedaży umiejętności możesz włączyć tryb перетаскивания.
+W trybie перетаскивания może pomóc efekt dźwiękowy.
+Przy mu звукового ma pan może zmienić ustawienia & kde, dźwięku.
+Pytania i odpowiedzi
+& reporting. bugs, & updating. documentation.
+Pomocy! & kmousetool cały czas, tworzy niepotrzebne щелчки!
+Musisz mieć nowymi umiejętnościami z myszą.
+Po pierwsze, pamiętaj, co ty na części siarką okna, pustym miejscu веб- strony pójdą do niczego nie prowadzi, więc упражняйтесь w częściach okien.
+Dalej, musisz się zdecydować, gdzie trzeba pociągnąć przed перемещением. / większość ludzi двигают mysz, dopóki nie dostanie się tam, gdzie jest ten program, żeby pan wyraźnie осознавали, gdzie chcesz się jakimiś obcymi. jest również wyciągnąć ręce z myszy, jeśli jej nie używasz.
+Moja myszka myśli, kiedy ją перемещаю. czy mogę użyć & kmousetool,?
+Tak, jeśli ją почистите (nie tylko kulkę, ale w środku z lękiem wysokości i myszy.
+Najpierw разберите mysz i zdejmijcie. one są różne, ale zwykle, jak to zrobić.
+W środku widać z lękiem wysokości i brud, налипшую na nich, łatwo można odskrobać лезвием albo paznokciem.
+& kmousetool зажимает przycisk, myszy i kręci ją. - co się stało?
+Czasami & kmousetool uwiązana, to może być na niektórych układach, tryb перетаскивания.
+To może się zdarzyć, na przykład, by czyniono & kmousetool z oknami приложений, nie, w skrzynce odbiorczej & kde.
+Wyjście z tej sytuacji - raz się jakimiś obcymi, & kmousetool переключится, i będzie pracować.
+& kmousetool, перемещает kursor, gdy próbuję pisać.
+Przy вводе tekstu & kmousetool, i wciąż щёлкать отводит kursor od tekstu.
+Zabierzcie kursor od pola текстового przed вводом w bezpieczne miejsce w szare strefy czy na pasku narzędzi listą okien.
+Próbuję użyć tryb перетаскивания, ale nie mogę zrozumieć, jak z jego pomocą edycja.
+Dla овладения umiejętnościami z reżimem перетаскивания wymaga czasu. / oto kilka rad.
+Nie używaj tryb перетаскивания. możesz wyznaczyć tekst z pomocą klawiaturach, зажав klawisz i zmianę перемещая w stronę, albo щёлкнув каком- raz w tym miejscu i wtedy drugi raz z нажатой клавишей zmianę w końcu выделяемого bloku.
+Wykorzystaj to efekt dźwiękowy. to będzie tworzyć dźwięk przy нажатии przyciski myszy & kmousetool, z pomocą.
+Musicie wiedzieć, gdzie chcesz go wcisnąć przed rozpoczęciem перетаскивания.
+Prawa autorskie i licencjonowanie
+& kmousetool.
+- jeff roche & copy, 2002) (jeff roush jeff mousetool. com / i 2003 gunnar shmi дт (gunnar schmi dt schmi- dt. de a gunnar.
+Członkowie:
+Jeff roche - jeff roush mousetool. com / jeff.
+Gunnar shmi дт (gunnar schmi dt schmi- dt. de a gunnar.
+/ - (olaf ojschmidt kde. org / schmidt.
+Dokumentacja & copy - jeff, 2002) (roche jeff roush jeff mousetool. com /
+Bilu - nikołaj шафоростов shaforostoff gmail. com /
+& underfdl, & undergpl.
+Instalacja
+Jak zdobyć & kmousetool.
+& install. intro. documentation.
+Żądania
+Dla & kappname,, potrzebne zwiększenie xtest, nowa wiadomość do & x- window, to jest prawie wszystkich na których.
+Dla efektu звукового musi pan mieć настроенную masz kartę.
+Montaż i urządzenie
+& install. compile. documentation.
+Zarząd & kmouth.
+Gunnar schmi dt
+A gunnar schmi- dt. de
+Anton горбачёв justoff / hotmail. wersji bilu
+Gunnar schmi dt
+& kmouth - aplikacja, która twój komputer wymawiać słowa.
+Kde
+Kdeutils
+Kmouth
+Synteza przemówienia
+Ludzie sprawy. /
+Wprowadzenie
+& kmouth - to program ludziom, позволяющая komputer dla sprawy. / z syntezą. dziennik zawiera program произнесённых kwestii, z którego można wybrać, które muszę powiedzieć.
+Uwaga: & kmouth встроенного синтезатора, nie ma mowy, więc do programu w systemie musi być jest syntezator mowy.
+Высказывайте wasze życzenia i o pracy, & kmouth autorowi.
+Używanie & kmouth.
+Pierwszy oddzielenie
+Przy pierwszym po & kmouth запускается, mistrz, który pomoże ci zrobić настройку programu.
+Mistrz
+Mistrz
+Na pierwszej stronie mistrza ustawienia - lewy zdjęcie - указываете, by być tekstu do departamentu zdobywania informacji. na dodatkowego się do do dialogu konfiguracji.
+Na drugiej stronie muszę wybrać najbardziej odpowiednią z książek, które w kwestii możesz wybrać z książki by zdania, zamiast je. / oczywiście, w & kmouth, jest rozmowa, w którym będziesz wydawać twoje książki kwestii.
+To okno.
+To okno & kmouth, z części pól dwóch podstawowych dla się, którą muszę wygłosić (majtki białe pola na zdjęciu, i w kwestii произнесённых nieważne (biały) pole.
+To okno & kmouth.
+Zdjęcie tych
+Jeśli jesteś podmiotowi настройку & kmouth, możesz używać frazy się na polu, którą chce pan usłyszeć. / po tym, jak komputer powiedział, że można zmieścić w kwestii произнесённых zdania z rejestru wybrać dla повторного проговаривания.
+Każdy z nich w kwestii (podpis pod панелью narzędzi, możesz wybrać najbardziej często используемые.
+Dialog konfiguracji
+Włączyłam go przez okno na menu menu regulacja nastawić & kmouth,... to zawiera następujące: стреницы & kmouth, wspólne parametry (вкладки synteza:,, parametry автозавершение słów i służby syntezą kttsd mowy.
+Synteza przemówienia wkładka
+Wkładka parametry
+Ustawić się w polu вкладки syntezą mowy, by drużyna указывается синтезатора. jest poniżej tego pola выпадающий listę, o wybór, to gdy jest zakodowane w której nie będzie, синтезатору.
+& kmouth, może być jednym z dwóch sposobów do tekstu синтезатору. jeśli syntezator wymaga do tekstu typowych zachowań, proszę się w tę flagę.
+Jest inny sposób transmisja tekstu jako параметра. przed prawdziwym wyzwaniem синтезатора & kmouth, zmienniczką шаблоны фактическим содержимым:
+Wzór
+Chwiejący się
+% nie
+Tekst frazy
+F%.
+Czas na imię pliki z tekstem frazy
+%...
+Kod języka, z текущим &quot; same zostają &quot; słownikami &quot; авозавершения
+%
+Znak%.
+Drużyna проговаривания może być dla różnych синтезаторов. dla детального by się do drużyny jest синтезатора, który jest. z drużyny w.
+Jeśli nagrodzony i użyć kttsd, jeśli to możliwe, & kmouth, spróbuje użyć речевую służby kttsd. jeśli będzie próba miłej, wszyscy inni parametry na tej вкладке będą проигнорированы. kttsd to oddział & kde,, предоставляющая приложениям & kde, standardowy interfejs dla syntezą. w tej chwili kttsd jest w krytycznym utrzymać w svn na miejsca. / nie spowoduje нежелательным czekały mnie konsekwencje, nawet jeśli kttsd nie jest w systemie.
+Wkładka parametry
+Wkładka parametry
+Na вкладке parametry możesz obrócić zachowanie & kmouth, w różnych sytuacjach.
+Z pierwszego выпадающего listy, napisane w księdze kwestii, możecie wskazać jakie zadanie zostanie wymuszone, tu, соответствующего фразе, albo o menu napisane w kwestii książka, czy w panelu kwestii książki.
+Jeśli wybrany do wymawiać słowa, выбранная będzie zaraz произнесена i добавлена произнесённых w jednej kwestii. jeśli wybrany cel w polu przyrodników, &quot; będzie скопирована w polu przyrodników.
+Z drugiego выпадающего listy, zamknięcie okna przyrodników kwestii książki, możecie wskazać sposób aby kwestii książki w zamknięciu okna przyrodników.
+Jeśli wybrany do kwestii zatrzymać książkę, książka kwestii zachowana. jeśli będzie mogła prawdopodobnie odwzajemnić wybrany do zmiany, zmiany w kwestii książki. jeśli będą pytać o. wybrany cel, & kmouth, będzie się o to aby kwestii książki.
+Strona автозавершение słów.
+Strona автозавершение słów.
+Page contains the автозавершение słów a hazardu of dictionaries used for the word completion. (kmouth, will display combo a teraz do przeprowadzki edit boisku in the window main jeśli to hazardu contains więcej niż jeden dictionary. możesz to use combo przeprowadzki stratosferze select the dictionary to właściwie, used for the word completion.
+Strona służby syntezą przemówienia kttsd
+Okno przyrodników kwestii książki.
+Używając do menu kwestii książki poprawki, możesz otworzyć okno przyrodników kwestii książki.
+Okno przyrodników kwestii książki.
+Zdjęcie tych
+Część okna przyrodników поделена książki na dwie części, w kwestii książki o отображаются drzewa.
+W dolnej pan przez okno: 41: выделенный. jeśli выделена, możesz wydawać jak na czele, i tak ją. / jeśli książka выделена kwestii, możesz zmienić tylko jej nazwa.
+Takie, jak wzrost nowych książek i kwestii kwestii, lub usunięcie выбранных kwestii książki i kwestii, można wywołać, używając tylko menu, / albo menu.
+Możesz zmienić w kwestii książki, przepełnione albo kwestii перемещая ich z pomocą, klawisz курсором przy нажатой клавише & alt,.
+Według podręcznika do
+Kierownik drużyny okna.
+Menu plik
+Ctrl, o dane w magazyn...
+Plik tekstowy загружает произнесённых w kwestii.
+Ctrl, jest magazyn danych, jak...
+Utrzymuje je произнесённых w kwestii plik tekstowy.
+Ctrl; p plik pieczęć magazynu.
+Magazyn распечатывает произнесённых kwestii.
+Ctrl, q, potrzebuję pomocy w drogę.
+Zamyka & kmouth.
+Menu adiustacja
+Ctrl x poprawki wyciąć.
+Kasuje wydalanie i przenosi go w zderzak wymiany. jeśli выделен tekst był w polu przyrodników, on został w zderzak wymiany. w innym przypadku, w zderzak i burmistrza fraza z rejestru произнесённых kwestii.
+Ctrl, z poprawki kopiować
+Kopiuje wydzielanie w zderzak wymiany. jeśli выделен tekst był w polu przyrodników, on został w zderzak wymiany. w innym przypadku, w zderzak i burmistrza fraza z rejestru произнесённых kwestii.
+Ctrl v wprowadzić poprawki.
+Polubili zawartość cycki w gotującą się w polu курсора przyrodników.
+Adiustacja powiedzieć.
+Właściwie gotującą słów) (frazy. jeśli pole przyrodników frazy zawiera tekst, zostanie zdradzony. w innym przypadku będzie произнесена выделенная fraza z rejestru произнесённых kwestii.
+Menu kwestii książki.
+Adiustacja kwestii książki...
+Otwiera okno przyrodników kwestii książki.
+Menu regulacja
+Ctrl m regulacja pokazać menu.
+Regulacja zobaczyć panel narzędzi
+Włącza / отключает odzwierciedlenie перемещаемой pasku narzędzi, która zawiera często guziki na policję. / zazwyczaj panel jest w górnej części okna, tuż pod głównym menu. потащив za te paski, można przenieść.
+Regulacja pokazać do fortuny
+Włącza / отключает odzwierciedlenie mały panelu na głównym okna, która zawiera informacje o текущем doprowadzić & kmouth;.
+Regulacja zobaczyć panel narzędzi разговорника
+Włącza / отключает odzwierciedlenie перемещаемой pasku narzędzi, która zawiera często guziki na policję. / zazwyczaj panel jest w górnej części okna, tuż pod głównym полоске prztyczek w menu. / nie zdradza. потащив za te paski, można przenieść.
+Regulacja nastawić kmouth...
+Otwiera dialog ustawienia синтезатора / i ustawienia.
+Menu jest
+& help. menu. documentation.
+Всплывающее płyt w menu.
+Powiedzieć
+Проговаривает выделенную.
+Skasować
+Kasuje выделенную wyrażenia z magazynu.
+Wyciąć
+Kasuje выделенную tekst i przenosi ją w zderzak wymiany.
+Kopiować
+Kopiuje выделенную w zderzak wymiany.
+Wyodrębnić się
+Podkreśla jej akta.
+Zdjąć wypływ
+Ściąga zwolnienie z płyt w magazynie.
+Ctrl, o dane w magazyn...
+Ctrl, jest magazyn danych, jak...
+Drużyny okna przyrodników książek kwestii.
+Plik z nową
+Dodaje nową.
+Plik nowa książka kwestii.
+Tworzy nową książkę kwestii.
+Plik jest zachować ctrl.
+Utrzymuje kwestii książki.
+Plik import.
+Импортирует i dodaje jej w kwestii.
+Plik import стандартной kwestii książki.
+Импортирует wiesz kwestii książki i dodaje jej zawartość gotującą książkę w kwestii.
+Plik eksport...
+Экспортирует oddane napisane w kwestii książki lub plik
+Ctrl; p plik pieczęć...
+Распечатывает oddane kwestii książki napisane czy
+Plik w zamknąć ctrl.
+Zakrywa okno.
+Kasuje oddane i przenosi je na zderzak wymiany.
+Kopiuje oddane elementy w zderzak wymiany.
+Przenosi zawartość cycki w kwestii książki.
+Adiustacja usunąć
+Kasuje oddane.
+Всплывающее menu.
+Nowe &quot;
+Nowa książka kwestii.
+Import.
+Import стандартной kwestii książki.
+Eksport...
+Ctrl x wyciąć.
+Ctrl z kopiować.
+Ctrl v powiedzieć.
+Polubili zawartość cycki w kwestii książki w tej pozycji.
+Pytania i odpowiedzi
+& reporting. bugs, & updating. documentation.
+Nie wymawia się.
+Najprawdopodobniej towar sępoida czy nie configure się (?) w &quot; all or not the text- to- speech command. poprawianie use configure & kmouth., otwórz page podstawowe parametry i enter for the command speaking texts na tab synteza. (section see about the configuration dialog for the speech synthesizer details na więcej.
+Wdzięczność i pozwolenie
+& kappname.
+Programowanie - & copy, 2002- 2004 gunnar schmi dt gunnar / schmi- dt. de
+Dokumentacja - & copy, 2002- 2004 gunnar schmi dt gunnar / schmi- dt. de
+.:: / anton горбачёв justoff hotmail. tresci.
+& underfdl, & undergpl.
+The option wysłać dane na wprowadzenie standardowy musi być enabled.
+Na przykład saints row 3 the option wysłać dane na wprowadzenie standardowy musi być enabled. ten jest na przykład preferred use z freetts.
+Wszystkie części to command musisz written z into the. option wysłać dane na wprowadzenie standardowy musi być enabled.
+As the configuration of the speech synthesizer jest już w kttsd the only & kmouth - specific option musisz użyć mowny activate jest serwis kttsd, jeśli to.
+Oczywiście musisz configure kttsd. może to zrobić z syntezą kttsd configuration page / / that is added do configuration dialog of & kmouth, jeśli jest kttsd installed.
+Instalacja
+Gdzie jest & kmouth.
+& install. intro. documentation.
+Żądania
+Dla полноценного & kmouth, wymaga użycia (syntezator mowy i & kde, trzy: x) & kmouth, że około 15 megabajt podczas pracy w terenie pamięci - nie licząc pamięci, do pracy. / синтезатора niezbędny wielkość pamięci może zależeć od wózka i bierze odpowiedzialność ustawienia.
+Montaż i urządzenie
+& install. compile. documentation.
+Regulacja sieci & kde.
+Sean wheller
+W słowa techdoc solutions / sean inwords. co. dla
+Eckert christoph
+Vladimir рычков vvgtr2 / mail. wersji bilu
+W słowa techdoc solutions
+Eckert christoph
+W tej sekcji рассказывается, jak i tak go użyć & kappname, robot, dla & kcontrol,, który pozwala sterować сетевыми интерфейсами, маршрутизацией i параметрами dns.
+Kde
+Sieć
+Ethernet
+Wprowadzenie
+& kcontrolcenter;) (kcontrol, ktory zapewni ludzi z jednością, всевозможными сетевыми параметрами. & kcontrol, można otworzyć wybierając to menu death menu centrum ustawienia kde.
+& kappname, jaj, żeby dać szansę poprowadzić пользователю настройками tcp / ip, jak inni системным параметрам - z pomocą & kcontrol;. funkcje dostępne w & kappname,, to kolejne zadania.
+Przywłaszczyć интерфейсу ip- adres.
+Mam dla интерфейса maskę sieci
+Uruchamiać i zatrzymywać interfejs sieciowy
+Nastawiać маршрутизацию
+Mam na imię хоста (сетевого węzły i доменное imię
+Obrócić się i nazwisk adresów
+Jak z listą сетевых węzłów
+Po wyrzutnie pocisków nowy robot ustawić w sieci доступен & kcontrol, w grupie & sieć, internet, ustawić kappname) (sieć, internet, wybierz indeks & sieć regulacja sieci.
+& kappname, w trybie пользователя
+Zwróćcie uwagę, że & kappname, nie może oznaczać сетевое nowy sprzęt, do startu & kappname, sami сетевые urządzenia i драйверы musi być dla nich są dobrze.
+W większości przypadków, подавляющем драйверы dla сетевых / i sprzętu, устанавливаются i настраиваются na etapie wyrzutnie pocisków linux. jeśli dodajecie сетевое nowy sprzęt już po инсталляции, musisz powiedzieć, co musi być драйверы zajęte, отредактировав jednym z najbliższych, w zależności od jądra linux wersji:
+& linux, wersja 4 i poniżej 2.
+Tłumaczenie: etc modules. conf
+& linux, dwie wersje i ponad 6.
+Tłumaczenie: etc modprobe. conf
+Regulacja sieci z kapsuły
+Moduł regulacja ściąga w sieci o ustawienia opcje sieci w menu & kcontrol;. - po uzbrojeniu przesłany moduł regulacja sieci próbuje ustalić / dystrybucja oprogramowania (program, który na komputerze.
+W razie, jeśli nie uda się automatycznie, będzie ci wybrać zaoferowano ręcznie. wybierz z listy, najbardziej psychiatrycznego wersja twojego дистрибутива. - namierzcie przełącznik nie pytać, żeby ten wybór, a w następnej ustawienia po sieci выбранная platforma będzie w умолчанию.
+Системных włączyłam go do zmiany, musisz mieć swoje системного szefa, wszystko będzie подсвечены серым цветом (niedostępne to znaczy, że możesz patrzeć parametry znaczenia, ale nie ich do przywilejów szefa naciśnij przycisk na szefa w tryb lewej kapsuły. wprowadź kod w появившемся диалоге się hasła.
+Kappname, w trybie z prawa do managera
+Kappname, w trybie z prawa do managera
+Zobligowany do recepcji, możesz to wykorzystać na wadze. funkcje zorganizowani do drzewa.
+Ster сетевыми интерфейсами
+Dla nadzoru установленными w systemie сетевыми устройствами, jest wkładka сетевые интерфейсы tam приведены wszystko сетевые интерфейсы na вкладке сетевые интерфейсы są następujące działania:
+Interfejs & kappname.
+Dla każdego сетевого urządzenia mogę spojrzeć przez właściwości.
+Interfejs
+Na imię сетевого. na przykład, eth0 eth1, wlan0.
+Ip- adres.
+Ip- obecny adres.
+Protokół
+Protokół być.
+Stan
+Pokazuje nasze aktualne stan интерфейса tyka:) (неактивен.
+Komentarz
+Pokazuje komentarz.
+Regulacja сетевого urządzenia
+By parametry сетевого urządzenia musimy mieć go na liście, a potem wcisnąć przycisk nastawić interfejs.
+Regulacja сетевого urządzenia
+Regulacja сетевого urządzenia
+Są w умолчанию chłodzącej warstwie ustawienia tcp / ip, naciśnij przycisk na ustawienia, żeby zawrócić dialog i uzyskać dostęp do расширенным свойствам.
+Dodatkowe ustawienia urządzenia
+W tym диалоге opcje są następujące:
+Automatycznie
+Wybierz опцию automatycznie, ustawienia tcp / ip możemy kształtować się z pomocą dhcp albo bootp serwera. ustawienia tcp / ip устанавливаются w trybie автоматическом tylko jeśli w niskich ciężki, (dhcp albo bootp. serwery dhcp i bootp wysyłają wszystkie ustawienia tcp / ip w każdym bloku i nie ma ich ustawić ręcznie. z tej listy выпадающего wybierz dhcp albo bootp zgodnie z нуждами twojej sieci.
+Ręcznie
+- namierzcie przełącznik ręcznie? jeśli nie musisz używać dhcp albo bootp dla ustawienia tcp / ip. w polu ip- adres tcp / ip aktualnego adresu na сетевого. a w polu maska, podaj swoją maskę подсети.
+Poruszać się po komputera
+Jeśli ta opcja jest włączony, sieć interfejs systemu być activate będzie w toku. / jeśli nie ma potrzeby... zostaw опцию выключенной.
+Opis
+Wprowadźcie opis
+Широковещательный
+Wprowadź adres широковещательный. ten adres dla / od razu do twojej узлам подсети.
+Nieważne, które pan wskazał диалоге odzwierciedlać się w tym, jak właściwości urządzenia na liście sprzętu.
+Jeśli nie jesteś pewien, że wiesz jak tego pola pójdziesz do administracji системному, proszę! proszę, że was введенный ip- adres nie каким- albo urządzeniem w sieci. zapas ip- adresu na неработоспособности tcp / ip. воспользуйтесь ping & konsole z drużyną, by sprawdzić, czy mam już кем- to adres który zamierza pan podać.
+Na сетевого urządzenia
+Сетевое urządzenie może być niesamowitą albo wyłączone w zależności od potrzeb. włączyć nieaktywny sieciowy interfejs, możesz mieć go na liście i aktywować interfejs.
+Wyłączenie urządzeń сетевого
+Сетевое urządzenie może być niesamowitą albo wyłączone w zależności od potrzeb systemu. / od drzemki środku сетевого интерфейса wystarczy wybrać go na liście i nacisnąć wyłączyć interfejs.
+Regulacja маршрутизации
+Wkładka trasy pozwoli nastawić маршрутизацию w systemie.
+Śluza w умолчанию
+/ musi utrzymać ip- adres węzły z локальной подсети, który jest podłączony do сетям. ten adres być w pracy z komputerami w sieci.
+Wybierz сетевое urządzenie z listy выпадающего przyrodników znaczenia dla śluzę w умолчанию.
+Jeśli na twoim komputerze jest bardziej сетевого интерфейса, wybierz jednego z nich to ten, który jest podłączony do sieci śluzowy gdzie jest komputer.
+Regulacja parametry dns
+Wkładka system доменных im 'p) (dns daje szansę, żeby zwrócić parametry dns.
+Imię хоста
+To imię, pod którym sieć jest znanym w подсети.
+Imię домена
+Домена imię, którego jest sieć.
+Serwery dns
+Lista dns- serwerów w porządku, приоритета - patrzcie.
+Статические хосты
+Lista z сетевых węzłów w подсети - patrzcie.
+Regulacja dns- serwerów
+Komputer, pracująca dns сопоставляет доменное pełne nazwisko z adresem соответствующим ip-. to jest ważne, tak jak z сетевом взаимодействии komputery mają dokładnie ip- adresu. na przykład, jeśli komputer prosi: / / www. somedomain., com dns w przywróci ip- adres 123 gatunku... - 90.
+Wkładka serwery dns (część system) (dns доменных nazwisk, które łatwo rządzić listę. / mogę dodać, zwolnić i zmienić o серверах. nagrania dns można zbudować w требуемую sekwencja z pomocą przycisków przenieść do góry i przenieść na dół.
+Dodawanie dns- serwery
+W grupie serwery dns naciśnij przycisk. potem się dialog dodać nowy dns serwer.
+Wprowadź adres ip- dns- serwera i naciśnij przycisk. nowy wpis w liście dns- serwerów.
+Zmiana o сервере dns
+Na serwery вкладке dns wybierz nagranie dns- serwera i naciśnij. będzie rozmowa z przyrodników dns- serwery.
+Redagowanie z serwera dns-
+Pomożecie ip- adres i naciśnij przycisk ok. po to nagranie o сервере обновится.
+Ster статическими znanymi) (хостами
+Lista статические хосты zawiera tekst соответствия między хоста ip- nazwiskiem i adresem. często to może być w czasie, gdy niedostępne dns- serwery. / zamkniętą w tej listy mogę użyć zamiast dns- serwery.
+W умолчанию, статические хосты już zawiera kilka płyt. wliczając w to описывающих & apos, localhostapos. - sam, i mają rejestr aby potwierdzić ipv6. ipv6 to wersja экспериметальная / ip, która призвана zastąpić gotującą четвёртую wersję.
+Dodawanie статических хостов
+Naciśnij przycisk. będzie rozmowa dodatek nowego статического хоста.
+Wprowadź adres ip- статического сетевого węzły i naciśnij przycisk. będzie rozmowa dodatek nowego псевдонима.
+Podaj nazwisko статического сетевого węzły i naciśnij przycisk. jeśli statyczny host ma kilka nazwisk, naciśnij przycisk i wprowadźcie dodać jeszcze jeden pseudonim.
+Kiedy namieszała to pseudonimy статического хоста, naciśnij przycisk ok, a lista nazwisk статических сетевых обновится węzłów.
+Redagowanie статических хостов
+Wybierz jedną na liście z archiwum статического хоста. wciśnijcie się wydawać, dialog long статического хоста.
+Выполнив każda z nich, naciśnij przycisk na aktualizację listy статических хостов ok.
+Ip- można zmienić adres na nowy i przypadkiem ok.
+Mogę dodać nowy przypadkiem.
+By псевдонима wybierz nagranie naciśnij guzik i wydawać.
+, wybierz псевдонима nagranie naciśnij przycisk na liście i usunąć.
+Do zmiany
+Zmiany, które z kapsuły ustawienia, zaczną działać w systemie tylko po tym, jak запустите konsolę i wypełnij następną.
+= = = d etc init. networking restart
+Instalacja
+Żądania
+Na wadze włączyłam go sieci knetwork- conf, pokażcie wersji kde trzy: x i qt trzy: x.
+Moduł sieci knetwork- conf włączyłam go użyć na następnych платформах:
+Kubuntu
+Conectiva
+Debian
+Fedora core
+Freebsd
+Gentoo
+Mandrake
+Pld
+Openna
+Red hat
+Suse
+Jak mam moduł knetwork- conf
+/ w wadze knetwork- conf: knetworkconf. sourceforge. net. możesz załadować исходные kody.
+Pozycja бинарных plików
+Jeśli używasz дистрибутивы z dokumentami бинарными - na przykład, to rpm, to wystarczy mieć pokażcie kde i qt.
+Doświadczony dla mniej ludzi jest dziś z tym бинарных. to tylko загрузите torby i połóż je w konsole używając rpm jak widać na to:
+Rpm - knetwork- conf- versionnumber. rpm
+Poza tym, możesz używać i przyłożenie z графическим interfejsem jak kpackage. albo tak moduł z pomocą programów / z дистрибутива.
+Kompilatorstwo i urządzenie
+W tym przypadku, oprócz бинарных фалов kde i qt ci potrzeba, a wszystko dla. torby do biblioteki i moją drugą zawierają niezbędne informacje.
+Pozycja z / jest tylko dla ludzi doświadczony, kompilatorstwo & kappname, i tak nie jest wystarczająco następnych drużyny, zwykle.
+= = prefix configure. - $(...) kde- config prefix, by install
+Uwaga, załoga, install musi być wykonane w imieniu пользователя root.
+Jeśli będą jakieś problemy albo какие- - daj nam znać.
+Dane techniczne.
+W pierwszej części rozdział zawiera informacje o podstawowych zasadach panujących w pracy w sieci. / drugi приведен конфигурационных listę wszystkich dokumentów, które mogą & kappname;.
+Praca w sieci z ipv4
+Ta część nie się w pełni o pracy w sieci z ipv4 (ip protokół wersja 4. tu myślałam tylko podstawowy informacje, które pomogą ci z twoją małą samochód w sieci na domowe) (sieć.
+W czasie, w większości ip- sieci idzie z nami tcp / ip wersja 4) (ipv4. protokół ipv5 nie wielki się, że protokół ipv6 będzie to tak powszechne w najbliższej przyszłości. ten dokument dedykowany ipv4, jak najbardziej często используемому.
+Jeden z najważniejszych rzeczy, które muszę wiedzieć, ustawienia сетевого интерфейса to ip- adres, na przykład do twojego biura musisz zapytać ip- adres системного szefa albo użyć dhcp. w każdym razie nie możesz wybrać ip- adres bez.
+Jeśli pan устанавливаете swoją małą sieć w domu, to musisz użyć ip- adres z specjalnie kresu wyznaczonych grup to powstrzyma powstania konflikty z siecią глобальной internet, adresy, które w таблице, nie rozpoczną пропускаются w sieć, więc możesz użyć ich na twoje.
+Oczywiście, że maszyny z adresami mogą być gotowi na dostęp do sieci глобальной! to się robi z pomocą сетевых шлюзов.
+Możesz ustawić następne adresu.
+Ip- adresu dla prywatnych sieci.
+Klasa
+Skala
+A
+Z 10: 0 0 0..... na kilometry kilometry kilometry.
+B
+Z drona 172..... na 172 31: 0 0 0.
+Z
+Z należy. 168 0 0 należy,.... 168 kilometry 0.
+Dla samochodów do sieci z liczbą 254 wystarczy z adresów диапазона od należy 168..... 168 należy do 1. 254.
+Poza tym, jeśli maska sieci задана jak kilometry kilometry... to te kilometry 0. 254 сетевых węzły w jednej подсети.
+Niektóre adresy зарезервированы dla specjalnych. - to 0 0 0 0..... i 127 0 0 1 0 adres.....: 0 0 0 nazywa się z trasą умолчанию 127,... - 1 0 кольцевым loopback) (interfejsem. w trasę умолчанию маршрутизации (drodze do śledztwa dla ip-.
+Adres 127... tylko 1 zarezerwowany dla обозначения локальной. 1, 0 0 127... 1 присвоен специальному системному urządzenia - to jest warte "кольцевому интерфейсу". pierścieniowy działa tylko interfejs, wszystko, co było w jego wysłano - to z niego i wraca.
+Śluza w умолчанию to komputer czy specjalne сетевое urządzenie, które jest różnica. może, jeśli pan настроили własną domową, chciałbyś mieć dostęp do sieci. ale nie możesz tego zrobić, wykorzystując wasze локальные adresy, bo nie są używane w sieci. wszystko będzie komputer, który z dane między dwoma różnymi sieciami. taki komputer powinien mieć przynajmniej dwa сетевых. pewnie jeden z nich to mapa сетевая ethernet, która gra w sieć. / drugi локальную zewnętrzny sieciowy interfejs, jest cyfrowego urządzenia dostępu, to może być xdsl- modem albo coś, co innego подключенное do sieci. na obu сетевых интерфейсах są różne ip- adresu. / to ten komputer / potępiła "сетевых adresów" (- nat network adress: tak nazywają ip- forwarding, żeby dać do sieci z локальной dostęp do internetu, tylko wskazać im ip- adres tego komputera do bramy w умолчанию.
+Pliki конфигурационные
+W tej sekcji приведен listy, które изменяются & kappname.. jest tych miejsc w których файловых różnych дистрибутивов.
+Resolv. conf
+W aktach jest serwerów listę nazwisk.
+Gdzie szukać resolv. conf
+Platforma
+Wersja
+Droga
+Conectiva
+9.
+Tłumaczenie: etc resolv. conf
+Debian
+0 3.
+Fedora core
+1.
+Freebsd
+5.
+Gentoo
+Mandrake
+Pld
+2: 0.
+Openna
+1 0.
+Red hat
+9: 0.
+Suse
+Czasami zawartość tego pliku się dynamicznie dsl- соединениями. nie, jeśli jest w aktach nie będzie wierszami, które добавили karetka dsl- do połączenia.
+Hosts
+W aktach jest lista nazwisk znanych сетевых węzłów
+Gdzie szukać hosts plik
+Dystrybucja oprogramowania
+Wersja
+Etc hosts = =
+& #
+Wiesz, że w suse skrypt suseconfig często o tym. więc jeśli nie zobaczysz czy niespodziewanego.
+Lista twórców i pozwolenie
+Создатели
+Dziękuję wszystkim za ciężko nad & kappname,!
+Разработчики
+Jean louise биптист (juan luis baptiste juan. baptiste / kdemail. net.
+David (сэнсом david sansome davidsansome. com / mnie.
+Carlos гарначо - carlos garnacho garnacho / tuxerver. net.
+Simon edwards - simon edwards simonzone. com / simon.
+Pedro джурадо македо (pedro jurado maquedo pjmelenas biwemail. com /.
+Floren фернандез) (florian fernandez florian. fernandez2 / wanadoo. fr
+Унаи гарро unai) (garro unai. / garro ee. ed. ac. uk
+Christof эккерт christoph eckert) (mchristoph. eckert kurwa, online. de
+Джейм torres (jaime torres jtorres / telecorp. net.
+Wszyscy, których zostawiłem tu zapisać - wiesz, kim jesteś. / you foo. tld
+Z
+Christof эккерт - christoph eckert): mchristoph. eckert kurwa, online. de
+Син веллер wheller) (sean, sean / inwords. co. dla
+Licencja
+Na & kappname, przynajmniej na 2003- 2004 roku, należą do mój prawnik zorganizuje wypłatę louise биптисту (juan luis baptiste) (juan. baptiste / kdemail. net.
+Vladimir рычков vvgtr2 / mail. wersji bilu
+& underfdl, & undergpl.
+Zarząd & kcron.
+Morgan sandquist n.
+Morgan sandquist n.
+(meyer
+Projektant
+Lauri watts
+Wydawca
+Andrei darashenka adorosh kde słuchu. / - smolevichi. org. bilu www.napiprojekt.pl - nowa jakość napisów.
+Morgan sandquist n.
+& kcron - to jest aplikacja, планирующее wykonanie innych programów.
+Kde
+Kdeadmin
+Kcron
+Cron
+Crontab
+Planista
+Wprowadzenie
+Cron - to aplikacja do planowania do programów do tyłu. & kcron - to interfejs graficzny системного планировщика cron & unix.
+Używanie & kcron.
+Nie zapomnij wystrzelić crond - demon cron, albo & kcron, nie będzie.
+Oddzielenie & kcron.
+Po startu & kcron, zobaczycie zaktualizować kiedykolwiek запланированных zadań i соответствующих zmiennych. jeśli to jest program od суперпользователя, zobaczycie misji dla wszystkich ludzi. w tym przypadku każdego katalog może być / albo свёрнут.
+Okno & kcron.
+Okno & kcron.
+Запланированные misji.
+Запланированные zadania показываются na вкладке. dla każdego zadania отображается:
+Nazwisko
+Imię dla identyfikacji bezpieczna zadania
+Znaczenie
+Te akta i parametry do programu.
+Opis
+Mu do misji &quot; specjalnie z tego powodu &quot;
+Jeśli to jest zablokowane nazwisko, akt i przestają być startu parametry są, i też opis заблокируется.
+To były zmienne otoczenia
+To były zmienne otoczenia się pod czerwoną teczką zmienne. - to dla każdej переменной otoczenia отображается:
+Imię переменной.
+Переменной znaczenie.
+Opis переменной dobrze.
+To były zmienne, показанные tu, którzy każdej переменную załogi dla wszystkich запланированных. jeśli będzie zmienna otoczenia, to jest zablokowane заблокируются się i opis переменной.
+To okno & kcron.
+To okno & kcron.
+Dodawanie запланированных turze
+Dla добавления nowego zadania najpierw wybierzcie te dokumenty. potem wybierz poprawki nowa... i możemy użyć myszy i wybrać prawą przycisk...... albo pociągniesz ctrl n.
+Dialog poprawki misji.
+Dialog poprawki.
+Dialog poprawki misji.
+Komentarz
+Podaj do misji, którą musimy zaplanować.
+Program
+Podaj nazwisko. mogę mówić jak duży i względny. jeśli chcesz znaleźć program do systemu plików, naciśnij wybrać.
+Jest włączony
+Albo od drzemki do misji, czy pan i z niesamowitą i jej
+Bez извещений
+Gasi журналирование i do drużyny.
+Kilka miesięcy
+Wybierz, w którym zadanie zostanie wymuszone.
+Dni, miesiące
+Wybierz dzień, w którym zadanie zostanie wymuszone.
+Dni tygodnia
+Wybierz dzień, w którym zadanie zostanie wymuszone.
+Codziennie
+Jeśli chcesz, żeby zadanie выполнялось codziennie, wybierz robić każdego dnia.
+Zegarek
+Wybierz sobie zegarek, w którym będzie uruchamiać się na wykonanie zadania.
+Minuty
+Wybierz minuty, których zadaniem będzie uruchamiać się na stracenie. & kcron, nie popiera planowanie częściej niż raz na minutę.
+Ok.
+Zakończyć stworzenie tego zadania.
+Zniesienie
+Przerwać się do tego zadania.
+Jeśli wybrać dni tygodnia i dni, miesiące zadanie zostanie wymuszone w pewnym z warunków. na przykład, jeśli go wskazać wykonanie 1- i 15- to liczby każdego miesiąca i wskazać spełniać się w niedzielę, to misja rozpocznie się / i 1-, i 15- to liczby od dnia, i będzie запускться w niedzielę miesiąca.
+Запланированное zadanie nie установится w systemie i nie zacznie spełniać się, dopóki nie będzie сохранёт plik crontab.
+Ster запланированными заданиями
+Tak jak i moje, &quot; specjalnie z tego powodu &quot; zadania nie zostanie podane w i nie zacznie spełniać się nowego, dopóki nie będzie сохранёт plik crontab.
+Wycinanie &quot; specjalnie z tego powodu &quot; zadania
+Dla вырезания &quot; specjalnie z tego powodu &quot; zadania, wybierz сначалы to zadanie. potem naciśnij poprawki wyciąć.
+Też mogę wcisnąć przycisk myszy i wybrać prawą wyciąć albo pociągniesz ctrl x
+Kopiowanie запланированных turze
+By sklonować запланированное, wybierz najpierw zadanie kopiowania, a potem naciśnij poprawki kopiować.
+Też mogę wcisnąć przycisk myszy i wybrać prawą kopiować albo pociągniesz ctrl c.
+Wstawianie запланированных turze
+Żeby powiedzieć, najpierw muszą być w albo скопированы w zderzak, załatwię wstawianie. wybierz te dokumenty i potem wprowadzić poprawki.
+Też mogę wcisnąć przycisk wybrać prawą myszy i włożyć albo pociągniesz ctrl 1x05
+Zmiana запланированных turze
+By &quot; specjalnie z tego powodu &quot; zadania najpierw wybierzcie go, a potem naciśnij poprawki.
+Też mogę wcisnąć przycisk myszy i wybrać prawą zmienić... albo pociągniesz ctrl oh, to dialog poprawki, w którym można zmienić wszystko, ale także w диалоге nowe zadanie.
+Usuwanie запланированных turze
+&quot; specjalnie z tego powodu &quot; zadania, najpierw wybierzcie go, potem naciśnij poprawki usunąć.
+Jak można wybrać prawą przycisk myszy i usunąć.
+/ na wyłączenie запланированных turze
+Dla zgody запрещёных запланированных turze najpierw chciałbym porozmawiać. jeżeli zadania пометку mają wyłączony w opisie. potem wybierz poprawki jest włączony.
+Też mogę użyć prawą przycisk myszy i wybrać reczne. upewnij się w pliku отображаемого słuszne, parametry i rysopis.
+Wykonanie запланированных turze
+Można wystrzelić na wykonanie zadania, poprawki uruchomić teraz.
+Jak można wybrać prawą przycisk myszy i wystrzelić teraz.
+Zmiany otoczenia zmiennych
+Do stworzenia nowej załogi переменной najpierw wybierzcie te dokumenty to były zmienne a potem naciśnij poprawki nowa...
+Też mogę użyć prawą przycisk myszy i wybrać nową... albo pociągniesz ctrl n.
+Dialog переменной adiustacja
+To były zmienne dialog redagować
+To były zmienne dialog redagować
+Zmienna
+Podaj nazwisko переменной. mogę użyć выпадающий listę nazwisk, często się na policję, łącznie z czynników.
+Do domu
+Używany do katalogu пользователя переназначения w domu.
+Mailto
+Adresat do wysłania listy zamiast adresów пользователя.
+Path
+Lista каталогов dla poszukiwań выполняемых plików.
+Shell
+Zostanie zwolniony программа- powłoka bierze odpowiedzialność zamiast w умолчанию.
+Wprowadźcie переменной znaczenie.
+Podaj do tej переменной, jak jej cel.
+Włączyć
+/ od drzemki do użycia переменной, wybierz guzik włącz.
+Zamyka установку переменной.
+Zmienia установку переменной.
+Zmienna załogi nie ogrzeje nas do akt crontab bezpieczeństwa.
+Ster переменными otoczenia
+Tak jak i w tworzeniu, zmiana ich nie ogrzeje nas do akt crontab bezpieczeństwa.
+Wycinanie zmiennych otoczenia
+Dla otoczenia вырезания переменной najpierw chciałbym porozmawiać której переменную. potem wybierz poprawki wyciąć.
+Kopiowanie zmiennych otoczenia
+Dla otoczenia kopiowania переменной najpierw chciałbym porozmawiać której переменную. potem wybierz poprawki kopiować.
+Też mogę użyć prawą przycisk myszy i wybrać kopiować albo pociągniesz ctrl c.
+Wstawianie zmiennych otoczenia
+Dla otoczenia вставки переменной najpierw musisz wyciąć jej skopiować albo w zderzak wymiany, tylko po kopiowania albo вырезания szansę вставки. wybierz te dokumenty, to były zmienne wybierz potem wprowadzić poprawki.
+Zmiana zmiennych otoczenia
+Do zmiany otoczenia переменной najpierw chciałbym porozmawiać której переменную. potem wybierz poprawki zmienić... też można wybrać prawą przycisk myszy i zmienić... albo pociągniesz ctrl. poprawianie переменной będzie rozmowa, w którym można regulować переменную jak i w nowej диалоге переменной.
+Usuwanie zmiennych otoczenia
+Najpierw chciałbym porozmawiać переменной otoczenia, której переменную. potem wybierz poprawki usunąć.
+/ na wyłączenie zmiennych otoczenia
+Do otoczenia, / której переменную переменной najpierw chciałbym porozmawiać. to były zmienne отключенные będą to jak wyłączony, wybierz poprawki włączyć.
+Też mogę użyć prawą przycisk myszy i wybrać reczne. upewnij się, że nazwisko i znaczenie переменной otoczenia.
+Było żadnej wzmianki o crontab
+Po wszystkich wyrzutnie pocisków potrzebował zadań i czynników, zachowaj plik crontab, akta.
+Tak łatwo nacisnąć ctrl s. добавления albo nie istoty w siłę, dopóki tego nie zrobicie.
+Pieczęć pliku crontab
+Dla bezpieczeństwa распечатывания pliku crontab po akta, wybierz.
+Pieczęć pliku crontab
+Pieczęć pliku crontab
+Standardowy отобразится dialog druku & kde,, przyciski нажатии ujawnić te dwie dodatkowe ustawienia & kcron, диалоге do druku.
+Pieczęć crontab
+Plik crontab do robienia aktualnego пользователя.
+Drukować dla wszystkich ludzi
+Robienia plik crontab dla wszystkich ludzi. to działa tylko ustawić суперпользователей.
+Według podręcznika do
+To okno & kcron.
+Menu plik
+Plik jest zachować ctrl.
+Zachować zmiany w aktach crontab.
+Ctrl; p plik pieczęć...
+Nadrukowywać plik crontab.
+Ctrl, q, potrzebuję pomocy w drogę.
+Wyjść z & kcron.
+Menu adiustacja
+Ctrl x poprawki wyciąć.
+Wyciąć выбранную zadanie albo переменную.
+Ctrl, z poprawki kopiować
+Kopiować выбранную zadanie albo переменную.
+Ctrl v, poprawki wstawka
+Włożyć zadanie albo переменную, która była wcześniej скопирована czy jest.
+Ctrl n, poprawki.
+Stworzyć nowe zadanie albo переменную.
+Ctrl, poprawki o to...
+Zmienić выбранные zadania, albo to były zmienne.
+Adiustacja usunąć
+Usunąć выбранное zadanie albo переменную.
+Adiustacja włączony.
+Rozwiązać / zabronić выбранное zadanie albo переменную.
+Adiustacja zrobić teraz.
+Natychmiast rzucić выбранное zadanie.
+Menu parametry
+Sytuacja, / panel
+Odzwierciedlać panel.
+-parametry pokazać do fortuny
+Odzwierciedlać do.
+Menu jest
+& help. menu. documentation.
+Pytania i odpowiedzi
+Dlaczego nie działa, które ja jestem w запланированные zadania?
+Te zmiany będą mieć siłę po aby pliku crontab.
+Prawa autorskie i licencjonowanie
+& kcron.
+Prawa autorskie do (meyer / (meyer. net, 2002
+Prawa autorskie na morgan документацию należy do n. sandquist morgan, com / pipeline.
+.:: andrei дорошенко adorosh + kde wersji / smolevichi. org. www.napiprojekt.pl - nowa jakość napisów.
+& underfdl, & undergpl.
+Instalacja
+Jak zdobyć & kcron.
+& install. intro. documentation.
+Żądania
+, żeby się zebrać & kcron, potrzebujemy następne biblioteki.
+Cron, na przykład vixie cron. & kcron, że zespół crontab by пользовательских запланированных.
+& unix,, zgodny z стандартом posix, na przykład использующий biblioteki glibc. & kcron, że są standardowe na wezwania & unix, na namierzenie datę i czas.
+Montaż i urządzenie
+& install. compile. documentation.
+Zarząd kuser udać
+Matt johnston
+Matt johnston
+Lauri watts
+Kontrola
+Jonathan singer
+Anton ruskich a-, / bk. balistyczną na rosyjski język
+Matt johnston
+Ten dokument opisuje program kuser wersja 1 0. pozwala ci prowadzić przez innych użytkowników i grupami ludzi w systemie.
+Kuser
+Użytkownik
+Panowanie
+Administrator
+Утилиты
+Grupa
+Hasło
+Wprowadzenie
+Naszywkę w kuser. bardziej więcej informacji w sekcji praca z programem.
+Żeby zacząć pracę z kuser najpierw musimy zrobić настройку programu.
+Na koniec ustawienia naciśnij zachować zmiany, by zadziałała. albo odznakę na pasku narzędzi, albo poszczególny towar w menu.
+Praca z programem
+To okno.
+Kuser - to jest bardzo prosta. / program w oknie dwie вкладки: jeden z listą ludzi, z listą. dwa razy щёлкните o imieniu пользователя albo, to będzie rozmowa włączyłam go.
+To okno programu kuser
+To okno programu kuser
+Dialog свойств пользователя
+W диалоге свойств пользователя kilka вкладок.
+Liczba вкладок zależy od tego, w jaki sposób do przechowywania informacji o пользователе i od tego, czy ich limit дискового przestrzeni, dodatkowe вкладки także, jeśli używasz теневые (...) szyfrów, kodów, które kochany, na przykład: / / plik, etc master. passwd bsd- w układach.
+Wkładka informacje o пользователе
+Na вкладке informacje o пользователе możesz zmienić przez parametry:
+Uniformu id,) (пользователя
+Imię i nazwisko?
+Powłoka do systemu (lista powstaje w pliku etc shells) = =
+Domowy katalog
+Informacje o dwóch miejscach pracy.
+Adres
+Hasło
+Wkładanie do hasłem
+Wkładanie do hasłem pojawia się w tym przypadku, jeśli używane теневые hasła, czy takie rzeczy, / / etc master. passwd w bsd - układach.
+Na вкладке informacji możesz zmienić kilka dodatkowych, z zarządzaniem учётной płyta.
+Минимальное dni pomiędzy zmianami hasła
+Kilka dni, które termin ważności hasła, jeśli nie był изменён.
+Kilka dni do działania, że znam hasła, kiedy będzie użytkownik предупреждён.
+Czy muszę mieć nagranie учётную (i jeśli to, kiedy po wyroku działania hasła.
+Data истечения że działania учётной akta.
+- (w bsd - układach.
+Data ostatniej zmiany hasła отображается w górnej części dialogu.
+Wkładka limit
+Zobaczycie вкладку limit tylko w przypadku, gdy w systemie смонтирован jedna strona z ograniczeniami nic i dźwiękowiec jest plik. możesz zmienić przez parametry:
+Ograniczenie гибкое ilości plików
+Ograniczenie жёсткое ilości plików
+Ograniczenia czasu
+Ograniczenie гибкое ilości inode
+Ograniczenie жёсткое ilości inode
+Ograniczenia czasu inode
+Wszystkie te parametry mogą dla każdej systemu plików, na której są limit. файловая system parametry, która może zmienić, collins z listy файловая system z ograniczeniami nic
+Wkładka grupy
+Wkładka grupy zawiera informacje o tym, w grupach jest użytkownik. первичная, do której należy do użytkownik, widać na liście выпадающем первичная. możecie zauważyć proporczyk na liście, żeby włączyć пользователя w inne grupy.
+Właściwości grupy
+Dialog właściwości grupy ma listę wszystkich ludzi, żeby włączyć пользователя do grupy i wygodny, proszę.
+Wzrost, i unieszkodliwienie ludzi i grup
+By dodać do systemu пользователя albo, albo wybierz punkt dodać z menu użytkownik albo, albo psychiatrycznego naciśnij przycisk na pasku narzędzi. tak samo możesz zmienić właściwości i ludzi, i je zdjąć.
+Regulacja kuser
+Zmiana włączyłam go w умолчанию w tworzeniu пользователя
+By wydawać dane умолчанию w tworzeniu, użyj dialog przyrodników włączyłam go w умолчанию z menu regulacja nastawić kuser. możesz zmienić ustawienia na умолчанию, przy tworzeniu пользователя:,, czy je dział rodzinne starałbym ludzi. / możesz wybrać, czy tworzyć domowy katalog, i czy kopiować struktury - standardowe dokumenty włączyłam go w salonie. możesz włączyć опцию prywatna grupa, by stworzyć dla пользователя na grupę, która w równej odległości пользователя ta grupa, zimne.
+Budowanie akta mogą być na miejscu вкладке исходные.
+Разработчики i pozwolenie
+Kuser
+Twórca programu: 1997-, dennis першин dyp inetlab. com /
+Dokumentacja: 1997-, dennis першин dyp inetlab. com /
+Dokumentacja: 2000, matt джонстон mattj flashmail. com /
+.:: / i anton ruskich a- bk. tresci.
+& underfdl, & undergpl.
+Zarząd пользователя & dolphin.
+Peter penz
+Peter. penz / w gmx.
+Orville bennett
+& orville. bennett. mail.
+Michael austin
+Tuxedup / users. sourceforge. net
+David edmundson
+Kde / davidedmundson. co. uk
+Alan blanchflower
+Orville bennett
+Peter penz
+& orville, bennett.
+Michael austin
+Dolphin & - to jest dla plików & kde, którym łatwo i wygodnie.
+Kde
+Dolphin
+Menadżer plików
+Plik
+Panowanie
+Wprowadzenie
+Dolphin & - to dla pracy z plików w & kde, ставящая przed sobą cel, że najbardziej niewygodny interfejs пользователя. & dolphin, nie jest jedyna конкурентом & konqueror & dolphin,.. na задачах z dokumentami, to jak & konqueror, jest już просмотрщиком plików wielu ludzi, do programu agrobiznesowe pozwala lepiej zrobić to dla solidniejszych zadań interfejs, nie перегруженный лишними.
+O problemach z & dolphin, a także пожеланиях дальнейшему, na co możesz powiedzieć autorowi z okna диалогового raportów na błędach. dostęp do tego okna. / - z miejsca się zgłosić... przez głównego menu.
+Używanie & dolphin.
+Interfejs пользователя & dolphin.
+Interfejs пользователя & dolphin.
+Interfejs пользователя & dolphin.
+Zarząd пользователя & dolphin.
+To zdjęcie przez program & dolphin.
+Interfejs пользователя & dolphin.
+W trybie seansu столбцы widać struktury многоуровневую папок. щелчке na элементе представляющем вложенную teczkę na prawo aktualnego listy się, w którym będzie widać zawartość вложенной.
+Punkty wejścia
+W & dolphin, tam kilka функциональных панелей zobaczyć panel i ukrywać się w menu na pasku mogę przenieść. - i cóż to za tytuł.
+Punkty wejścia
+Panel, / zazwyczaj w oknie, ona ma закладки dla szybkiego w często посещаемые. na tej płytki musiałem wszystkie dyski i сменные w подключаемые do komputera.
+/
+Pojawia się na pasku / więcej informacji o выбранных aktach, wliczając w to,, i ostatniej zmiany, a także ten pokaz razu выбранного pliku.
+Akt
+Pojawia się na pasku teczki drzewa каталогов twojego komputera. czy w tej teczce na pasku znajdą ją w porę, & dolphin.
+Terminal
+Ten panel встраивает wysięgnik w okno & dolphin. w drogę, na lotnisku z otwartym w teczce & dolphin, i w teczce zmianie otwarte i będzie się do konsoli. widzicie, że przejście do innego teczkę na lotnisku nie prowadzi do nowej dokumentów w dziedzinie & dolphin, działa. / tylko w pracy z локальными папками.
+Rady i wskazówki
+Wiedza następnych приёмов by zaoszczędzić czas w pracy z & dolphin;.
+Szybka pozycja закладки
+Badacz plików
+Podłączenie zewnętrznych накопителей
+Powtarzam...
+Przemianowanie grupy plików
+Porównanie zespołów plików
+Badacz plików
+Używanie & dolphin.
+Zdjęcie okna & dolphin.
+Nawigacja
+Plik
+Plik
+Zarząd пользователя & dolphin.
+Używanie & dolphin.
+Jan schaumann jschauma / netmeister. org
+April, 2003
+Kappfinder
+1.
+Aplikacja позволяющее być inne приложения & kde w menu.
+- kluczyki kappfinder dir katalog kde klucze qt
+Opis
+Poszukiwacz programów kappfinder;) (szuka programy programy pokażcie wcześniej i innych, i je w menu системное kde.
+Kluczyki.
+- dir katalog
+Установить. desktop w katalog katalog
+Cm.
+Bardziej детализированное nic na to: pomóc: kappfinder - to proszę o tym w & konqueror, url, lub wezwać zespół usprawiedliwienie za khelpcenter pomóc kappfinder::.
+Z
+& kappfinder, bo & matthias. hoelzer- kluepfel, & hoelzer- kluepfel. mail, matthias.
+Ta strona do man подготовлена jan schaumann jschauma netmeister. org / dla zaginęła pages project (man: http: / / www. netmeister. org misc m2p2 / index. html.
+Udać się na prowadzenie & kfind.
+& dirk. doerflinger, & dirk. doerflinger. mail.
+Katarzyno пыжова haleth / yandex. wersji bilu
+& dirk. doerflinger.
+& kfind, & mdash, to & kde - program.
+Kde
+Kdeutils
+Kfind
+Poszukiwanie
+Poszukiwanie
+Wprowadzenie
+& kfind, & mdash, to program & kde, przygotowanie dokumentów.
+Oddzielenie & kfind.
+Ten program - narzędzie dla poszukiwań plików według nazwy na komputerze, albo plików każdy miał wzorzec. na przykład z niej mogę znaleźć te определённого, czy tylko содержашие w nazwie &quot;, by odpalić program щёлкните na szukanie i папок.
+Badacz plików
+Nazwisko: położenie
+- po uzbrojeniu przesłany & kfind, będzie miał dość proste. / podaj nazwisko, akt w polu, który szuka pan się nazywa &quot;, a katalog na pole poszukiwań w się w albo wskazał jego guziki to... i naciśnij guzik i enter. / jeśli jest w tym, szukanie flagi подкаталоги będą odbywać się we wszystkich подкаталогах выбранного katalogu. będą wyniki poszukiwań отображены w polu na dole.
+Mogę użyć przez шаблоны:
+Gwiazdka,
+Gwiazdka oznacza każda ilość (...) 0 nieodebranych symboli. to znaczy, na przykład, że w wyniku poszukiwań marc, dostaniesz marc, marc. png i marc, musi - nie, czytam gazety, this. kwd. / mar. kwd, w zamian, spowoduje, marketplace. kwd i marc, musi - nie czytam gazety this. kwd jakość napisów.
+Znak zapytania?
+W przeciwieństwie do, znak zapytania, oznacza, że zostaniesz tylko jedno, że w wyniku poszukiwań mar? dostaniesz marc, marc? nie znajdziesz nic, tak jak się nazywa marc akta i marc. png. są w obszar poszukiwań można umieścić ile? tyle, i znajdziecie symboli.
+Oczywiście, że oboje шаблона w od tego można kombinować.
+Zawartość
+Ten akt
+Tu można określić typ odpowiedniego pliku.
+Zawiera tekst
+Wprowadźcie słowo, albo содержащиеся w aktach, który szuka pan pamięta pan, że go szukać w wielkim, czy z katalogu leżałbyś gdzieś w подкаталоги, to zajmie dużo czasu.
+Ta opcja nie pracuje dla wszystkich dokumentów na liście, które zdefraudowano tego pliku. поддерживаются tylko przez rodzaje:
+Текстовые, na przykład исходные kody i pliki readme
+& kword, & gt, 1 / 2.
+& kpresenter, & gt, 1 / 2.
+& kspread, & gt, 1 / 2.
+Openoffice. writer org
+Openoffice. tą org
+Openoffice. calc org
+Badacz z регистра
+- wybierz tę опцию, & kfind, że odnajdzie te dokumenty, które marc znajdzie się w notatniku. na przykład, marc ale nie marc.
+Stały się
+Jeśli jest & kregexpeditor, z kdeutils, i będzie доступен. установив go, czy możesz prowadzić регулярного. / z pomocą регулярных przeprowadzić zrobić warunki do bardziej skomplikowane i tak. jeśli nie znasz регулярными выражениями, mogę się wcisnąć przycisk... zmienić, żeby otworzyć & kregexpeditor, to nie pozwoli ci potrzebny zestaw dotrzymać warunków graficznie a potem сгенерирует badania.
+& kregexpeditor, & mdash, bardzo cenna aparatura, który może nie tylko w & kfind, ale w wielu innych приложениях & kde, szczegóły соответствующем. można znaleźć w aktach.
+Właściwości
+Dodatkowe warunki dla poszukiwań.
+Znaleźć jego akta albo atakowani przez:
+Tu możesz to określić dwie daty, które zostały zmienione, czy są akta, też się w czasie.
+Numer pliku.
+W tym polu można powiedzieć, bardziej lub mniej ważne co musi być znalezione pliki.
+Uformowanie, uformowanie пользователю
+Tu można określić пользователя i.
+Prawa autorskie i licencjonowanie
+& kfind.
+Prawa autorskie na program.
+Разработчики
+Martin хартиг - martin hartig.
+Stefan кулов stephan.;) (kulow & kulow. mail i stephan.
+Mario вейлгуни mario,) (. weilguni & weilguni. mail, mario.
+Alex зепеда zepeda;) (alex. / jazepeda pacbell. net
+Мирослав флир (miroslav flídr flidr / kky. zcu. czyż nie tak.
+Харри портен harri porten. (;) & harri. porten. mail.
+Dima рогозин dima rogozin) (dima / mercury. co. ii
+Карстен pfeiffer.;) (carsten pfeiffer & carsten. pfeiffer. mail.
+Ганс- петтер бикер hans petter bieker) (bieker / kde. org
+Waldo, waldo bastian бастиан (;) & bastian. mail, waldo.
+Prawa autorskie na документацию do дирку дёрфлингеру dirk doerflinger. (;) & dirk doerflinger. mail,, 2001 roku.
+.:) (z 2004 пыжова katarzyno haleth / yandex. tresci.
+& underfdl, & underbsdlicense.
+Instalacja
+Jak zdobyć & kfind.
+& install. intro. documentation.
+Żądania
+Dla & kfind, wymaga & kde, trzy: x.
+Kompilatorstwo i urządzenie
+& install. compile. documentation.
+Zarząd пользователя kde
+& lauri. watts, & lauri. watts. mail.
+7 czerwca 2005 death desktop environment
+Kfind
+1.
+Program do plików w & kde.
+Kfind drogę, poszukiwania специфические parametry kde специфические parametry qt
+Opis
+& kfind - wygodny sposób, żeby znaleźć pewne dokumenty na, na przykład, którą заданным шаблоном. program może szukać pliki определённого, заданными z tekstem w imieniu.
+& kfind - графическая program i zazwyczaj nie запускается z командной tekst.
+Opcje
+Droga do.
+Możesz to разделённый двоеточиями wskazać drogę, by wypełnić najpierw rozmowa. to może być użyte do stworzenia na czy na pulpicie linków dla szybkiego poszukiwań w warunkach.
+Sytuacja jest jak lista zmiennych
+To samo.
+Więcej niż dokumentacja пользователя dostępna na pomóc. / (kfind ten url w адресную do & konqueror czy запустите khelpcenter pomóc: kfind.
+Z
+Listę принимавших udział w доступен w podręczniku, które za łatwą khelpcenter.
+To zachowanie było by & lauri. watts, & lauri. watts. mail.
+Centrum informacji.
+Michael mcbride
+& mcbride. mail, mike.
+Nikolai шафоростов shaforostoff / kde. balistyczną na rosyjski grigori мохин mok kde. - &quot; movies rosyjskiego przeniesienie
+Tu tym informacyjny centrum & kde;.
+Kde
+Kinfocenter
+System
+Informacja
+Moduł
+& infocenter zapewnia, że mają centralne системных widok.
+On ma модульную struktury. każdy jest taki robot отдельным приложением, centrum informacji na ich integrystów.
+Używanie & infocenter.
+Czy zawiera szczegóły z centrum informacji dla w niektóre модулям cm moduły centrum informacji.
+Oddzielenie & infocenter.
+& infocenter, można wystrzelić trzy sposoby:
+Więc zaraz system centrum informacji z panelu zadań & kde;.
+Нажатием alt, f2.
+W oknie появившемся диалоговом kinfocenter powinien zadzwonić i naciśnij przycisk, albo klawisz enter.
+Вводом kinfocenter & do konsoli.
+Te wszystkie drogi prowadzą do jednego zdaniem.
+Ekran & infocenter.
+Potem do centrum informacji się przez okno, разделяемое функциональных na trzy części.
+Jest na górze, обеспечивающее dostęp do większości możliwości & infocenter, są jakieś рассматриваются w tej sekcji.
+Po lewej jest kolumna, w którym możesz wybrać moduł dla wszystkich. to podróż w модулям.
+W panelu отображается / informacje, выводимая выбранным модулем.
+Menu & infocenter.
+Za krótko ta sprawa z menu.
+Menu plik
+Jest tylko jeden punkt.
+& ctrl, q, potrzebuję pomocy w drogę.
+Wyjść z centrum informacji.
+Menu jest
+& help. menu. documentation.
+Wyjście z centrum informacji.
+Można to zrobić w trzy:
+Plik.
+Ctrl, q.
+Zamknąć wcisnąć przycisk na górze po prawej.
+Moduły & infocenter.
+- podróż w модулям
+To lista модулей стандартной konfiguracji (w kategorii, поставляемых kdebase w tej torbie.
+Urządzenie
+Wszystkie te kanały dma
+Прерывания
+Porty się / вывода
+Pamięć
+Сетевые интерфейсы
+Opengl
+Разделы
+Pci
+Pcmcia
+Procesor
+Nie.
+Stan samba
+Scsi
+Dźwięk
+Urządzenia napisów
+X- server графическая podsystem (;)
+Wdzięczność i pozwolenie
+& infocenter.
+Program, i 1997- 2001 разработчики & infocenter.
+Dość się:
+Matthias hoelzer- kluepfel & hoelzer- kluepfel. mail, matthias.
+Matthias &. elter, & elter. mail, matthias.
+Dokumentacja: copyright 2000 michael mcbride & mcbride. mail, mike.
+Paul &; campbell & campbell. mail, paul.
+& helge. deller, & helge. deller. mail.
+Generacja &. donohoe.
+& dowler, patrick.
+Duncan & haldane, duncan. / kde. org
+& steffen. / hansen, stefh mip. ou. dk.
+Martin jones & r. jones. mail, martin.
+& jost. schenck, & jost. schenck. mail.
+Jonathan. & singer, & singer. mail, jonathan.
+& dzień. tanghus, & tanghus. mail, dzień.
+& krishna. tateneni, & krishna. tateneni. mail.
+Ellis de freiburg. whitehead ewhitehe / uni-
+.::. nicolai шафоростов shafff ukr. net rosyjskiego &quot; movies: grigori мохин mok / kde. tresci.
+& underfdl, & undergpl.
+Informacje o устройствах
+& hoelzer- kluepfel, matthias.
+& helge. deller.
+& haldane, duncan.
+& mcbride, mike.
+N sz shafff / ukr. net bilu
+Kde
+Kcontrol
+Urządzenie
+/ informacje
+Na tej stronie выводится informacje o tyle informacji устройствах.
+Отображается, że to zależy od systemu. na niektórych платформах informacje o устройствах jeszcze nie jest.
+W & linux,, że macie z plików proc = = = = i devices proc misc, jak gra w jądrze systemu plików proc wsparcia. / - na wszystkie urządzenia сортируются. (символьные блочные, i inne. numer identyfikacyjny urządzenia выводится идентифицирующей przed znakiem.
+Użytkownik nie może zmienić ustawienia na tej stronie.
+Informacje o kanałach dma
+& hoelzer- kluepfel, matthias.
+& helge. deller.
+& haldane, duncan.
+& mcbride, mike.
+N sz shafff / ukr. net bilu
+Kde
+Kcontrol
+Dma
+/ informacje
+Ta strona pokazuje informacje o kanałach dma (memory tej, gdzie ci pamięć. - kanał dma to połączenie z pomocą urządzenia, które mogą wysłać dane w / z pamięci, nie задействуя procesora. zwykle w architekturze i386 pc) (tam 8 kanałów dma (0- 7.
+To zależy od systemu отображаемая informacji. na niektórych układach informacje o kanałach dma może być.
+W & linux, te informacje, / czytanym z akt / proc dma, / który доступен, tylko jeśli system псевдофайловая / proc скомпилирована w sedno.
+Отображается listę зарегистрированных w tej chwili na isa) (шине kanałów dma, które są w czyniono. pierwsza kolumna zawiera kanał dma, druga & mdash, urządzenie, które go używa.
+Неиспользуемые kanały dma nie отображаются na liście.
+Użytkownik nie może zmienić ustawienia na tej stronie.
+(http: / / na прерывания irq.
+& hoelzer- kluepfel, matthias.
+& helge. deller.
+& haldane, duncan.
+& mcbride, mike.
+Witalij лопатин vitls / chat. wersji bilu
+Kde
+Kcontrol
+Irq
+Прерывания
+System information
+(http: / / na прерывания irq.
+Ta strona pokazuje informacje o векторах na mniejszych poleceń прерывания i urządzenia, które ich.
+- to irq aparatowy, wektor ideału устройствами pc, klawiatura, jak modem, звуковая czynsz i, paczka dla sygnału прерывания процессору, żeby powiedzieć, że urządzenie gotowe do zaakceptowania lub wysłać dane. niestety, w architekturze i386 pc) (jest tylko 16 векторов irq (0- 15, доступных do oddzielenia między wypełniona устройствами.
+Większość problemów аппаратных się konfliktów irq proszę, błagam cię, kiedy chcą użyć urządzenia dwa raz i to samo oprogramowanie przerywanie, czy to nie na tej przerywanie, które musisz użyć urządzenia.
+To informacja pojawia się, to zależy od systemu. na niektórych układach informacje o irq dopóki nie może być widać.
+Na & linux, że macie z akt / / proc interrupts, który jest, jeśli wyłączony wsparcie w jądrze systemu plików / proc.
+- pierwsza kolumna to numer drugi słupek irq. - to liczba прерываний, którzy byli z ostatniej chwili resetujący. pokazuje ten artykuł czwarty прерывания. pokazuje, / занявшее przerywanie.
+Użytkownik nie może zmienić ustawienia żadne na tej stronie.
+Porty się / вывода
+& hoelzer- kluepfel, matthias.
+& helge. deller.
+& haldane, duncan.
+& mcbride, mike.
+Witalij лопатин vitls / chat. wersji bilu
+Kde
+Kcontrol
+Porty się / вывода
+/ informacje
+Informacje o portach się / вывода
+Ta strona pokazuje informacje o portach się / вывода.
+Porty się / вывода - to adres w pamięci, do jasnej процессором do urządzenia, które wysyła процессору przerywanie.
+Wymiana drużyn między процессором urządzeniem się dzieje z portu i adres, który się / вывода wejść шестнадцатеричное numer dwa. żadne urządzenie nie mogą użyć tego urządzenia. dużo się wtedy, занимая zasięg шестнадцатеричных kilka adresów.
+Показанная wiarygodne системно- uzależniona. na niektórych układach porty się вывода / dopóki nie mogą być musiałem.
+W & linux, te informacje, / czytanym z akt / proc ioports, / który доступен jeśli pseudo- файловая system proc скомпилирована. / do wszystkich rachunkach policję диапазонов wtedy się / вывода показан.
+- pierwsza kolumna to numer portu (albo zasięg wtedy, druga - urządzenie, które używa tych.
+Użytkownik nie może zmienić ustawienia żadne na tej stronie.
+Informacje o pamięci.
+& mcbride, mike.
+Witalij лопатин mok / kde. wersji bilu
+Kde
+Kcontrol
+Pamięć
+/ informacje
+Ten robot na nasze aktualne z pamięci. i może się przydać, узких miejsc w ten приложений.
+Się z pamięci.
+Po pierwsze, musisz nauczyć się, że istnieją dwa rodzaje, wolnej systemie operacyjnym i программам, które w niej выполняются.
+Pierwszy facet nazywa się pamięci -fizyczny. to, która jest na микросхемах wewnątrz komputera. to ram &apos; random tej memory, albo пзу, jej pan приобретаете razem z komputerem.
+Drugi facet nazywa się pamięci виртуальным подкачкой. czy to blok pamięci na dysku. system operacyjny резервирует miejsca na dysku dla piękne подкачки. może użyć виртуальную pamięć (albo подкачку, jeśli jej nie ma pamięci, że powodem, dla którego pamięć подкачкой ale taka jest to, że system operacyjny utrzymuje niepotrzebne зарезервированном w przestrzeni, a te, które teraz i w terenie. system обменивает daj na te dane, że teraz, to jest ich pamięć wirtualną подкачивает. (dopompowywanie nie tak szybkie jak ozu, więc system operacyjny próbuje z okazji wykorzystać fizyczną.
+Wspólna pamięć jest to &quot; fizycznie i z pamięci.
+Moduł informacji o pamięci.
+To przez okno i нижнюю поделено na sekcje
+Górna sekcja wykazała się rozmiar, że to wolna, разделяемой pamięci i cycków. - no dalej.
+Wszystkie cztery znaczenia nominowani są jak ilość bajt, jak i liczba megabajt (megabajt około 1 1 000 000 bajt się.
+Musiałem trzy na tablicy:
+Wspólna pamięć (to fizycznie i z pamięci.
+Fizyczna pamięć
+Inicjuję wirtualną pamięć, dopompowywanie.
+Zielone... - bez pamięci, czerwone - zajęte.
+Twarde &quot; nie ma znaczenia w pamięci zasadniczo i wciąż się zmieniają. / dopóki jesteś stronie, to wygląda.
+Czy masz wystarczająco przestrzeni...) (zielone? jeśli nie powinniście zwiększyć rozdział подкачки albo przedłużyć ozu.
+Tak, jeśli twój komputer się вялым заполнена: fizyczny pamięć i zrobił to działa na to wskazuje na to, że nie ma krwi, że twój komputer перебрасывает медленную виртуальную na pamięć często используемые, wzrost ozu отдачу będzie lepsze od komputera.
+Сетевые интерфейсы
+& lauri. watts.
+N sz shafff / ukr. net bilu
+Kde
+Kcontrol
+Sieć
+Интерфейсы
+Ta strona zawiera wszystkie informacje o сетевых интерфейсах, założyłem je na komputerze.
+Wiarygodne w tym oknie zależy od systemu. na niektórych платформах to jeszcze nie jest.
+Użytkownik nie może zmienić ustawienia na tej stronie.
+Opengl
+Ilya korniyko death ilya / ukr. net.
+Nikolai шафоростов shafff / ukr. net bilu
+Kde
+Kcontrol
+Opengl
+/ informacje
+Opengl
+Ta strona represents informacje o funkcjonujące реализациях opengl implementation. (opengl "otwórz graphics library" - to кросс- платформенный, аппаратно- niezależnym interfejs do stworzenia трёхмерной.
+- wzrost glx x window dla wsparcia opengl.
+- gdzie dri rendering infrastucture, ktory zapewni аппаратное ускорения dla opengl. do tego potrzeba karta graficzna z 3d- акселератором i pokażcie драйвера dobrze dla niej.
+Dla wszystkich, i oficjalnie stronę opengl: / / www. opengl. org
+Разделы жесткого płyta
+& hoelzer- kluepfel, matthias.
+& helge. deller.
+& haldane, duncan.
+& mcbride, mike.
+Grigori мохин mok / kde. wersji bilu
+Kde
+Kcontrol
+Przejechać partition
+System information
+Na tej stronie pojawia się informacje o разделах жесткого płyty.
+Pojawia się, że to zależy od systemu. na niektórych платформах informacje o разделах.
+Na & linux, że macie z akt / / proc partitions, który jest, jak gra w jądrze systemu plików proc wsparcia. / - (na 1. ядрах 2 x czy bardziej поздних.
+Pierwsze dwie głośniki - to, i młodsza numery. trzeci słupek - to numer paczki (zwykle równa bajt blok 1 00. / czwarta kolumna - to znak.
+Użytkownik nie może zmienić ustawienia żadne na tej stronie.
+Opona pci i pci - ma
+& hoelzer- kluepfel, matthias.
+& helge. deller.
+& haldane, duncan.
+& mcbride, mike.
+Grigori мохин mok / kde. wersji bilu
+Kde
+Kcontrol
+Pci
+System information
+Na tej stronie выводится informacje o шине pci i funkcjonujące nią pci - платах, a także innych устройствах z peripheral component interconnect pci) (interfejs.
+Pojawia się, że to zależy od systemu. na niektórych платформах informacje o pci może być.
+Na & linux, ta informacja, macie z akt / / proc pci, który jest, jeśli wyłączony wsparcie w jądrze systemu plików. / - proc показан pci - listę wszystkich urządzeń, przy загрузке, łącznie z ich parametry.
+Każdy element się z pokoju, i opony.
+Użytkownik nie może zmienić ustawienia żadne na tej stronie.
+Pcmcia
+& mcbride, mike.
+Grigori мохин mok / kde. wersji bilu
+Kde
+Kcontrol
+Laptop
+Pcmcia
+Ten robot jest dla taka informacji o платах pcmcia
+Pojawia się, że to zależy od systemu. w większości aut w ogóle nie выводится żadne informacje.
+Informacje o процессоре
+& hoelzer- kluepfel, matthias.
+& helge. deller.
+& haldane, duncan.
+& mcbride, mike.
+Witalij лопатин vitls / chat. wersji bilu
+Kde
+Kcontrol
+Cpu
+Procesor
+/ informacje
+Ta strona pokazuje informacje o процессоре (cpu.
+Pojawia się, że to zależy od systemu. na niektórych платформах informacje o процессоре.
+Na & linux,, że macie z akt / / proc cpuinfo, który jest, jeśli wyłączony wsparcie w jądrze systemu plików / proc.
+Wiarygodne w tym oknie zależy od cpu na twoim samochodzie, czynnik w okno dwie. - pierwsza kolumna to parametr, druga - jego znaczenie.
+Użytkownik nie może zmienić ustawienia żadne na tej stronie.
+Nie.
+& lauri. watts.
+N sz shafff / ukr. net bilu
+Kde
+Nie.
+Обработчики się / вывода
+Po lewej отображается listę обработчиков się, / вывода доступных w systemie. z ich pomocą приложения & kde, że z komputerami, приложениями, co robią z dokumentami.
+Prztyczek w imieniu обработчика się / do вывода отображению справочной informacji o tym, jak go użyć, i po co to jest.
+Moduł protokołów - tylko informacyjny, tu nie można zmienić.
+/ doprowadzić samba- serwery
+& neundorf, alexander.
+Jegor кобылкин egor com / kobylkin. bilu
+Kde
+Kcontrol
+Samba
+Informacje o systemie
+Samba i monitor w nfs - to przykrywka dla графическая programów smbstatus i showmount. smbstatus daje informacje o rachunkach соединениях samba- serwera i jest częścią z утилит самбы, które реализуют protokół smb (session wiadomość w bloku,, znany także jako netbios albo lanmanager.
+Ten protokół może być użyty dla dostępu do принтерам albo surowy дискам w sieci, łącznie z auta, które są różne wersje & firmą microsoft & windows,..
+Showmount jest częścią программного torby nfs. nfs jest od czubków od network file system (сетевая файловая system, to tradycyjny sposób życia w użyciu каталогов & unix, w tym przypadku анализируется wynik showmount localhost. - w niektórych układach showmount jest w usr sbin. / / sprawdź, czy był w drogę do showmount переменной path.
+Katalogi экспортируемые
+Na tej stronie, możesz zobaczyć długa lista, w którym перечислены z lubimy разделами zobaczyć, jak na razie, i экспортируемые katalogi nfs twojego komputera. pierwsza kolumna, czy katalog znany za nfs albo smb, druga to piękne imię, nazwisko удаленного komputer, który się do tego разделу. pozostałe głośniki informacje zawierają имеющую, to tylko dla самба- разделов.
+Czwarta kolumna zawiera id user uniformu, który się do tego разделу. widzicie, że to nie musi & unix; / user tego uniformu пользователя. to samo w porządku, do następnego głośniki, która pokazuje id grupy group uniformu пользователя.
+Każde połączenie z jednym z waszych разделов обслуживается отдельным wyciskaniem smbd ten artykuł pokazuje id tego procesu pid) (smbd. jeśli zabijesz ten proces, jeśli będzie подсоединенный użytkownik jest oddalony użytkownik pracuje w & windows,, jak tylko będzie процес, od razu będzie się nowy, i użytkownik prawie nic nie zauważy.
+Ostatnia kolumna, jak w plików użytkownik ma w tej chwili. może pan tu tylko ile plików otwarte w tej chwili, ale nie to, jak długo było otwarte plików скопировано czy wcześniej i
+Katalogi импортированные
+Tutaj, jak samba - i nfs - разделы innych хостов смонтированы w локальную. pierwsza kolumna pokazuje jest piękne, albo samba nfs - cześć. - drugi słupek to imiona разделов, a trzecia, gdzie разделы смонтированы.
+Смонтированные nfs разделы - musi być niesłyszalni jak w & linux;) (tak, tak i na solaris &, to nie było протестировано.
+Dane
+Tu представлено temat twojego локального лог- pliku самбы удобочитаемом w stanie, gdy otworzysz tę stronę, będzie pusta. trzeba nacisnąć przycisk na, to będzie прочитан лог- plik самбы, i będą wyniki. musiałem sprawdzić, czy лог- plik самбы jest tam, gdzie wskazuje na tej stronie. / jeśli jest w innym miejscu, czy inaczej, to się nazywa исправьте внесения zmian. / po raz naciśnij.
+Samba документирует, w zależności od параметра loglevel - подробнееоб tym do smb. conf. jeśli loglevel = = sync, samba nagrywa jar tylko wtedy, kiedy ktoś to подключается do samochodu i kiedy to się znów połączenie. / jeśli loglevel 2, to jest, który odkrywa i zamknąłem. jeśli loglevel więcej, to jest jeszcze więcej informacji.
+Jeśli zastanawiasz się, kto do pana samochodzie i do akt sprawy, jak dokładnie wystawcie loglevel = i regularnie pan obroty лог-. na przykład, создайте zadanie cron, która będzie waszym лог- plik самбы przenieść do innego. albo лог- plik самбы może być zbyt duże.
+Proporczyk na wielkiego na listy, które powinny się pojawić na liście. / musisz pociągnąć odśwież, żeby zobaczyć wyniki zmian. / jeśli loglevel самбы zbyt młody, to nie tylko, że może.
+Щёлкнув заголовку na głośniki, posortować listę w tej kolumnie.
+Statystyka
+Na tej stronie możesz przefiltrować zawartość drugiej strony w poszukiwaniu pewnego informacji.
+Niech to pole aktywne połączenie, jak / jak się do służby, host / użytkownik jest jak, pokazać szczegółową informacje o służbie wyłączone, szczegółową informacje o хосте wyłączone.
+Jeśli teraz wcisnąć na będzie, jak często устанавливалось połączenie z разделом &apos; ie,.. z każdym z разделом хоста ♪ (ie, twierdzą z każdego хоста. włącz pokazać szczegółową informacje o хосте i odnowić. teraz możesz zobaczyć, jak długo było otwarte dla każdego хоста połączeń, do шаблону...
+Teraz naciśnij oczyścić.
+Połóż na to jak dostęp do akt włącz pokazywać szczegółową informacje o służbie i naciśnij.
+Teraz możesz zobaczyć, jak często nagabywał każdy отдельному akt jeśli i pokazywać szczegółową informacje o хосте, to zobaczysz, jak często każdy użytkownik - te pliki.
+Na polach się, / i host / użytkownik możesz użyć шаблоны i tak samo jak zwykle w командной o podpis. &quot; nie распознаются.
+Щелкнув z myszą заголовку głośniki, posortować listę w tej kolumnie. to określić, jaki plik jest coś, albo otworzył użytkownik już wszystkich, w co chcesz.
+Autor piękne
+Copyright module 2000: michael glauche i & alexander. neundorf, & neundorf. mail, alexander.
+Pierwszy scenariusz: michael glauche
+Dzięki, alexander. & neundorf, & neundorf. mail, alexander.
+Dość się
+Zmiana w kcontrol aplet
+Matthias &. hoelzer- kluepfel, & hoelzer- kluepfel. mail, matthias.
+Używanie k3process zamiast popen i dodatkowe badanie błędów.
+David, &. faure & faure. mail, david.
+Zmiana w kcmodule добавлены закладки, 2, 3, 4, исправлена błąd.
+Alexander &. neundorf, & neundorf. mail, alexander.
+Copyright documentation 2000 & alexander. neundorf, & neundorf. mail, alexander.
+Dokumentacja została w standard docbook & mcbride &, mike. mike. mcbride. mail.
+Egor kobylkin egor kobylkin. com /
+Informacje o интерфейсах scsi
+& hoelzer- kluepfel, matthias.
+& helge. deller.
+& haldane, duncan.
+& mcbride, mike.
+N sz shafff / ukr. net bilu
+Kde
