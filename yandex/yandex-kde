@@ -1,0 +1,1500 @@
+Instrukcja & amarok-mianownik;
+Mike Diehl
+madpenguin8@ yahoo. com
+Zespół Amaroka
+Twórcy
+Tłumaczenie na polski: Nikita Lyalin tinman321@ gmail. com
+Zespół Amaroka
+Zespół doKymotion
+& amarok-mianownik; jest to odtwarzacz audio dla K Desktop Environment.
+KDE
+multimedia
+odtwarzacz
+audio
+ogg
+mp3
+wav
+muzyka
+dźwięk
+scenariusz
+Wprowadzenie
+Logo
+& amarok-mianownik; jest to odtwarzacz audio dla & kde; odznaczający się dużą ilością funkcji i zaskakująco łatwe w użyciu.
+W & amarok-mianownik;, zamiast szukać niezbędne w niekończących się menu, pliki można dodać po prostu przeciągając i upuszczając je do listy odtwarzania. Znajdź jedną piosenkę w ogromnej kolekcji nie jest problem przeglądarki kolekcji & amarok-mianownik; paska szybkiego wyszukiwania pomoże znaleźć co trzeba w ciągu kilku sekund.
+Może się wydawać, że & amarok-mianownik; posiada tą samą zwykłym funkcjonalnością, że przeciętny odtwarzacz muzyki dzięki dołączonemu, ale na tym funkcjach wszystko się nie kończy. Wystarczy spojrzeć na przeglądarkę kontekstu i zobaczyć, że & amarok-mianownik; na krok do przodu. Przeglądarka kontekstu pokazuje wszystkie informacje, które są odpowiednie dla проигрываемой ścieżki: od okładki albumu do innej muzyki tego artysty. To samo dotyczy wykonawcy - informacyjny i łatwy sposób zbadać swoją kolekcję!
+Mając wiele list odtwarzania nie można rozwiązać których korzystać z dziś. Tu pasuje przeglądarka list. Jeśli trudno jest się zdecydować, jaką muzykę wybrać, to mogą zdecydować się na dynamiczne listy. A inteligentne listy odtwarzania pozwolą przejść do określonej części kolekcji.
+W Amarok doskonała obsługa odtwarzaczy iPod od Apple, bullhead od iRiver i wielu standardowych USB, odtwarzaczy. Również wspierane przez dużą ilość аудиопротоколов niskiego poziomu, które pozwalają wybrać, jak słuchać muzyki. To i wiele więcej sprawia, że Amarok najbardziej zaawansowanych аудиопроигрывателем z wszystkich dostępnych. & amarok-mianownik; zaawansowany, обаятелен i zręczny. Mamy nadzieję, że to naprawdę pomoże " Spojrzeć na muzykę inaczej! ".
+Podziękowania i licencja
+Prawa do programu: 2003 - 2005 Mark Kretschmann markey@ web. de i zespół Amaroka.
+Zespół Amaroka
+Christian babe - magnet Muehlhaeuser chris@ chris. de
+Frederik ich bin helemaal Deustcher! Holljen fh@ ez. no
+Mark it' s good, but it' s not irssi Kretschmann markey@ web. de
+Max Turtle - Power Howell max. howell@ methylblue. com
+Mike purple is not girly! Diehl madpenguin8@ yahoo. com
+Pierpaolo Spaghetti Coder Di Panfilo pippo_ dp@ libero. it
+Roman and God said, ' let there be Mac Becker roman@ formmorf. de
+Seb Surfin 'down under Ruiz me@ sebruiz. net
+Stanislav did someone say DCOP? Karchebny Stanislav. Karchebny@ kdemail. net
+Uczestnicy:
+Adam Pigg (analizatory, łaty) adam@ piggz. fsnet. co. uk
+Adeodato Simo (łaty) asp16@ alu. ua. es
+Alexandre Oliveira (ulepszenia, poprawki) aleprj@ gmail. com
+Andreas Mair (wsparcie MySql) am_ ml@ linogate. com
+Andrew de Quincey (wsparcie dla Postgresql) adq_ dvb@ lidskialf. net
+Christie Harris (roKymoter) dangle. baby@ gmail. com
+Dan Leinir Turthra Jensen (asystent przy pierwszym uruchomieniu) admin@ removeleinir. dk
+Dan Meltzer (roKymoter) hydrogen@ notyetimplemented. com
+Enrico Ros (analizatory, król openGL) eros. kde@ e-maila. it
+Florian 'da - flow' Egerer (ikona "błękitnego wilka" Amarok) flo_ for_ never@ gmx. at
+Gérard Dürrmeyer (praca nad ikoną i zdjęciami), gerard@ randomtree. com
+Greg Meyer (ogromna pomoc w usuwaniu błędów: 1. 2) greg@ gkmweb. com
+Harald Sitter (roKymoter, tłumaczenia, poprawki błędów, zdjęć, aplikacji), harald. sitter@ kdemail. net
+Ian Monroe (poprawki, szablon skryptu Ruby (eean)) ian@ monroe. nu
+Jarkko Lehti (tester) grue@ iki. fi
+Jocke Andersson (roKymoter) ajocke@ gmail. com
+Kenneth Wesley Wimer II (ikony) kwwii@ bootsplash. org
+Kenny Lemieux (webmaster Amarok) swaft@ pwsp. net
+Melchior Franz (rutynowa praca nad FFT, poprawki błędów) mfranz@ kde. org
+Michael Pyne (kod eksportu w K3B) michael. pyne@ kdemail. net
+Nenad Grujicic (wyskakujący ekran do 1. 1) mchitman@ neobee. net
+Olivier Bédard (hosting dla witryny) paleo@ pwsp. net
+Reigo Reinmets (obsługa Wikipedia, łaty) xatax@ hot. ee
+Roland Gigler (silnik MAS) michael. pyne@ kdemail. net
+Sami Nieminen (obsługa Audioscrobbler) sami. nieminen@ iki. fi
+Scott Wheeler (TagLib) wheeler@ kde. org
+Stefan Bogner (e za Loadsa) bochi@ online. ms
+Stefan Siegel (poprawki, poprawki błędów) kde@ sdas. de
+Sven Krohlas (roKymoter) sven@ asbest - online. de
+Whitehawk Stormchaser (tester, łaty) zerokode@ gmx. net
+Prawa do dokumentacji: 2005 Mike Diehl madpenguin8@ yahoo. com
+& underFDL; & underGPL;
+Instalacja
+Jak uzyskać & amarok-mianownik;
+& amarok-mianownik; można pobrać ze strony Domowej & amarok-mianownik;
+Najnowsza rozwojowej wersji można pobrać z repozytorium SVN projektu & kde; w / trunk/ extragear/ multimedia/ amarok /.
+Jak skompilować & amarok-mianownik;
+Do kompilacji i instalacji Amaroka do systemu, wpisz następujące wiersze w konsoli z katalogu Amarok:
+. / configure -- prefix=`kde - config -- prefix` make su - c "make install"
+Opcja -- enable - final więcej jest niedostępny.
+Od tego momentu, jak & amarok-mianownik; zaczął stosować autoconf i automake problemów z kompilacją nie powinny powstać. Jeśli problem nadal powstały, należy poinformować o nich listy mailingowej & kde;.
+Ustawienia konfiguracji
+& amarok-mianownik; podobnie jak większość innych programów ma pewne opcje kompilacji, które można włączyć lub wyłączyć w czasie konfiguracji. Poniżej znajduje się lista parametrów, które mogą być modyfikowane.
+Niektóre ustawienia wymagają spełnienia pewnych zależności. W obszarze uzależnień można dowiedzieć się więcej.
+Parametr
+Domyślnie
+Opis
+-- enable - debug=
+nie
+Włącz tryb debugowania. Użyj yes, no lub full aby włączyć отладочного wyjścia, wyłączyć lub uzyskania pełnej informacji o debugowaniu. Użyj full, jeśli zamierza pomóc w opracowaniu & amarok-mianownik;.
+-- enable - mysql
+Wyłączone
+Zawiera wsparcie dla baz danych MySql w & amarok-mianownik;
+-- disable - amazon
+Włączone
+Wyłącza obsługę pobierania okładek albumów z Amazon
+-- without - arts
+Z aRts
+Wyłącza obsługę aRts & amarok-mianownik;
+-- without - gstreamer
+Wyłącza obsługę GStreamer w & amarok-mianownik;
+-- with - helix
+Zawiera wsparcie dla silnika Helix w & amarok-mianownik;
+-- without - xine
+Wyłącza obsługę xine w & amarok-mianownik;
+-- with - nmm
+Bez NMM
+Zawiera wsparcie NMM w & amarok-mianownik;
+-- with - mas
+Zawiera wsparcie dla MAS w & amarok-mianownik;
+-- without - opengl
+Wyłącza obsługę OpenGL (analizatorów), & amarok-mianownik;
+-- without - included - sqlite
+Nie używać włączoną obsługę sqlite
+gopher
+& Lauri. Watts; & Lauri. Watts. mail;
+gopher został zaprojektowany jako rozproszona usługa udzielania i otrzymywania informacji w ramach kampusu Uniwersytetu Minnesoty. Protokół ten umożliwia uzyskiwanie informacji na serwerach Gopher, działających na witrynach internetowych.
+Gopher wykorzystuje interfejs menu. Użytkownicy mogą wybierać z odpowiednich menu informacji, która może zaoferować menu lub plikiem tekstowym. Żądany element może znajdować się na serwerze, z którym pracujesz bezpośrednio, jak i już Gopher serwerze. W celu uzyskania danych z innego serwera, nie odrywając użytkownika, używane są tunele. Niniejszy adres hosta, z którego pobierane są dane, nie jest widoczny dla użytkownika, co tworzy iluzję jednolitej hierarchii powiązanych ze sobą menu.
+Gopher pozwala tworzyć zakładki, na odpowiednie pozycje, tak że można przejść się do nich bezpośrednio, nie przechodząc ponownie przez wszystkie menu. Menu Gopher nie są ustandaryzowane i określa każdym serwerem samodzielnie.
+Źródło: http: // tlc. nlm. nih. gov/ resources/ tutorials/ internetdistlrn/ gophrdef. htm.
+Podręcznik & kmag;
+The Raj Lakare
+the raj@ users. sf. net
+Olaf Schmidt
+ojschmidt@ kde. org
+Anton Gorbaczow justoff@ hotmail. pl Tłumaczenie na rosyjski Oleg Mróz qmor@ rambler. pl Aktualizacja tłumaczenia
+The Raj Lakare
+Olaf Schmidt
+& kmag; jest lupa. Możesz użyć & kmag; w celu zwiększenia części ekranu, jak również używany obiektyw do tego, aby przeczytać drobny tekst lub za zdjęcie. Program ten może być przydatna różnych ludzi: twórcom, artystom, projektantom lub osobom z wadami wzroku. Niniejszy dokument służy jako przewodnik do korzystania z programu & kmag;.
+KDE
+kmag
+K Lupa
+Wprowadzenie
+& kmag; jest lupa dla interfejsu graficznego KDE. Jest ona wykorzystywana w celu zwiększenia części ekranu. Program ten może być przydatna różnych ludzi: Ludzie z wadami wzroku mogą jej używać, aby zwiększyć część ekranu, którą trudno im przyjrzeć, artyści - aby tworzyć i modyfikować obrazki, naukowcy obróbki grafik - aby powiększać i dokładnie je zbadać. Oprócz tego & kmag; może pełnić inne funkcje, na przykład, "fotografia" obszar ekranu oraz nagrywanie obrazu wynikowego w pliku na dysku (przy czym obraz przed nagraniem może się wydłużyć).
+& kmag; - jest to bardzo potężna aplikacja, której możliwości stale rosną dzięki pojawiających się innowacji. Program jest zoptymalizowany do pracy na komputerach o małej wydajności.
+Korzystanie z & kmag;
+Tak wygląda & kmag;
+Okno & kmag;
+Po uruchomieniu & kmag; zobaczysz okno podobne do jednego z przedstawionych powyżej. Główne okno & kmag; pokazuje powiększony obraz. Będziemy nazywać go okienkiem. Obraz, który widzimy w szybie, jest przekazywana z jakiejkolwiek części ekranu. Tę część ekranu nazwijmy selektor obrazu.
+Domyślnie, & kmag; powiększa obszar wokół kursora myszy (wyobraź sobie żywe, ruchliwe istoty lupę). Można również wybrać powiększenie stałej części ekranu (Bramka obrazu) lub w lewej górnej części ekranu (Cały ekran).
+Jeśli nie chcesz, aby wskaźnik myszy na powiększonym zdjęciu, wybierz Ukryj kursor myszy. Zauważ, że & kmag; nie monitoruje bieżący kształt wskaźnika i zawsze pokazuje standardowy kursor & kde; / Qt;.
+Zmiana увеличиваемой obszaru ekranu
+W trybie Bramka obrazu zawsze można zmienić obszar ekranu, który chcesz powiększyć, jeśli tylko nie jest włączony tryb Podążać za kursorem) za pomocą strzałek lub kliknięcie na szybie:
+Klawisze strzałek lub lewy przycisk myszy
+Naciśnij i przytrzymaj ten przycisk myszy i przesuwając mysz, możesz przenosić zawartość okienka obserwacyjnego. Zamiast ruchy myszą, można użyć klawiszy strzałek.
+Shift; Klawisze strzałek lub & Shift; + lewy lub środkowy przycisk myszy.
+Jeżeli klikniesz & Shift; i użyć środkowego przycisku myszy można przesuwać znacznik obrazu.
+Ctrl + Strzałki lub klawisze Ctrl; przycisk myszy
+Przy użyciu tej kombinacji klawiszy, można zmienić rozmiar selektora obrazu. Należy tylko pamiętać, że można przenosić prawy dolny róg okna, a lewy górny pozostaje na miejscu.
+Dodatkowe funkcje & kmag;
+& kmag, zawiera wiele dodatkowych funkcji. Możesz wydrukować powiększony obraz na drukarce zapisz obraz jako plik, skopiuj go do schowka (skąd go można następnie wkleić do innej aplikacji), obracanie i wiele innych.
+Podręcznik poleceń menu
+Menu Plik
+Ctrl + N Nowe okno Plik
+otwiera nowe okno & kmag;
+Ctrl; S Plik Zapisać jako
+Zapisz powiększony obraz w pliku.
+Ctrl; P Plik Drukuj...
+Drukuj bieżący powiększony obraz.
+Ctrl; Q Plik Wyjście
+Zamknąć aplikację.
+Menu Edycja
+Ctrl; C Edytuj, Kopiuj
+Kopiowanie aktualny obraz powiększony do schowka. Następnie możesz wkleić go w innym programie.
+Menu Widok
+F5 Widok Start/ stop
+Rozpocząć/ Zakończyć aktualizację ekranu. Po zatrzymaniu aktualizacji nie używany i procesora.
+Widok W Skali
+Wybierz krotność zoomu.
+Ctrl - Widok Zmniejszyć
+Dotknij tego przycisku, aby zmniejszyć zaznaczenie.
+Ctrl; + Widok Powiększyć
+Naciśnij ten przycisk, aby powiększyć wybrany obszar.
+F6-Widok Odwrócić kolory
+Odwróć kolory na zdjęciu, to znaczy czarne będzie wyglądał biały.
+Widok Obracanie Obrazu
+Wybierz kąt obrotu (Bez obrotów (0 stopni), w Lewo (90 stopni), Odwrócić (180 stopni), w Prawo (270 stopni).
+Widok Odśwież
+Wybierz częstotliwość odświeżania (Bardzo niska, Niska, Średnia, Wysoka, Bardzo wysoka). Wysoka częstotliwość odświeżania wymaga więcej czasu procesora.
+Menu Ustawienia
+Ctrl; M Regulacja Pokaż/ Ukryj menu
+Włącza/ wyłącza pasek menu.
+Ustawienia Pokaż/ Ukryj główny pasek narzędzi
+Włącza/ Wyłącza główny pasek narzędzi.
+Ustawienia Pokaż/ Ukryj pasek narzędzi przeglądarki
+Włącza/ Wyłącza pasek narzędzi przeglądarki
+Ustawienia Pokaż/ Ukryj pasek narzędzi "Ustawienia"
+Włącza/ wyłącza wyświetlanie panelu ustawień
+F1 Ustawienia Podążać za kursorem
+W tym trybie obszar wokół kursora myszy jest wyświetlana w widoku normalnym.
+F2 Ustawienia zaznaczenie okna
+W tym trybie okno jest otwarte. Zaznaczony obszar jest wyświetlany w widoku normalnym.
+Pętla Górna krawędź ekranu
+W tym trybie obszar wokół kursora zwiększy się w górnej części ekranu.
+Konfiguracja Lewa strona ekranu
+W tym trybie obszar wokół kursora zwiększy się po lewej stronie ekranu.
+Regulacja Prawa strona ekranu
+W tym trybie obszar wokół kursora wzrośnie w prawej stronie ekranu.
+Pętla Dolna krawędź ekranu
+W tym trybie obszar wokół kursora zwiększy się na dole ekranu.
+F4 Ustawienia Pokaż/ ukryj kursor myszy
+Wyświetlanie lub ukrywanie kursora myszy w увеличиваемой dziedzinie.
+Konfiguracja Kombinacji klawiszy...
+Otwiera okno w którym można skonfigurować skróty klawiszowe dla większości poleceń menu.
+Dostosuj Paski narzędzi...
+Otwiera okno w którym można wybrać, które elementy mają być wyświetlane na pasku narzędzi.
+Menu Plik
+& help. - menu. documentation;
+Podręcznik poleceń
+& kmag; automatycznie wybierze twoje kombinacje klawiszy domyślnego, aby zapisać plik do otwarcia nowego okna, druku, wyłączenia/ włączenia odświeżania obrazu (przycisk przeładowania strony w konqueror), zbliżenia/ oddalenia i tak dalej.
+Skróty domyślne
+& Ctrl; S
+Zapisz zawartość okienka obserwacyjnego w pliku.
+F1
+Przełączenie w tryb "Podążać za kursorem".
+F2
+Przełączenie w tryb "Bramka obrazu".
+F4
+F5
+Włącz aktualizacja szkiełko okna, jeśli zostało wyłączone wcześniej, lub wyłączyć aktualizację szkiełko okna, jeśli jest ono włączone.
+F6
+Odwróć kolory
+& Ctrl; N
+To otworzy się nowe okno & kmag;
+& Ctrl; P
+Otworzyć okno dialogowe drukowania, aby wydrukować zawartość okienka obserwacyjnego.
+& Ctrl; C
+Kopiowanie zawartości szkiełko okna do schowka.
+& Ctrl; M
+Pokaż/ ukryj pasek menu.
+& Ctrl; -
+Zmniejszyć
+& Ctrl; +
+Zwiększyć
+& Ctrl; Q
+Wyjście z aplikacji.
+Podziękowania i licencja
+& kmag;
+Program & copy; 2001 - 2003 the raj Lakare the raj@ users. sf. net i 2003 - 2005 Olaf Schmidt ojschmidt@ kde. org.
+W opracowaniu brali udział:
+Michael Forster forster@ fmi. uni - passau. de (pierwotny autor)
+Dokumentacja & copy; 2002 the raj Lakare the raj@ users. sf. net i 2004 - 2005 Olaf Schmidt ojschmidt@ kde. org
+Tłumaczenie na polski: Anton Gorbaczow justoff@ hotmail. pl
+& underFDL; & underGPL;
+Instalacja
+Gdzie wziąć & kmag;
+& install. intro. documentation;
+Montaż i instalacja
+& install. compile. documentation;
+System pomocy & kde;
+& Lauri. Watts; & Lauri. Watts. mail;
+12 czerwca 2005 KDE
+kmag
+1
+Ekranowy * 
+kmag klucze & kde; klucze & Qt;
+OPIS
+kmag jest lupa. Możesz użyć & kmag; w celu zwiększenia części ekranu, jak również używany obiektyw do tego, aby przeczytać drobny tekst lub za zdjęcie. Program ten może być przydatna różnych ludzi: twórcom, artystom, projektantom lub osobom z wadami wzroku.
+CM. RÓWNIEŻ
+Bardziej szczegółowe pomoc dostępna jest pod adresem help: / kmag (wpisz ten & URL; w & konqueror;, lub uruchom khelpcenter help: / kmag).
+Także do odwiedzenia strony internetowej projektu & kde;, Miasto.
+AUTORZY
+& kmagnifier; napisany Olaf Schmidt ojschmidt@ kde. org, the raj Lakare the raj@ users. sf. net i Michael Forster forster@ fmi. uni - passau. de
+Podręcznik & kmousetool;
+Jeff Roush Racing Fenway
+jeff@ kmousetool. com
+Mikołaj Шафоростов shaforostoff@ gmail. com Tłumaczenie na rosyjski
+Jeff Roush Racing Fenway
+& kmousetool; symuluje kliknięcie myszą po zatrzymaniu kursora na obiekcie. Program służy do tego, aby pomóc ludziom, którym trudno naciskać na przyciski myszy.
+KDE
+kdeutils
+KMouseTool
+ergonomia
+zapalenie ścięgna
+zespół cieśni nadgarstka
+Wprowadzenie
+& kmousetool; symuluje kliknięcie myszą po zatrzymaniu kursora na obiekcie. Program służy temu, aby pomóc ludziom, którym trudno naciskać na przyciski myszy. Możliwe jest również wykonywanie ruchów myszy, co z kolei wymaga praktyki.
+& kmousetool; może rozwiązać problemy z bólem po kliknięciu przycisku myszy. Niestety, ból może przynosić nawet i przesuwanie myszy. Jeśli odczuwasz bóle związane z pracą przy komputerze, skontaktuj się z lekarzem.
+Tak więc, & kmousetool; może zmniejszyć ból tylko przy naciśnięciu przycisków myszy, ale nie podczas przenoszenia. Jak ze wszystkimi ergonomicznie media, stopień efektu może być różna.
+Korzystanie z & kmousetool;
+Użyj & kmousetool; bardzo proste: & kmousetool; śledzi ruchy kursora, a w przypadku jego zatrzymania symuluje naciśnięcie.
+W trybie przeciąganie & kmousetool; pozwala na przesuwanie kursora.
+Przy włączonym trybie " przeciągnij i upuść & kmousetool; "obcina" przycisk myszy, można przesunąć obiekt. (tzw. Drag' n' Drop (przeciągnij i upuść), a po zakończeniu przemieszczania się "puszcza" przycisk myszy. Musisz trochę poćwiczyć, aby opanować te czynności.
+Podręcznik poleceń
+Główne okno & kmousetool;
+Opcje & kmousetool; podane są głównie myszy.
+Uruchomienie
+Uruchamia lub zatrzymuje & kmousetool;.
+Minimalny przebieg:
+Liczba pikseli, które musi przejść mysz, aż usłyszysz kliknięcie.
+Opóźnienie (1/ 10):
+Pauza przed kliknięciem przycisku. Zwiększ tę wartość, jeśli & kmousetool; trudne do wykorzystania.
+Inteligentne przeciąganie
+Włącza lub wyłącza tryb "inteligentnej przeciągnij i upuść".
+Przy włączonym trybie przeciąganie jest dostępna opcja Podczas przeciągania (1/ 10). Ten parametr odpowiada za czas, rozgrywająca się między rejestracją naciśnięciu klawisza myszy i jej oprogramowania отпусканием w przypadku, gdy mysz nie пермещалась.
+Włącz росчерки
+& kmousetool; obsługuje "росчерки" (ang.: mouse gestures). Powolne przesuwanie w prawo i powrót temu, po którym następuje pauza, symuluje kliknięcie prawym przyciskiem. Powolne przesuwanie w lewo i powrót temu - podwójne kliknięcie. Parametry te są ustawiane mogą być edytowane w pliku $KDEHOME / share/ config/ kmousetool_ strokes. txt, który & kmousetool; создастпри pierwszym uruchomieniu.
+Sygnalizacja naciśnięcia
+Dźwięk po naciśnięciu przycisku. Jest to szczególnie przydatne w trybie "przeciągnij i upuść".
+Jeśli dźwięk jest odtwarzany z opóźnieniem, otwórz & kcontrolcenter;, na karcie Dźwięk system Dźwięku - wejście/ Wyjście dźwięku ustawić mniejszą wartość Wielkości аудиобуфера (czas reakcji).
+Autostart z KDE
+Uruchamiać & kmousetool; przy starcie & kde;. Nie działa w GNOME lub innych menedżerów okien, do których powinno się skorzystać z innych narzędzi do automatycznego uruchamiania programu.
+Domyślnie
+Przywrócić oryginalne wartości wszystkich ustawień.
+Reset
+Zresetować wszystkie ustawienia do stanu, w jakim były na początku dialogu, lub w chwili ostatniego naciśnięcia przycisku "Zastosuj".
+Zastosuj
+Naciśnij, aby zapisać zmian ustawień.
+Pomoc
+Otwiera się niniejsza instrukcja obsługi.
+Zamknij
+Zamknij okno dialogowe bez zapisywania zmian.
+Wyjście
+Wyjście z & kmousetool;
+Porady
+Wskazówki pomogą zbadać & kmousetool; szybciej.
+Możesz zmienić wielkości przerw, przed kliknięciem i przeniesieniem.
+Na początku lepiej ćwiczyć z & kmousetool; przy użyciu wartości domyślnych. Po nabyciu umiejętności można włączyć funkcję "przeciągnij i upuść".
+W trybie przeciągania może pomóc efekt dźwiękowy.
+Przy użyciu efektu dźwiękowego być może będziesz musiał zmienić ustawienia dźwięku & kde;.
+Pytania i odpowiedzi
+& reporting. bugs; & updating. documentation;
+Pomocy!!!! & kmousetool; stale tworzy niepotrzebne klikanie!
+Musisz opanować nowe umiejętności pracy z myszą.
+Przede wszystkim należy pamiętać, że kliknięcie na szarym części okna lub pustym miejscu strony internetowej i do niczego złego nie dochodzi, więc ruchu w tych częściach okien.
+Następnie należy ustalić, gdzie należy nacisnąć przed przeniesieniem myszy. Większość ludzi chaotycznie poruszają mysz, dopóki nie trafi się tam, gdzie trzeba - ten program wymaga, aby jasno zdawali sobie sprawy, gdzie chcesz kliknięcie myszy. Również zaleca się na bieżąco usuwać ręce, myszy, jeśli go nie używasz.
+Moja mysz hamuje, kiedy jej перемещаю. Czy mogę używać & kmousetool;?
+Tak. jeśli wyczyścić ją (nie tylko piłkę, ale i rolki wewnątrz myszy).
+Najpierw rozebrać myszy i wyjmij kulkę. Myszy są różne, ale zazwyczaj oczywiste, jak to zrobić.
+Wewnątrz będą widoczne rolki, i brud, налипшую na nich, łatwo można отскоблить żyletką lub paznokciem.
+& kmousetool; blokuje przycisk myszy i nie rozwodzi. Co się stało?
+Czasami & kmousetool; zawiesza się. To może być na niektórych systemach. Wyłącz tryb przeciągania i upuszczania.
+To może się zdarzyć, na przykład, podczas korzystania z & kmousetool; z oknami aplikacji spoza & kde;.
+Wyjście z tej sytuacji - raz kliknąć ręcznie. & kmousetool; przejdzie i będzie znów działać.
+& kmousetool; przesuwa kursor, gdy próbuję wydrukować.
+Podczas wprowadzania tekstu & kmousetool; nadal klikać i umieszcza kursor od tekstu.
+Przesuń kursor myszy z pola tekstowego przed wprowadzeniem w bezpieczne miejsca - szare strefy pasku narzędzi lub w tytuły okien.
+Staram się używać tryb przeciągania, ale nie mogę zrozumieć, jak z jego pomocą edytować tekst.
+Dla opanowania umiejętności z trybem przeciągnij i upuść wymaga czasu. Oto kilka wskazówek:
+Nie należy stosować tryb przeciągania od razu. Możesz zaznaczyć tekst za pomocą klawiatury, trzymając klawisz Shift i przesuwając się w stronę, lub klikając w jakim miejscu i potem drugi raz z wciśniętym klawiszem Shift, w końcu wydzielanego bloku.
+Użyj efekt dźwiękowy. To będzie odtwarzać dźwięk po naciśnięciu przycisku myszy za pomocą & kmousetool;.
+Trzeba wiedzieć, gdzie chcesz wcisnąć przed rozpoczęciem przeciągania.
+Prawa autorskie i licencja
+& kmousetool;
+Program & copy; 2002 Jeff Roche (Jeff roush racing fenway) jeff@ mousetool. com i 2003 Gunnar Шми Dt (Gunnar Schmi Dt) gunnar@ schmi - dt. de
+Uczestnicy:
+Jeff Roche (Jeff roush racing fenway) jeff@ mousetool. com
+Gunnar Шми Dt (Gunnar Schmi Dt) gunnar@ schmi - dt. de
+Olaf Schmidt (Olaf Schmidt) ojschmidt@ kde. org
+Dokumentacja & copy; 2002 Jeff Roche (Jeff roush racing fenway) jeff@ mousetool. com
+Tłumaczenie na polski - Mikołaj Шафоростов shaforostoff@ gmail. com
+& underFDL; & underGPL;
+Instalacja
+Jak uzyskać & kmousetool;
+& install. intro. documentation;
+Wymagania
+Do użytku & kappname; konieczne rozszerzenie XTest, wchodzący w skład & X - Window. Jest ono zainstalowane na niemal wszystkich systemach.
+W celu wykorzystania efektu dźwiękowego musisz mieć skonfigurowaną kartę dźwiękową.
+Montaż i instalacja
+& install. compile. documentation;
+Podręcznik & kmouth;
+Gunnar Schmi Dt
+gunnar@ schmi - dt. de
+Anton Gorbaczow justoff@ hotmail. pl Tłumaczenie na rosyjski
+Gunnar Schmi Dt
+& kmouth; - jest to aplikacja, która umożliwia komputerowi wymówić słowa.
+KDE
+kdeutils
+KMouth
+synteza mowy
+ludzie z zaburzeniami mowy
+Wprowadzenie
+& kmouth; - to program, który pozwala ludziom z zaburzeniami mowy wykorzystać komputer do syntezy mowy. Program zawiera rejestr wypowiedzianych zdań, z której można wybrać frazy, które chcesz wypowiedzieć.
+Uwaga: & kmouth nie zawiera wbudowanego syntezatora mowy. Dlatego do pracy programu w systemie musi być zainstalowany syntezator mowy.
+Wyrażają twoje sugestie i uwagi na temat pracy & kmouth; autora.
+Korzystanie z & kmouth;
+Pierwsze uruchomienie
+Przy pierwszym uruchomieniu & kmouth; zostanie uruchomiony kreator, który pomoże ci skonfigurować program.
+Kreator
+Kreator
+Na pierwszej stronie kreatora konfiguracji (lewy obraz) można wskazać zespół, który będzie używany do konwersji tekstu na mowę. W celu uzyskania dalszych informacji skontaktuj się z opisem dialogu konfiguracji.
+Na drugiej stronie należy wybrać najbardziej odpowiednią z gotowych zwrotów książek. W przyszłości, możesz wybierać z książki gotowe zwroty, zamiast ich łączyć. Oczywiście, w & kmouth; jest dialog, w którym można edytować twoje książki ul.
+Okno główne
+Główne okno & kmouth; składa się z dwóch głównych części: pola, aby wprowadzić frazę, którą chcesz wypowiedzieć (dolne białe pole na zdjęciu), i dziennika wypowiedzianych zdań (górne pole białe).
+Główne okno & kmouth;
+Zrzut ekranu
+Jeśli prawidłowo wyprodukowane ustawienia & kmouth; możesz użyć polu frazę, którą chcesz usłyszeć. Po tym, jak komputer wygłosił frazę, zostanie umieszczony w dzienniku wypowiedzianych zdań. Frazy z dziennika można wybrać w celu ponownego odtworzenia.
+Z książek fraz (znajdujących się w wierszu pod paskiem narzędzi możesz wybrać najczęściej używane zwroty.
+Okno dialogowe konfiguracji
+Okno ustawień dostępnych w menu Ustawienia Skonfigurować & kmouth;.... Zawiera ono następujące стреницы: & kmouth; ustawienia Ogólne (zakładki: Synteza mowy, Ustawienia), Uzupełnianie słów i Usługa syntezy mowy KTTSD.
+Karta Syntezy mowy
+Zakładka Ustawienia
+W polu wprowadzania karty Ustawienia syntezy mowy określa się zespół do połączenia syntezatora mowy. Poniżej tego pola znajduje się lista rozwijana, za pomocą którego następuje wybór kodowania, w której tekst będzie widoczny синтезатору mowy.
+& kmouth; może korzystać z jednego z dwóch sposobów przesyłania tekstu синтезатору. Jeśli syntezator wymaga przekazania tekstu w postaci standardowego wejścia, zaznacz to pole wyboru.
+Innym sposobem jest wysyłanie tekstu jako parametr. Przed połączeniem syntezatora & kmouth; zastępuje szablony rzeczywistą zawartością:
+Szablon
+Zastępuje
+% t
+Tekst zwrotów
+% f
+Imię tymczasowe pliki z tekstem frazy
+% l
+Kod języka, związane z bieżącym słownik авозавершения
+%
+Znak%
+Zespół odczytania może się różnić dla różnych syntezatorów mowy. Do szczegółowego opisu poleceń można znaleźć w dokumentacji syntezator mowy, który używasz. Przykładowe polecenia są wymienione w załączniku.
+Jeśli jest zaznaczone pole wyboru Użyj kttsd, jeśli to możliwe, & kmouth; próbuje wykorzystać usługę komunikacyjną kttsd. Jeśli próba powiedzie się, wszystkie inne ustawienia na tej karcie będą ignorowane. kttsd to usługa & kde;, oferująca aplikacje & kde; standardowy interfejs do syntezy mowy. W tej chwili kttsd jest w fazie rozwoju w SVN. Włączenie tej opcji nie powoduje niepożądanych skutków, nawet jeśli KTTSD nie jest zainstalowany w systemie.
+Zakładka Ustawienia
+Zakładka Ustawienia
+Na karcie Ustawienia można dostosować & kmouth; w różnych sytuacjach.
+Za pomocą pierwszej rozwijanej listy, Wybór fraz w książce frazami można określić, jakie działanie będzie wykonywane przy rekrutacji redukcji odpowiedniej frazy, lub wyborze fraz w menu Książka fraz, lub w panelu książki fraz.
+Jeśli wybierzesz opcję Wypowiadał natychmiast, wybrana fraza będzie od razu w katyniu i dodano w raporcie wypowiedzianych zdań. Jeśli wybrano opcję Wstaw w polu edycji, zwrot zostanie skopiowany i wklejony w polu edycji wyrażenia.
+Korzystając z pomocy drugiej listy rozwijanej, Zamknięcie okna edycji książki frazami można określić metodę zapisywania książki fraz po zamknięciu okna edycji.
+Jeśli wybrano opcję Zapisz książkę fraz, książka fraz będzie zachowana. Jeśli wybierzesz opcję Odrzuć zmiany, zmiany, książki fraz, zostaną unieważnione. Jeśli wybierzesz opcję Pytaj o zachowaniu, & kmouth; będzie wyświetlał monit o konieczności zapisania księgi fraz.
+Strona Uzupełnianie słów
+Strona Uzupełnianie słów
+The Uzupełnianie słów page contains a list of dictionaries used for the word completion. (kmouth; will display a combo box next to the edit field in the main window if this list contains more than one dictionary. You can use this combo box in order to select the dictionary that actually dostaje used for the word completion.)
+Strona Usługa syntezy mowy KTTSD
+Okno edycji książki fraz
+Wchodząc do menu Książki fraz Edytuj... możesz otworzyć okno edycji książki fraz.
+Okno edycji książki fraz
+Zrzut ekranu
+Główna część okna edycji książki jest podzielona na dwie części. W górnej części wyświetlane są książki fraz w postaci drzewa.
+W dolnej części okna możesz edytować wybrany element. Jeśli zaznaczysz zdanie, możesz edytować samo zdanie, jak i jej zmniejszenie. Jeśli zaznaczysz książka fraz, możesz zmienić tylko jej nazwa.
+Takie czynności, jak: dodawanie nowych wyrażeń i zwrotów książek, lub usuwanie wybranych fraz i zwrotów książek, można uzyskać korzystając z menu, paska narzędzi lub z menu rozwijanego.
+Możesz zmienić ich kolejność wyrażeń lub zwrotów książek przesuwając je za pomocą klawiszy kursora naciśnij i przytrzymaj klawisz & Alt;.
+Podręcznik poleceń
+Polecenia głównego okna
+Menu Plik
+Ctrl; O Plik Pobrać w dzienniku...
+Załaduje plik tekstowy w dzienniku wypowiedzianych zdań.
+Ctrl; S Zapisz Plik dziennika jako...
+Przechowuje dziennik wypowiedzianych zdań w plik tekstowy.
+Ctrl; P Plik do Drukowania dziennika...
+Drukuje dziennik wypowiedzianych zdań.
+Ctrl; Q Plik Wyjście
+Zamyka & kmouth;
+Menu Edycja
+Ctrl; X Edytuj Wyciąć
+Usuwa zaznaczenie i umieszcza go w schowku. Jeśli jest zaznaczony tekst w polu edycji frazy, jest on umieszczony w schowku. W innym przypadku, w schowka zostanie umieszczony zdanie z dziennika wypowiedzianych zdań.
+Ctrl; C Edytuj, Kopiuj
+Kopiuje zaznaczenie do schowka. Jeśli jest zaznaczony tekst w polu edycji frazy, jest on umieszczony w schowku. W innym przypadku, w schowka zostanie umieszczony zdanie z dziennika wypowiedzianych zdań.
+Ctrl; V Edycja Wklej
+Wstawia zawartość schowka do bieżącej pozycji kursora w polu edycji wyrażenia.
+Edytuj Powiedzieć
+Wypowiada bieżący zdanie( frazy). Jeśli pole edycji frazy zawiera tekst, zostanie on произнесен. W innym przypadku będzie jego specjalny zdanie z dziennika wypowiedzianych zdań.
+Menu Książki fraz.
+Książki fraz Edytuj...
+Otwiera okno edycji książki fraz.
+Menu Ustawienia
+Ctrl; M Regulacja Pokaż menu
+Ustawienia Pokaż pasek narzędzi
+Włącza/ wyłącza wyświetlanie paska ruchomych narzędzi, który zawiera przyciski do wywoływania często używanych poleceń. Zwykle pasek narzędzi w górnej części okna, tuż pod menu głównym. Потащив za ten pasek, można przenieść pasek.
+Ustawienia Pokaż pasek stanu
+Włącza/ wyłącza wyświetlanie małego panelu na dole głównego okna, w którym zawarte są informacje o aktualnym statusie & kmouth;.
+Ustawienia Pokaż pasek narzędzi opcje stylu
+Włącza/ wyłącza wyświetlanie paska ruchomych narzędzi, który zawiera przyciski do wywoływania często używanych poleceń. Zwykle pasek narzędzi w górnej części okna, tuż pod menu głównym. Kliknięcie na pasku ukrywa/ otwiera panel. Потащив za ten pasek, można przenieść pasek.
+Ustawienia Skonfigurować KMouth...
+Otwiera okno dialogowe ustawienia syntezatora mowy i inne ustawienia.
+Menu "Pomoc"
+& help. - menu. documentation;
+Wyskakujące menu wpisów w dzienniku
+Powiedzieć
+Проговаривает zaznaczenie zdanie.
+Usuń
+Usuwa wybrane zdanie z dziennika.
+Wytnij
+Usuwa wybrane zdanie, i umieszcza go w schowku.
+Kopiuj
+Kopiuje zaznaczony frazę do schowka.
+Zaznacz wszystko
+Zaznacza wszystkie wpisy w dzienniku.
+Odznacz
+Usuwa zaznaczenie wszystkich wpisów w rejestrze.
+Ctrl; O Plik Pobrać w dzienniku...
+Ctrl; S Zapisz Plik dziennika jako...
+Polecenia w oknie edycji książek fraz
+Plik Nowe wyrażenie
+Dodaje nową frazę.
+Plik Nowa książka fraz
+Tworzy nową książkę fraz.
+Ctrl; S: Plik Zapisz
+Zapisuje księgę fraz.
+Plik Importuj...
+Importuje plik i dodaje jej zawartość w księdze fraz
+Plik Import standardowej książki fraz
+Importuje standardową książkę fraz i dodaje jej zawartość skoroszytu fraz
+Plik Eksportuj...
+Eksportuje wybrane frazy lub książki fraz plik
+Ctrl; P Plik Drukuj...
+Drukuje wybrane frazy lub książki fraz
+Ctrl; W Pliku Zamknij
+Zamyka okno
+Usuwa zaznaczone elementy i umieszcza je w schowku.
+Kopiuje zaznaczone elementy do schowka.
+Wstawia zawartość schowka do księgi fraz.
+Edytuj Usuń
+Usuwa zaznaczone elementy.
+Wyskakujące menu
+Nowa zdanie
+Nowa książka fraz
+Import...
+Import standardowej książki fraz
+Eksport...
+Ctrl + X Wytnij
+Ctrl + C Kopiuj
+Ctrl; V Wstawić
+Wstawia zawartość schowka do księgi fraz w tej pozycji.
+Pytania i odpowiedzi
+& reporting. bugs; & updating. documentation;
+Mowa nie jest wymawiane.
+Most likely you did not configure correctly (or not at all?) the text - to - speech command. Use Ustawienia Configure & kmouth;..., open the page Podstawowe parametry and enter the command for speaking texts on the tab Syntezy mowy. (See section about the configuration dialog for the speech synthesizer for more details.)
+Podziękowania i licencja
+& kappname;
+Programowanie -- & copy; 2002 - 2004 Gunnar Schmi Dt gunnar@ schmi - dt. de
+Dokumentacja & copy; 2002 - 2004 Gunnar Schmi Dt gunnar@ schmi - dt. de
+Tłumaczenie na polski: Anton Gorbaczow justoff@ hotmail. pl
+& underFDL; & underGPL;
+The option Wysyłać dane na standardowe wejście must be enabled.
+For the third example, the option Wysyłać dane na standardowe wejście must be enabled. (This one is the preferred example for the use with FreeTTS.)
+All parts of this command need to be written into one line. The option Wysyłać dane na standardowe wejście must be enabled.
+As the configuration of the speech synthesizer is done in KTTSD the only & kmouth; - specific option you need to activate is Używać mowy serwis KTTSD, jeśli jest dostępna.
+Of course you need to configure KTTSD. You may do this with the configuration page Personnel syntezy mowy KTTSD that is added to the configuration dialog of & kmouth; if KTTSD is installed.
+Instalacja
+Gdzie wziąć & kmouth;
+& install. intro. documentation;
+Wymagania
+Dla pełnego wykorzystania & kmouth; wymagana syntezator mowy (i oczywiście & kde; 3. x). & kmouth; korzysta około 15 megabajtów pamięci ram podczas pracy (nie licząc pamięci niezbędnej do pracy syntezator mowy). Wymagana ilość pamięci może się różnić w zależności od używanej platformy i konfiguracji systemu.
+Montaż i instalacja
+& install. compile. documentation;
+Konfiguracja sieci & kde;
+Sean Wheller
+In Words Techdoc Solutions sean@ inwords. co. za
+Christoph Eckert
+Władimir Рычков vvgtr2@ mail. pl Tłumaczenie na rosyjski
+In Words Techdoc Solutions
+Christoph Eckert
+W tej sekcji wyjaśniono, jak zainstalować i poprawnie używać kappname; moduł & kcontrol;, który pozwala na zarządzanie interfejsami sieciowymi routingiem i ustawieniami DNS.
+KDE
+sieć
+ethernet
+Wprowadzenie
+& kcontrolcenter; (kcontrol;) zapewnia użytkownikom jedynym narzędziem do zarządzania wszelkimi możliwymi ustawieniami sieciowymi. & kcontrol; można otworzyć wybierając polecenie menu K Menu Biznesowe konfiguracji KDE.
+& kappname; stworzony, aby dać użytkownikowi możliwość zarządzania konfiguracją TCP/ IP podobnie jak inne systemowych ustawień -- za pomocą & kcontrol;. Dostępne opcje & kappname;, pozwalają rozwiązać następujące zadania:
+Przypisać do interfejsu IP - adres
+Ustawić dla interfejsu maskę sieci
+Uruchamiać i zatrzymywać interfejs sieciowy
+Konfigurowanie routingu
+Ustaw nazwę hosta (hosta) i nazwę domeny
+Skonfigurować konwersja adresów i nazw
+Zarządzanie listą znanych węzłów sieciowych
+Po instalacji nowego modułu Konfiguracja sieci dostępny w & kcontrol; w grupie Internet & Sieci. Aby rozpocząć Konfigurowanie sieci (kappname;), wybierz Indeks Internet & Sieci Konfiguracja sieci.
+& kappname; w trybie użytkownika
+Należy pamiętać, że & kappname; nie może zainstalować nowe wyposażenie sieciowe. W ten sposób do uruchomienia & kappname; sami urządzenia sieciowe i sterowniki do nich muszą być prawidłowo zainstalowane.
+W przeważającej większości przypadków, sterowniki do urządzeń sieciowych i innych urządzeń, są zainstalowane i skonfigurowane na etapie instalacji systemu Linux. Jeśli dodać nowy sprzęt sieciowy już po instalacji, to trzeba wskazać, jakie sterowniki powinny być załadowane. Można to zrobić edytując jeden z poniższych plików, w zależności od wersji jądra:
+& Linux; w wersji 2. 4 i poniżej
+/ etc/ modules. conf
+& Linux; w wersji 2. 6 i powyżej
+/ etc/ modprobe. conf
+Korzystanie z modułu Konfiguracja sieci
+Moduł Konfiguracja sieci uruchamia się po wybraniu opcji Ustawienia sieci w menu & kcontrol;. Po uruchomieniu modułu Konfiguracja sieci próbuje automatycznie wykryć dystrybucji (platformę), pracujący na komputerze.
+W przypadku, jeśli nie uda się wykryć automatycznie, zostanie wyświetlony monit o wybranie go ręcznie. Wybierz z listy platformy, najbardziej odpowiednią wersji swojej dystrybucji. Zaznacz opcję Nie pytaj ponownie, aby zapamiętać ten wybór. I przy następnym uruchomieniu programu Konfiguracji sieci wybrana platforma zostanie przyjęty jako domyślny.
+Do zmiany ustawień systemowych sieci, trzeba uzyskać uprawnienia administratora systemu. W przeciwnym razie, wszystkie opcje będą wyświetlane na szaro (niedostępne). Oznacza to, że można patrzeć tylko wartości, ale ich zmiany. Dla uzyskania uprawnień administratora naciśnij przycisk Tryb administratora w lewym dolnym rogu modułu. Wpisz hasło w wyświetlonym oknie dialogowym wprowadzania hasła.
+kappname; w trybie administratora
+kappname; w trybie administratora
+Po otrzymaniu prawa administratora, możesz korzystać z wszystkich możliwości modułu. Opcje ustawione w postaci drzewa.
+Zarządzanie interfejsami sieciowymi
+Do zarządzania zainstalowanymi w systemie urządzeniami sieciowymi, używana jest karta interfejsów Sieciowych. Tam przedstawiono wszystkie dostępne interfejsy sieciowe. Na karcie interfejsy Sieciowe są dostępne następujące czynności:
+Interfejs kappname;
+Dla każdego urządzenia sieciowego można wyświetlić następujące właściwości:
+Interfejs
+Pokazuje nazwę interfejsu sieciowego. Na przykład eth0, eth1, wlan0.
+Adres IP
+Aktualny adres IP.
+Protokół
+Protokół do pobrania.
+Stan
+Pokazuje aktualny stan interfejsu (aktywny/ nieaktywny).
+Komentarz
+Pokazuje komentarz.
+Konfiguracja urządzenia sieciowego
+Do zmiany ustawień urządzenia sieciowego, należy wybrać go z listy, a następnie kliknij przycisk Dostosuj interfejs.
+Konfiguracja urządzenia sieciowego
+Konfiguracja urządzenia sieciowego
+Domyślnie dostępne są podstawowe ustawienia TCP/ IP. Kliknij przycisk ustawienia Zaawansowane, aby rozwinąć dialog i uzyskać dostęp do zaawansowanych właściwości.
+Dodatkowe ustawienia urządzenia
+W tym oknie dialogowym dostępne są następujące opcje:
+Automatycznie
+Wybierz opcję Automatycznie, jeśli w ustawieniach TCP/ IP musi być określona przez DHCP lub BOOTP serwera. Ustawienia TCP/ IP są ustawione w trybie automatycznym tylko jeśli w systemie uruchomione odpowiednie służby (DHCP lub BOOTP). Serwery DHCP i BOOTP wysyłają wszystkie ustawienia TCP/ IP przy każdym starcie systemu i nie trzeba konfigurować ręcznie. Z rozwijanej listy wybierz opcję DHCP lub BOOTP, zgodnie z potrzebami twojej sieci.
+Ręcznie
+Ustaw przełącznik Ręcznie? jeśli nie chcesz stosować DHCP lub BOOTP do konfigurowania protokołu TCP/ IP. W polu adres IP wpisz adres TCP/ IP dla bieżącego interfejsu sieciowego. A w polu Maska sieci, wprowadź maskę podsieci.
+Aktywuj przy uruchamianiu komputera
+Jeśli ta opcja jest włączona, to interfejs sieciowy zostanie aktywowana w czasie ładowania systemu. Jeśli nie jest to konieczne -- zostaw opcję wyłączoną.
+Opis
+Wpisz opis
+Emisja
+Wpisz adres broadcast. Adres ten służy do zwracania się bezpośrednio do wszystkich hostów w podsieci.
+Wartości, które można określić w tym oknie będą wyświetlane jako właściwości urządzenia z listy urządzeń.
+Jeśli nie jesteś pewny, że wiesz jak wypełnić pola tego dialogu, skontaktuj się z administratorem systemu! Proszę, upewnij się, że wprowadzony adres IP nie jest używany jakimś urządzeniem w sieci. Powielanie adresu IP spowoduje awarię TCP/ IP. Użyj polecenia ping z & konsole; aby sprawdzić, mianowany, czy już ktoś adres internetowy, na który chcesz wejść.
+Włączanie urządzenia sieciowego
+Sieciowe urządzenie może zostać włączone lub wyłączone w zależności od potrzeb systemu. Włącz nieaktywny interfejs sieciowy, możesz wybrać je z listy i nacisnąć Aktywować interfejs.
+Wyłączanie urządzenia sieciowego
+Sieciowe urządzenie może zostać włączone lub wyłączone w zależności od potrzeb systemu. Aby wyłączyć aktywny interfejsu sieciowego, wystarczy wybrać go z listy i nacisnąć przycisk Wyłącz interfejs.
+Konfiguracja routingu
+Karta Trasy pozwala skonfigurować routing w systemie.
+Brama domyślna
+To pole musi zawierać adres IP z twojej sieci lokalnej, który jest podłączony do innej sieci. Adres ten będzie używany do pracy z komputerami w innych sieciach.
+Wybierz urządzenie sieciowe z rozwijanej listy edycyjne wartości domyślnej.
+Jeśli na twoim komputerze jest zainstalowany więcej niż jednego interfejsu sieciowego, wybierz spośród nich ten, który jest podłączony do sieci, gdzie jest włazowy komputer.
+Konfigurowanie ustawień DNS
+Karta System domen им'n (DNS) pozwala skonfigurować ustawienia DNS.
+Nazwa hosta
+Jest to nazwa, pod którą sieciowych, będzie znana w twojej podsieci.
+Nazwa domeny
+Nazwę domeny, do której należy sieciowych.
+Serwery DNS
+Lista serwerów DNS w kolejności priorytetu (zobacz).
+Statyczne gospodarze
+Lista znanych hostów w podsieci (patrz).
+Ustawienia serwerów DNS
+Komputer z uruchomioną DNS mapuje nazwę fqdn z odpowiednim adresem IP. Jest to ważne, ponieważ przy sieci współpracy komputery używają właśnie adresu IP. Na przykład, jeśli komputer zapyta http: // www. somedomain. com, DNS, w odpowiedzi zwraca adres IP rodzaju 123. 45. 202. 90.
+Karta Serwery DNS (część systemu nazw domen (DNS)), pozwala łatwo edytować listę. Można dodawać, usuwać i edytować wpisy na temat serwerów. Rekordy DNS można zbudować w żądanej sekwencji za pomocą przycisków Przenieś w górę i Przenieś w dół.
+Dodawanie serwera DNS
+W grupie Serwery DNS, kliknij przycisk Dodaj. Po pojawić się okno dialogowe Dodaj nowy serwer DNS.
+Wprowadź adres IP serwera DNS, a następnie kliknij przycisk Dodaj. Nowy rekord pojawić się na liście serwerów DNS.
+Zmiana zapisu o serwerach DNS
+Na karcie Serwery DNS, wybierz nagraj serwera DNS, a następnie kliknij przycisk Edytuj. Wyświetlone zostanie okno dialogowe edycji rekordów DNS - serwer.
+Edycja zapisu serwera DNS
+Zmień adres IP, a następnie kliknij przycisk OK. Po tym zapis o serwerze zaktualizowana.
+Zarządzanie statycznymi (znanymi) hostami
+Lista Statyczne gospodarze zawiera wiersze zgodności między nazwą hosta i adres IP. Często ta lista jest używany podczas uruchamiania komputera, gdy nie są dostępne serwery DNS. W małych zamkniętych sieciach tej listy można użyć zamiast serwera DNS.
+Domyślnie, lista Statyczne gospodarze zawiera już kilka rekordów. W tym opisujących & apos; localhostapos; -- sam komputer i specjalne nagrania, które obsługują IPv6. IPv6-to экспериметальная wersja protokołu IP, która ma zastąpić obecną czwartą wersję.
+Dodawanie statycznych gospodarze
+Kliknij przycisk Dodaj. Wyświetlone zostanie okno dialogowe Dodawanie nowego statycznego hosta.
+Wprowadź adres IP, statyczny hosta, a następnie kliknij przycisk Dodaj. Wyświetlone zostanie okno dialogowe Dodawanie nowego pseudonimu.
+Wpisz nazwę statycznego hosta, a następnie kliknij przycisk Dodaj. Jeśli statyczna komputer ma kilka nazw, naciśnij ponownie przycisk Dodaj, a następnie wpisz jeszcze jeden pseudonim.
+Gdy wprowadzisz wszystkie aliasy statycznego hosta, kliknij przycisk OK, a lista nazw statycznych węzłów sieciowych zaktualizowana.
+Edycja statycznych gospodarze
+Wybierz z listy jedną z pozycji statycznej hosta. Kliknij przycisk Edytuj, powinno pojawić się okno dialogowe edycja statycznego hosta.
+Wykonując dowolną z tych czynności, naciśnij przycisk OK, aby zaktualizować listę statycznych adresów.
+Zmienić adres IP, można wprowadzając nowy, a następnie klikając przycisk OK.
+Dodaj nowy alias, naciskając przycisk Dodaj.
+Aby zmienić swój pseudonim, wybierz wpis i naciśnij przycisk Edytuj.
+Aby usunąć pseudonim, wybierz na liście pozycję, a następnie kliknij przycisk Usuń.
+Zastosuj zmiany
+Zmiany wprowadzone za pomocą modułu Konfiguracji sieci, zaczną działać w systemie dopiero po tym, jak uruchomić Konsolę i wpisz następujące polecenie.
+/ etc/ init. d/ networking restart
+Instalacja
+Wymagania
+Do działania modułu ustawień sieci knetwork - conf, konieczne jest zainstalowane wersje KDE 3. x i QT 3. x.
+Moduł ustawień sieci knetwork - conf można stosować na następujących platformach:
+Kubuntu
+Conectiva
+Debian
+Fedora Core
+FreeBSD
+Gentoo
+Mandrake
+PLD
+OpenNA
+Red Hat
+SuSE
+Jak uzyskać moduł knetwork - conf
+Strona domowa modułu knetwork - conf http: // knetworkconf. sourceforge. net. Tam można pobrać kody źródłowe.
+Instalacja plików binarnych
+Jeśli używasz dystrybucji z plikami binarnymi (np. rpm), wystarczy mieć zainstalowane KDE i QT.
+Dla mniej doświadczonych użytkowników zalecana jest instalacja właśnie z pakietów binarnych. Wystarczy pobrać torby i umieść je w Konsole używając RPM jak to pokazano poniżej:
+rpm - i knetwork - conf - version. rpm
+Ponadto, możesz użyć aplikacji z graficznym interfejsem użytkownika, takie jak kpackage. Albo zainstaluj moduł za pomocą specjalnego programu z danej dystrybucji.
+Kompilacja i instalacja
+W tym przypadku, oprócz binarnych plików KDE i QT, potrzebne i pakiety dla rozwoju. Pakiety opracowania zawierają niezbędne biblioteki i jakieś inne informacje.
+Instalacja kodu źródłowego jest zalecane tylko dla zaawansowanych użytkowników. Chociaż kompilacja & kappname; nie jest tak skomplikowana. Zazwyczaj wystarczy następujących poleceń:
+. / configure -- prefix=$( kde - config -- prefix) make make install
+Uwaga! Polecenie make install musi być uruchomiony z konta root.
+Jeśli wystąpią jakieś problemy - daj nam znać.
+Informacje techniczne
+W pierwszej części tego rozdziału, zawiera informacje na temat podstawowych zasad pracy w sieci. W drugiej -- zawiera listę wszystkich plików konfiguracyjnych systemu, które mogą być zmieniane & kappname;.
+Praca w sieci IPv4
+Ta część nie rości sobie rolę pełni wykłady na temat pracy w sieci IPv4 (protokół IP w wersji 4). Zgromadzono tu tylko podstawowe informacje, które pozwala włączyć maszynę do małej sieci (np. sieci domowej).
+W dzisiejszych czasach, praca jest w większości sieci IP pochodzi z użyciem protokołu TCP/ IP w wersji 4 (IPv4). Protokół IPv5 nie otrzymał szerokiej dystrybucji. Oczekuje się, że protokół IPv6 będzie rozpowszechniany w najbliższej przyszłości. Ten dokument poświęcony IPv4, jak najczęściej używanym.
+Jedną z najważniejszych rzeczy, które trzeba wiedzieć, aby ustawienia interfejsu sieciowego-to jest adres IP. Na przykład, w sieci biura należy zwrócić się do IP od administratora systemu lub skorzystać z DHCP. W każdym razie nie można tak po prostu wybrać adres IP dowolnie.
+Jeśli instalujesz własną małą sieć w domu, to należy użyć adresu IP z wydzielonych grup. Pozwoli to uniknąć konfliktów z globalnej sieci Internet. Adresy, które są wymienione w tabeli, nie są pomijane w globalnej sieci, to możesz wykorzystać je według uznania.
+Oczywiście, maszyny z takimi adresami mogą być skonfigurowane w celu uzyskania dostępu do globalnej sieci! Odbywa się to za pomocą sieciowych bram.
+Możesz dowolnie przypisać następujące adresy.
+Adres IP dla sieci prywatnych.
+Klasa
+Zakres
+A
+10. 0. 0. 0 do 10. 255. 255. 255
+B
+z 172. 16. 0. 0 na 172. 31. 0. 0
+C
+192. 168. 0. 0 192. 168. 255. 0
+Dla małych sieci z ilością maszyn do 254, wystarczy, że adresy z zakresu od 192. 168. 1. 1 do 192. 168. 1. 254.
+Ponadto, jeśli maska sieci zostanie podany 255. 255. 255. 0. wszystkie te 254 sieciowych hosta znajdują się w tej samej podsieci.
+Niektóre adresy są zarezerwowane do specjalnych celów. To jest 0. 0. 0. 0 i 127. 0. 0. 1. Adres 0. 0. 0. 0 nazywana jest trasą domyślną, a 127. 0. 0. 1 -- uchwyt (loopback) interfejsem. Trasa domyślna jest potrzebne do routingu (określania ścieżki) dla protokołu IP.
+Adres 127. 0. 0. 1 jest zarezerwowany tylko dla oznaczenia lokalnej maszyny. Zazwyczaj adres 127. 0. 0. 1 przydzielony do specjalnego systemu urządzenia - tak zwane "кольцевому interfejsu". Ronda interfejs działa jest prosta: wszystko, co zostało do niego wysłane - od razu z niego i wraca.
+Brama domyślna -- to komputer lub specjalne urządzenie sieciowe, które łączy dwie różne sieci. Być może, jeśli ustawiłeś własną sieć domową, chcesz mieć dostęp do sieci Internet. Ale tego nie można zrobić wykorzystując swoje adresy, ponieważ nie są one w globalnej sieci. Rozwiązaniem jest komputer, który przesyła dane między dwoma różnymi sieciami. Taki komputer powinien posiadać, co najmniej, dwóch interfejsów sieciowych. Najprawdopodobniej jeden z nich - karta sieciowa Ethernet, która jest włączona w swoją sieć. Drugi to zewnętrzny interfejs sieciowy, zazwyczaj jest urządzeniem autorskimi, to może być xDSL - modem lub coś innego podłączonego do sieci Internet. Na obu interfejsach sieciowych zainstalowane różne adresy IP. Ten komputer wykonuje tzw. "nadawanie adresów sieciowych" (NAT - Network Adress Translation, tak samo nazywa się IP forwarding). Aby dać komputerów z sieci lokalnej z dostępem do Internetu, wystarczy tylko podać im adres IP tego komputera jako bramy domyślnej.
+Pliki konfiguracyjne
+W tej sekcji znajduje się lista plików, które zmieniają się & kappname;. Podane miejsca tych plików w systemach różnych smakach.
+resolv. conf
+W tym pliku jest przechowywana lista serwerów nazw.
+Gdzie szukać resolv. conf
+Platforma
+Wersja
+Droga
+Conectiva
+9. 2
+/ etc/ resolv. conf
+Debian
+3. 0
+Fedora Core
+1
+FreeBSD
+5
+Gentoo
+Mandrake
+PLD
+2. 0
+OpenNA
+1. 0
+Red Hat
+9. 0
+SuSE
+Czasami zawartość tego pliku zmienia się dynamicznie DSL - związkami. Nie zdziw się, jeśli w pliku nie zostanie wierszy, które zostały dodane do ustalenia DSL, połączenia z internetem.
+gospodarze
+W tym pliku jest przechowywana lista nazw znanych węzłów sieciowych
+Gdzie szukać pliku hosts
+Dystrybucja
+Wersja
+/ etc/ hosts
+& nbsp;
+Wiadomo, że w SuSe skrypt SuSEconfig często zmienia tego pliku. Więc nie zdziw się, jeśli zobaczysz coś nieoczekiwanego.
+Lista projektantów oraz licencja
+Twórcy
+Dziękuję wszystkim, którzy pracowali nad & kappname;!
+Twórcy
+Jean Louise Биптист (Juan Luis Michel) juan. baptiste@ kdemail. net
+David Сэнсом (David Sansome) me@ davidsansome. com
+Carlos Гарначо (Carlos Garnacho) garnacho@ tuxerver. net
+Simon Edwards (Simon Edwards) simon@ simonzone. com
+Pedro Джурадо Македо (Pedro Jurado Maquedo) pjmelenas@ biwemail. com
+Florin Fernandez (Florian Fernandez) florian. fernandez2@ wanadoo. fr
+Унаи Гарро (Unai Garro) Unai. Garro@ ee. ed. ac. uk
+Christoph Эккерт (Christoph Eckert) mchristoph. eckert@ t - online. de
+Джейм Torres (Jaime Torres) jtorres@ telecorp. net
+Wszyscy, których zapomniałem tu wpisać - wiesz, kim jesteś! you@ foo. tld
+Autorzy
+Christoph Эккерт (Christoph Eckert): mchristoph. eckert@ t - online. de
+Sin Weller (Sean Wheller): sean@ inwords. co. za
+Licencja
+Prawa & kappname; co najmniej do 2003 - 2004 rok, należą do Жану Luizę Биптисту (Juan Luis Michel): (juan. baptiste@ kdemail. net).
+Władimir Рычков vvgtr2@ mail. pl Tłumaczenie na rosyjski
+& underFDL; & underGPL;
+Podręcznik & kcron;
+Morgan N. Sandquist
+Morgan N. Sandquist
+Gary Meyer
+Producent
+Lauri Watts
+Redaktor
+Andrei Darashenka adorosh+KDE. PL@ smolevichi. org. by Tłumaczenie na rosyjski
+Morgan N. Sandquist
+& kcron; to aplikacja, планирующее uruchamiania innych programów.
+KDE
+kdeadmin
+KCron
+cron
+crontab
+harmonogram
+Wprowadzenie
+cron - to aplikacja do planowania i uruchamiania programów w tle. & kcron; - jest to graficzny interfejs systemowego harmonogramu zadań crona & UNIX;
+Korzystanie z & kcron;
+Nie zapomnij uruchomić crond - demon cron, inaczej & kcron; nie będzie działać.
+Uruchamianie & kcron;
+Po uruchomieniu & kcron; zobaczysz podsumowanie istniejących zaplanowanych zadań i odpowiednich zmiennych środowiskowych. Jeśli program jest wykonywany od administratora, zobaczysz zadania dla wszystkich użytkowników systemu. W tym przypadku każdy katalog może być otwarty lub zminimalizowany.
+okno & kcron;
+okno & kcron;
+Zaplanowane zadania
+Zaplanowane zadania są wyświetlane na karcie Zadania. Do każdego zadania jest wyświetlany następujący:
+Nazwa
+Nazwę do identyfikacji zaplanowanego zadania
+Wartość
+Plik, programy i ustawienia startu.
+Opis
+Przyjazny opis planowanego zadania
+Jeśli zadanie zostało zablokowane, nazwę pliku i opcje uruchamiania) przestaną być dostępne i opis też jest zablokowana.
+Zmienne środowiskowe
+Zmienne środowiskowe pojawiają się pod folderem Zmienne. Dla każdej zmiennej zostanie wyświetlony następujący:
+Nazwa zmiennej.
+Wartość zmiennej.
+Przyjazny opis zmienna.
+Zmienne środowiskowe, przedstawione tutaj mogą zastąpić każdą inną zmienną środowiskową dla wszystkich zaplanowanych zadań. Jeśli zmienna środowiskowa zostanie zablokowana, to заблокируются wartość i opis zmienna.
+główne okno & kcron;
+główne okno & kcron;
+Dodawanie zaplanowanych zadań
+Aby dodać nowe zadanie najpierw wybierz folder Zadania. Następnie wybierz Edytuj Nowe.... Można również użyć prawego przycisku myszy i wybrać Nowego..., lub po prostu nacisnąć Ctrl + N.
+Okno dialogowe Edycja zadania
+Okno dialogowe Edycja zadania.
+Okno dialogowe Edycja zadania
+Komentarz
+Wprowadź opis zadania, które trzeba zaplanować.
+Program
+Wpisz nazwę programu. Można podawać jako absolutny i względny drogę. Jeśli chcesz znaleźć program w systemie plików, naciśnij Wybierz....
+Włączone
+Aby włączyć lub wyłączyć zadanie, zaznacz lub usuń zaznaczenie pola wyboru Włączone
+Bez powiadomienia
+Wyłącza logowanie i komend.
+Miesiące
+Wybierz miesiące, na którym zadanie będzie uruchamiane.
+Dni miesiąca
+Wybierz dni w miesiącu, w którym zadanie będzie uruchamiane.
+Dni tygodnia
+Wybierz dni tygodnia, w którym zadanie będzie uruchamiane.
+Codziennie
+Jeśli chcesz, aby zadanie realizowane codziennie, wybierz Wykonać każdy dzień
+Zegar
+Wybierz zegar, na którym zadanie będzie uruchamiane na wykonanie.
+Minuty
+Wybierz minuty, na którym zadanie będzie uruchamiane na wykonanie. & kcron; nie obsługuje planowanie częściej niż raz na minutę.
+OK
+Zakończ tworzenie tego zadania.
+Anuluj
+Przerwać proces tworzenia tego zadania.
+Jeśli wybrać dni tygodnia i dni miesiąca wraz zadanie zostanie wykonane po osiągnięciu któregokolwiek z warunków. Na przykład, jeśli wskazać wykonanie 1 - go i 15 - go dnia każdego miesiąca i określić być wykonywane w niedziele, to zadanie zostanie uruchomione i 1 - go i 15 - go dnia, niezależnie od dnia tygodnia i będzie запускться wszystkich niedziele miesiąca.
+Zaplanowane zadanie nie instaluje się w systemie i nie zacznie działać, dopóki nie zostanie сохранет pliku crontab.
+Zarządzanie zaplanowanymi zadaniami
+Podobnie jak z tworzeniem, modyfikacja, zaplanowane zadania nie zostaną wprowadzone w życie i zacznie działać pod nowym terminarzem, dopóki nie będzie сохранет pliku crontab.
+Wycinanie zaplanowanego zadania
+Do wycinania, zaplanowane zadania, сначалы wybierz to zadanie. Następnie naciśnij Edytuj Wyciąć.
+Możesz również nacisnąć prawy przycisk myszy i wybrać Wyciąć lub po prostu naciśnij Ctrl + X
+Kopiowanie zaplanowanych zadań
+Aby skopiować zaplanowane zadanie, najpierw wybierz zadanie do kopiowania, a następnie naciśnij Edytuj, Kopiuj.
+Możesz również nacisnąć prawy przycisk myszy i wybrać polecenie Kopiuj lub po prostu naciśnij Ctrl + C.
+Wstaw zaplanowanych zadań
+Aby wstawić zadania, oni muszą być wycięte lub skopiowane do schowka, po czym zostanie rozwiązany wstawianie zadań. Wybierz folder Zadania i po Edycja Wklej.
+Możesz również nacisnąć prawy przycisk myszy i wybrać Wstaw, lub po prostu nacisnąć Ctrl + V.
+Zmiana zaplanowanych zadań
+Do zmiany planowanego zadania należy najpierw zaznaczyć, a następnie kliknąć przycisk Edytuj Zmienić.
+Można również kliknąć prawym przyciskiem myszy i wybierz Zmień... lub po prostu nacisnąć Ctrl + O. zobaczysz okno dialogowe Edycja zadania, w którym można zmieniać wszystko, jak i w oknie Nowe zadanie.
+Usuwanie zaplanowanych zadań
+Aby usunąć zaplanowane zadania należy najpierw zaznaczyć, a następnie naciśnij Edytuj i Usuń.
+Można również użyć prawego przycisku myszy i wybrać Usuń.
+Włączenie/ wyłączenie zaplanowanych zadań
+Dla rozdzielczości запрещеных zaplanowanych zadań, najpierw zaznacz go. Zabronione zadania mają zaznaczenie Wyłączone w opisie. Następnie wybierz Edytuj Włączone.
+Można również użyć prawy przycisk myszy i wybierz Włączone. Upewnij się, że wyświetlanego pliku programu, parametry i opisy.
+Wykonanie zaplanowanych zadań
+Można od razu uruchomić zadanie, wybierając Edytuj Uruchom teraz.
+Można również użyć prawego przycisku myszy i wybrać Uruchom teraz.
+Dodawanie zmiennych środowiskowych
+Aby utworzyć nową zmienną najpierw wybierz folder Zmienne, a następnie naciśnij Edytuj Nowa....
+Można również użyć prawego przycisku myszy i wybrać Nowa.... lub po prostu nacisnąć Ctrl + N.
+Okno dialogowe Edycja zmiennej
+Okno dialogowe Edytuj zmienne
+Okno dialogowe Edytuj zmienne
+Zmienna
+Wpisz nazwę zmiennej. Można użyć listy rozwijanej, aby wprowadzać najczęściej używanych nazw zmiennych środowiskowych, w tym:
+HOME
+Służy do przedłużenia katalogu domowego użytkownika.
+MAILTO
+Odbiorca, wysyłanie wiadomości e-mail zamiast adresu użytkownika.
+PATH
+Lista katalogów do przeszukiwania dla plików wykonywalnych.
+SHELL
+Zostanie uruchomiony program - powłoka zamiast domyślnej.
+Wpisz wartość zmiennej środowiskowej.
+Wprowadź opis dla tej zmiennej, np. celem jej wykorzystania.
+Włącz
+Aby włączyć/ wyłączyć użycia zmienna, kliknij przycisk Włącz.
+Kończy instalację zmiennej.
+Anuluje ustawianie zmiennej.
+Zmienna środowiskowa nie wejdzie w życie do zapisania pliku crontab.
+Zarządzanie zmiennymi środowiska
+Podobnie jak w przypadku tworzenia zmiennych, zmiana nie wejdzie w życie do zapisania pliku crontab.
+Wycinanie zmiennych środowiskowych
+Do wycinania zmiennej, najpierw zaznacz odpowiednią zmienną. Następnie wybierz Edytuj Wyciąć.
+Kopiowanie zmiennych środowiskowych
+Aby skopiować zmiennej, najpierw zaznacz odpowiednią zmienną. Następnie wybierz Edytuj, Kopiuj.
+Można również użyć prawego przycisku myszy i wybrać polecenie Kopiuj lub po prostu naciśnij Ctrl + C.
+Wstawianie zmiennych środowiskowych
+Aby wstawić zmienną najpierw należy go skopiować lub wyciąć w schowka. Tylko po kopiowania lub wycinania pojawi się możliwość wstawiania. Wybierz folder Zmienne, a następnie wybierz Edycja Wklej.
+Zmiana zmiennych środowiskowych
+Do zmiany zmiennej, najpierw zaznacz odpowiednią zmienną. Następnie wybierz Edytuj Zmienić.... Można również użyć prawy przycisk myszy i wybierz Zmień... lub po prostu nacisnąć Ctrl + O. Pojawi się okno dialogowe Edycja zmiennej, w którym można poprawić zmienną jak i w oknie nowej zmiennej.
+Usuwanie zmiennych środowiskowych
+Aby usunąć zmiennej, najpierw zaznacz odpowiednią zmienną. Następnie wybierz Edytuj i Usuń.
+Włączanie/ Wyłączanie zmiennych środowiskowych
+Aby włączyć lub wyłączyć zmiennej, najpierw zaznacz odpowiednią zmienną. Wyłączone zmienne będą oznaczone jako Wyłączone. Następnie wybierz Edytuj Włączyć.
+Można również użyć prawy przycisk myszy i wybierz Włączone. Upewnij się, że nazwa i wartość zmiennej środowiskowej prawdziwe.
+Zapisywanie pliku crontab
+Po instalacji wszystkich niezbędnych zadań i zmiennych środowiskowych, zapisz plik crontab, wybierając Plik Zapisz.
+Można również po prostu naciśnij Ctrl + S. Dodawania lub zmiany nie wejdą w życie, dopóki ty nie zrobisz.
+Drukowanie pliku crontab
+Do druku pliku crontab po zapisaniu, wybierz kolejno polecenia Plik Drukuj.
+Drukowanie pliku crontab
+Drukowanie pliku crontab
+Wyświetlone zostanie standardowe okno drukowania & kde;. Po kliknięciu przycisku Ujawnić pojawią się dwa dodatkowe ustawienia & kcron; w oknie dialogowym drukowania.
+Drukowanie Crontab
+Drukuje plik crontab dla bieżącego użytkownika.
+Drukuj dla wszystkich użytkowników
+Drukuje plik crontab dla wszystkich użytkowników. Opcja ta jest aktywna tylko dla суперпользователей.
+Podręcznik poleceń
+Główne okno & kcron;
+Menu Plik
+Ctrl; S: Plik Zapisz
+Zapisz zmiany w pliku crontab.
+Ctrl; P Plik Drukuj...
+Drukuj plik crontab.
+Ctrl; Q Plik Wyjście
+Wyjdź z & kcron;
+Menu Edycja
+Ctrl; X Edytuj Wyciąć
+Wytnij wybranego zadania lub zmienną.
+Ctrl; C Edytuj, Kopiuj
+Kopiowanie wybranego zadania lub zmienną.
+Ctrl; V Edycja Wstawianie
+Wstaw zadanie lub zmienną, która była wcześniej skopiowane lub wycięte.
+Ctrl; N Edycja Nowego...
+Utwórz nowe zadanie lub zmienną.
+Ctrl; O Edycja Zmienić...
+Edytuj wybrane zadanie lub zmienne.
+Edytuj Usuń
+Usuń wybrane zadanie lub zmienną.
+Edytuj Włączony
+Włącz/ wyłącz wybrane zadanie lub zmienną.
+Edytuj Uruchom teraz
+Natychmiastowe uruchomienie wybranego zadania.
+Menu Ustawienia
+Ustawienia Pokaż pasek narzędzi
+Pokaż pasek narzędzi.
+Ustawienia Pokaż pasek stanu
+Wyświetlanie paska stanu.
+Menu "Pomoc"
+& help. - menu. documentation;
+Pytania i odpowiedzi
+Dlaczego nie działają zmian, które włożyłem w zaplanowane zadania?
+Zmiany te będą uwzględniane tylko po zapisaniu pliku crontab.
+Prawa autorskie i licencja
+& kcron;
+Prawa autorskie należy Gary Meyer gary@ meyer. net, 2002
+Prawa autorskie do dokumentacji należy Morgan N. Sandquist morgan@ pipeline. com, 2000
+Tłumaczenie na polski: Andrzej Doroszenko adorosh+KDE. PL@ smolevichi. org. by
+& underFDL; & underGPL;
+Instalacja
+Jak uzyskać & kcron;
+& install. intro. documentation;
+Wymagania
+Do tego, aby z powodzeniem zebrać & kcron; potrzebne są następujące biblioteki:
+cron, na przykład vixie cron. & kcron; używa polecenia crontab do zmiany własnych zaplanowanych zadań.
+& UNIX;, który jest zgodny ze standardem POSIX, na przykład wykorzystujący bibliotekę glibc. & kcron; wykorzystuje niektóre standardowe wywołania systemu & UNIX; dla lokalizacji daty i czasu.
+Montaż i instalacja
+& install. compile. documentation;
+Poradnik KUser
+Matt Johnston
+Matt Johnston
+Lauri Watts
+Sprawdź
+Jonathan Singer
+Anton Iwanow a - i@ bk. pl Tłumaczenie na język polski
+Matt Johnston
+Ten dokument opisuje program KUser w wersji 1. 0. Pozwala na zarządzanie użytkownikami i grupami użytkowników w systemie.
+kuser
+użytkownik
+zarządzanie
+administrator
+narzędzia
+grupa
+hasło
+Wprowadzenie
+Krótkie wprowadzenie w KUser. Więcej informacji można znaleźć w sekcji " Korzystanie z programu.
+Aby rozpocząć pracę z KUser, należy najpierw skonfigurować program.
+Po zakończeniu konfiguracji kliknij przycisk Zapisz, aby zmiany weszły w życie. Użyj lub ikonę na pasku narzędzi, lub odpowiednią opcję w menu Plik.
+Praca z programem
+Okno główne
+KUser-to bardzo prosty program. W głównym oknie znajdują się dwie zakładki: jedna z listą użytkowników, druga z listą grup. Kliknij dwukrotnie nazwę użytkownika lub grupy, a pojawi się okno dialogowe ustawień.
+Główne okno programu KUser
+Główne okno programu KUser
+Okno dialogowe właściwości użytkownika
+W oknie dialogowym właściwości dla użytkownika jest kilka kart.
+Liczba kart zależy od tego, jaki metodę przechowywania danych o użytkowniku i od tego, czy stosowane są ograniczenia miejsca na dysku. Dodatkowe karty też się pojawią, jeśli używasz w tle (ukryte) hasła lub podobne mechanizmy, na przykład, plik / etc/ master. passwd w BSD - systemy operacyjne.
+Zakładka Informacje o użytkowniku
+Na karcie Informacje o użytkowniku można zmienić następujące ustawienia:
+ID (identyfikatora) użytkownika
+Imię i nazwisko
+Powłoka logowania (ich lista jest pobierana z pliku / etc/ shells)
+Katalog domowy
+Informacje o dwóch miejscach pracy
+Adres
+Hasło
+Zakładka Zarządzanie hasłem
+Zakładka Zarządzanie hasłem pojawia się wtedy, gdy są używane w tle hasła lub podobne rzeczy, takich jak / etc/ master. passwd w BSD - systemy operacyjne.
+Na karcie informacji możesz zmienić niektóre dodatkowe opcje związane z zarządzaniem kontem.
+Minimalna liczba dni pomiędzy zmianami hasła
+Liczba dni, po których okres ważności hasła wygasa, jeżeli nie został zmodyfikowany.
+Liczba dni do wygaśnięcia hasła, gdy użytkownik zostanie poinformowany.
+Czy trzeba wyłączać konto (i jeśli to konieczne, gdy po wygaśnięciu hasła.
+Data wygaśnięcia konta
+Klasa (na BSD systemach)
+Data ostatniej zmiany hasła zostanie wyświetlony w górnej części okna dialogowego.
+Karta Ograniczenia
+Zobaczysz kartę Ograniczenia tylko w przypadku, gdy w systemie jest zamontowany przynajmniej jedną partycję z włączonymi ograniczeniami i jest obecny plik ograniczeń. Możesz zmienić następujące ustawienia:
+Elastyczne ograniczenie ilości plików
+Rygorystyczne ograniczenie ilości plików
+Limit czasu
+Elastyczne ograniczenie ilości inode
+Rygorystyczne ograniczenie ilości inode
+Limit czasu inode
+Wszystkie te parametry mogą być zmienione dla każdego systemu plików, na którym przedstawione ograniczenia. System plików, którego ustawienia chcesz zmienić, może być wybrany z listy system Plików z ograniczeniami
+Zakładka Grupy
+Zakładka Grupy zawiera informacje o tym, w jakich grupach składa się użytkownik. Podstawowa grupa, do której należy użytkownik, wyświetlone na liście rozwijalnej Podstawowa grupa. Można zaznaczyć pola wyboru na liście, aby dodać użytkownika do innych grup.
+Właściwości grupy
+Okno dialogowe Właściwości grupy zawiera listę wszystkich użytkowników. Aby przypisać użytkownika do grupy, zaznacz odpowiednie pole wyboru.
+Dodawanie użytkowników i grup
+Aby dodać do systemu użytkownika lub grupy, należy wybrać polecenie Dodaj z menu Użytkownik lub Grupa, lub kliknąć na odpowiedni przycisk na pasku narzędzi. Dokładnie tak samo można zmieniać właściwości grup i użytkowników, oraz ich usuwania.
+Ustawienia KUser
+Zmiana ustawień domyślnych przy tworzeniu użytkownika
+Aby edytować dane domyślnie podczas tworzenia nowego użytkownika, należy użyć narzędzia do edycji ustawienia domyślne z menu Skonfigurować Ustawienia KUser. Tam możesz zmienić ustawienia domyślne, używane przy tworzeniu użytkownika: izolacja, folder lub sekcja domowych i katalogami użytkowników. Możesz wybrać, czy chcesz utworzyć katalog domowy, czy chcesz skopiować strukturę (standardowe pliki konfiguracyjne w katalogu. Można też włączyć opcję grupa Osobista użytkownika, aby stworzyć dla użytkownika oddzielną grupę. Po usunięciu użytkownika grupa ta zostanie również usunięty.
+Pliki struktury mogą być zapisane na karcie kod Źródłowy.
+Autorzy i licencja
+KUser
+Autor programu: rok 1997 - 2000, Denis Першин dyp@ inetlab. com
+Dokumentacja: 1997 - 2000, Denis Першин dyp@ inetlab. com
+Dokumentacja: 2000, Matt Johnston mattj@ flashmail. com
+Tłumaczenie na polski: Anton Iwanow a - i@ bk. pl
+& underFDL; & underGPL;
+Instrukcja obsługi & dolphin;
+Peter Penz
+peter. penz@ gmx. at
+Orville Bennett
+& Orville. Bennett. mail;
+Michael Austin
+tuxedup@ users. sourceforge. net
+David Edmundson
+kde@ davidedmundson. co. uk
+Alan Blanchflower
+Orville Bennett
+Peter Penz
+& Orville. Bennett;
+Michael Austin
+& dolphin; - menedżer plików dla & kde;, w którym łatwo i wygodnie korzystać.
+KDE
+Dolphin
+Menedżer plików
+plik
+zarządzanie
+Wprowadzenie
+& dolphin; - jest to program do pracy z plikami w & kde;, ставящая przed sobą cel, aby zapewnić najbardziej wygodny interfejs użytkownika. & dolphin; nie jest bezpośrednim konkurentem & konqueror;. & dolphin; koncentruje się na zadaniach, pracy z plikami, natomiast w & konqueror; jest uniwersalnym przeglądarką plików różnych rodzajów. Takie podejście do opracowania programu pozwala lepiej pasuje do konkretnych zadań interfejs, nie jest przeładowany zbędnymi elementami.
+O wszelkich problemach związanych z & dolphin;, a także wskazówki dla dalszego rozwoju, możesz poinformować autora za pomocą okna dialogowego raporty o błędach. Dostęp do tego okna można uzyskać za pomocą menu Pomoc Poinformować o błędzie... z głównego menu programu.
+Korzystanie z & dolphin;
+Interfejs użytkownika & dolphin;
+Interfejs użytkownika & dolphin;
+Interfejs użytkownika & dolphin;
+Instrukcja obsługi & dolphin;
+Oto zrzut okna programu & dolphin;
+Interfejs użytkownika & dolphin;
+W widoku Kolumny można zobaczyć, wielowarstwową strukturę folderów. Po kliknięciu na elemencie przedstawiający podfolderu - po prawej stronie od aktualnej listy pojawi się nowy, w którym zostanie wyświetlona zawartość tego podfolderu.
+Punkty wejścia
+W & dolphin; posiada kilka funkcjonalnych paneli. Pokaż i ukryj panelu można poprzez menu Widok Panelu. Panel można przesuwać (jak i zwykłe okna - nagłówek).
+Punkty wejścia
+Panel Punktu wejścia znajduje się zazwyczaj w oknie po lewej stronie. Zawiera zakładki, aby szybko przejść do najczęściej odwiedzanych folderów. Również wyświetlane są wszystkie dyski i nośniki wymienne, podłączone do komputera.
+Informacje
+Na panelu Informacje) wyświetla szczegółowe informacje o wybranych plikach, w szczególności, wielkość, rodzaj i data ostatniej zmiany, a także podgląd zawartości wybranego pliku.
+Proszę
+Na panelu Folderu jest wyświetlana drzewa katalogów komputera. Kliknięcie na folder w panelu spowoduje jej otwarcie w & dolphin;.
+Terminal
+Ten panel osadza konsola w okno & dolphin;. Początkowa droga w terminalu odpowiada katalogu otwarty w & dolphin;, i przy zmianie otwartego katalogu będzie się różnić w konsoli. Zauważ, że przejście do innego folderu, w terminalu nie prowadzi do odkrycia nowego folderu w głównym okienku & dolphin;. Terminal działa tylko podczas pracy z lokalnymi folderami.
+Porady i wskazówki
+Znajomość następujących przyjęć pozwoli zaoszczędzić państwu czas podczas pracy z & dolphin;.
+Szybka instalacja zakładek
+Wyszukiwanie plików
+Podłączanie zewnętrznych dysków twardych
+Cofanie
+Zmiana nazw grupy plików
+Porównanie grup plików
+Wyszukiwanie plików
+Korzystanie z & dolphin;
+Zdjęcie okna & dolphin;
+Nawigacja
+plik
+plik
+Instrukcja obsługi & dolphin;
+Korzystanie z & dolphin;
+Jan oferentowi härterei jschauma@ netmeister. org
+April 8, 2003
+kappfinder
+1
+Aplikacja pozwala na dodanie inne aplikacje w & kde; menu
+kappfinder -- dir katalog klucze KDE klucze Qt
+OPIS
+Wyszukiwarka programów (kappfinder;) poszukuje programy zainstalowane wcześniej programy innych producentów, i dodaje je do menu systemowego KDE.
+KLUCZE
+-- dir katalog
+Zainstalować. desktop pliki w katalogu
+CM. RÓWNIEŻ
+Bardziej szczegółowa instrukcja dostępna tutaj: help: / kappfinder (wystarczy wpisać ten adres w & konqueror; lub wybierz pomocy następującego polecenia: khelpcenter help: / kappfinder).
+AUTORZY
+& kappfinder; napisana & Matthias. Hoelzer - Kluepfel; & Matthias. Hoelzer - Kluepfel. mail;
+Ta strona podręcznika man przygotowana Jan oferentowi härterei jschauma@ netmeister. org do Missing Man Pages Project (http: // www. netmeister. org/ misc/ m2p2/ index. html.
+Podręcznik & kfind;
+& Dirk. Doerflinger; & Dirk. Doerflinger. mail;
+Katarzyna Пыжова haleth@ yandex. pl Tłumaczenie na rosyjski
+& Dirk. Doerflinger;
+& kfind; & nbsp; & kde; - narzędzie wyszukiwania.
+KDE
+kdeutils
+kfind
+wyszukiwanie
+wyszukiwanie
+Wprowadzenie
+& kfind; & nbsp; narzędzie & kde; do wyszukiwania plików.
+Uruchamianie & kfind;
+Narzędzie -- narzędzie do wyszukiwania plików według nazwy, na komputerze lub plików szablonu. Na przykład korzystając z niej, można znaleźć pliki określonego typu lub tylko содержашие litery w nazwie. Aby uruchomić program, kliknij przycisk Wyszukiwanie plików i folderów.
+Wyszukiwanie plików
+Imię/ Lokalizacja
+Po uruchomieniu & kfind; pojawiają się dość proste okno. Wprowadź nazwę pliku, który szukasz, w polu Nazwa:), a katalog wyszukiwania w polu wprowadzania Szukać w: lub wprowadź go za pomocą przycisku przeglądaj... i nacisnąć Enter lub kliknąć przycisk Szukaj. Jeśli zaznaczone jest pole wyboru w Tym podkatalogi, wyszukiwanie będzie prowadzone we wszystkich podkatalogach wybranego katalogu. Wyniki wyszukiwania zostaną wyświetlone w polu na dole okna.
+Można stosować następujące szablony:
+Gwiazdka *
+Gwiazdka oznacza dowolną liczbę (w tym zero) odebranych znaków. Oznacza to na przykład, że w wyniku wyszukiwania marc * otrzymasz marc by marc. png i marc_ must_ not_ read_ this. kwd. Wyszukiwanie mar *. kwd, z kolei doprowadzi do wyników marketplace. kwd i marc_ must_ not_ read_ this. kwd.
+Znak zapytania?
+W odróżnieniu od gwiazdki, znak zapytania oznacza, że pominięty dokładnie jeden znak, tak że w rezultacie wyszukiwania mar? masz marc, a marc? nie znajdziesz nic, tak jak nasze pliki są nazywane marc i marc. png. W kryterium wyszukiwania może umieścić dowolną znaku zapytania, a znajdziesz dokładnie tyle znaków.
+Oczywiście, obie strony, pod warunkiem że można łączyć.
+Zawartość
+Typ pliku
+Tu można określić rodzaj żądanego pliku.
+Zawiera tekst
+Wpisz słowo lub frazę, zawarte w pliku, którego szukasz. Pamiętaj, że jesteś wyszukiwanie przebiega w dużym katalogu lub z dopiskiem w Tym podkatalogi, może zająć dużo czasu.
+Ta opcja nie działa dla wszystkich plików znajdujących się na liście Typ pliku. Obsługiwane są tylko następujące typy:
+Pliki tekstowe, na przykład kody źródłowe i pliki README
+& bit); & gt; = 1. 2
+& kpresenter; & gt; = 1. 2
+& kspread; & gt; = 1. 2
+OpenOffice. org Writer
+OpenOffice. org Impress
+OpenOffice. org Calc
+Wyszukiwanie z uwzględnieniem wielkości liter
+Jeśli wybierzesz tę opcję, & kfind; znajdzie tylko te pliki, które zbiega się w rejestr. Na przykład MARC znajdzie tylko MARC ale nie Marc.
+Wyrażenie regularne
+Jeśli masz zainstalowany & kregexpeditor; z pakietu openssh, to pole będzie dostępna. Po jego zainstalowaniu można wyszukiwać wyrażenia regularnego. Za pomocą wyrażeń regularnych można zrobić kryteria wyszukiwania są trudniejsze i jest tak samo wydajne. Jeśli nie jesteś zaznajomiony z wyrażeniami regularnymi, można kliknąć na przycisk Edytuj, aby otworzyć & kregexpeditor;. Narzędzie to pozwoli ci wyrobić odpowiedni zestaw warunków graficznie, a następnie wygeneruje wyrażenie regularne.
+& kregexpeditor; & nbsp; niezwykle przydatne narzędzie, które może być wykorzystywane nie tylko w & kfind;, ale i w wielu innych programach & kde;. Szczegółowe informacje można znaleźć w odpowiednim pliku pomocy.
+Właściwości
+Dodatkowe warunki wyszukiwania:
+Znajdź wszystkie pliki utworzone lub zmodyfikowane:
+Tutaj można zdefiniować dwie daty, które zostały zmodyfikowane lub utworzone pliki, można również określić, przez pewien okres czasu.
+Rozmiar pliku:
+W tym polu można określić mniej więcej jakiej wartości powinien być pasujący plik.
+Należące do grupy, będące Własnością użytkownika
+Tu można uzyskać użytkownika i grupy.
+Prawa autorskie i licencja
+& kfind;
+Prawa autorskie do programu:
+Twórcy
+Marcin Хартиг (Martin Hartig)
+Stefan Zsynchronizowane (Stephan. Kulow;) & Stephan. Kulow. mail;
+Mario Вейлгуни (Mario. Weilguni;) & Mario. Weilguni. mail;
+Alex Зепеда (Alex. Zepeda;) jazepeda@ pacbell. net
+Mirosław Флир (Miroslav Flídr) flidr@ kky. zcu. cz
+Harri Портен (Harri. Porten;) & Harri. Porten. mail;
+Dmitry Rogozin (Dima Rogozin) dima@ mercury. co. il
+Carsten Pfeiffer (Carsten. Pfeiffer;) & Carsten. Pfeiffer. mail;
+Hans - Petter Бикер (Hans Petter Bieker) bieker@ kde. org
+Waldo Bastian (Waldo. Bastian;) & Waldo. Bastian. mail;
+Prawa autorskie do dokumentacji, należą do Дирку Дерфлингеру (Dirk. Doerflinger;) & Dirk. Doerflinger. mail, 2001
+(c) 2004 tłumaczenie Пыжова Katarzyna haleth@ yandex. pl
+& underFDL; & underBSDLicense;
+Instalacja
+Jak uzyskać & kfind;
+& install. intro. documentation;
+Wymagania
+Do użytku & kfind; wymagana & kde; 3. x.
+Kompilacja i instalacja
+& install. compile. documentation;
+Instrukcja obsługi KDE
+& Lauri. Watts; & Lauri. Watts. mail;
+7 czerwca 2005 (K Desktop Environment
+kfind
+1
+program do wyszukiwania plików w & kde;
+kfind путь_ wyszukiwania specyficzne ustawienia KDE specyficzne ustawienia Qt
+Opis
+& kfind; - łatwy sposób znaleźć pewne pliki na twoim komputerze, na przykład, są zgodne z określonym wzorcem. Program może wyszukiwać pliki określonego typu, z danego tekstu w nazwach plików.
+& kfind; - program graficzny i zwykle nie można uruchomić z wiersza polecenia.
+Opcje
+путь_ wyszukiwania
+Możesz opcjonalnie podać oddzielona dwukropkami drogę, aby wypełnić dialog. To może być wykorzystane do tworzenia na panelu lub na pulpicie linków do szybkiego wyszukiwania w określonych miejscach.
+Opcje programu, takie jak lista zmiennych
+Cm. również
+Bardziej szczegółowa dokumentacja użytkownika jest dostępna na help: / kfind (wpisz ten adres URL w pasku adresu & konqueror; lub uruchom khelpcenter help: / kfind).
+Autorzy
+Lista osób biorących udział w opracowaniu jest dostępny w pełnej wersji podręcznika użytkownika, które jest dostępne przez khelpcenter.
+Jest to podręcznik został przygotowany & Lauri. Watts; & Lauri. Watts. mail;
+Centrum informacji
+Michael McBride
+& Mike. McBride. mail;
+Mikołaj Шафоростов shaforostoff@ kde. pl Tłumaczenie na język polski: Grzegorz Мохин mok@ kde. pl Wydanie rosyjskiego tłumaczenia
+Tu opisany jest centrum informacyjne & kde;.
+KDE
+kinfocenter
+system
+informacje
+moduł
+& infocenter; zapewnia scentralizowany przegląd ustawień systemowych.
+Posiada budowę modułową. Każdy taki moduł jest osobną aplikacją, a do centrum informacji wykonuje ich konsolidację.
+Korzystanie z & infocenter;
+Poniżej przedstawiono szczegóły korzystania z centrum informacji. Do informacji określonych modułów Modułów centrum informacji
+Uruchamianie & infocenter;
+& infocenter; można uruchomić na trzy sposoby:
+Wybór K System Centrum informacji z paska zadań & kde;.
+Naciśnięcie Alt; F2.
+W wyświetlonym oknie dialogowym wpisz kinfocenter, a następnie kliknij przycisk Uruchom, lub naciśnij klawisz Enter.
+Wprowadzeniem kinfocenter & w konsoli.
+Wszystkie te sposoby prowadzą do tego samego rezultatu.
+Ekran & infocenter;
+Po uruchomieniu centrum informacji pojawi się okno разделяемое na 3 funkcjonalne części.
+U góry znajduje się menu, które umożliwia dostęp do większości funkcji & infocenter;. Są one omówione w tym rozdziale.
+Po lewej stronie znajduje się kolumna, w którym możesz wybrać moduł. Dla szczegółów, zobacz Nawigacja po modułów.
+W głównym panelu pojawia się informacja systemowa, drukowanej wybranym modułem.
+Menu & infocenter;
+Dalej omawia pokrótce zawartość menu.
+Menu Plik
+Tu tylko jeden punkt.
+& Ctrl; Q Plik Wyjście
+Wyjdź z centrum informacji
+Menu "Pomoc"
+& help. - menu. documentation;
+Wyjście z centrum informacji
+Można to zrobić na trzy sposoby:
+Plik Wyjść.
+Ctrl; Q.
+Kliknij przycisk Zamknij w prawym górnym rogu.
+Moduły & infocenter;
+Poruszanie się po modułów
+Jest to lista modułów konfiguracji standardowej (według kategorii), dostarczonych w pakiecie openoffice.org.
+Urządzenia
+Kanały DMA
+Przerwania
+Porty wejścia/ wyjścia
+Pamięć
+Interfejsy sieciowe
+OpenGL
+Partycje
+PCI
+PCMCIA
+Procesor
+Protokoły
+Stan Samba
+SCSI
+Dźwięk
+Urządzenia USB
+Podsystem graficzny (X - Server;)
+Podziękowania i licencja
+& infocenter;
+Program: (C) 1997 - 2001 deweloperzy & infocenter;
+Przyczyniły się:
+Matthias Hoelzer - Kluepfel & Matthias. Hoelzer - Kluepfel. mail;
+& Matthias. Elter; & Matthias. Elter. mail;
+Dokumentacja: copyright 2000 Michael McBride & Mike. McBride. mail;
+& Paul. Campbell; & Paul. Campbell. mail;
+& Helge. Deller; & Helge. Deller. mail;
+& Mark. Donohoe;
+& Patrick. Dowler;
+& Duncan. Haldane; duncan@ kde. org
+& Steffen. Hansen; stefh@ mip. ou. dk.
+Martin Jones & Martin. R. Jones. mail;
+& Jost. Schenck; & Jost. Schenck. mail;
+& Jonathan. Singer; & Jonathan. Singer. mail;
+& Thomas. Tanghus; & Thomas. Tanghus. mail;
+& Krishna. Tateneni; & Krishna. Tateneni. mail;
+Ellis Whitehead ewhitehe@ uni - freiburg. de
+Tłumaczenie na polski: Mikołaj Шафоростов shafff@ ukr. net Wydanie rosyjskiego tłumaczenia: Grzegorz Мохин mok@ kde. pl
+& underFDL; & underGPL;
+Informacje o urządzeniach
+& Matthias. Hoelzer - Kluepfel;
+& Helge. Deller;
+& Duncan. Haldane;
+& Mike. McBride;
+N Szer. shafff@ ukr. net tłumaczenie na rosyjski
+KDE
+KControl
+urządzenie
+informacje
+Na tej stronie wyświetlane są informacje o posiadanych urządzeniach.
+Co to jest wyświetlane, zależy od systemu. Na niektórych platformach informacje na temat urządzeń jeszcze nie jest dostępna.
+W & Linux; ona jest odczytywany albo z pliku / proc/ devices / proc/ misc, jeśli jądro jest włączona obsługa / proc file system. Urządzenia są klasyfikowane według grup (znakowe, blokowe i inne). Główny numer urządzenia pojawi się przed identyfikujących etykietą.
+Użytkownik nie może zmieniać ustawienia na tej stronie.
+Informacje o kanałach DMA
+& Matthias. Hoelzer - Kluepfel;
+& Helge. Deller;
+& Duncan. Haldane;
+& Mike. McBride;
+N Szer. shafff@ ukr. net tłumaczenie na rosyjski
+KDE
+KControl
+DMA
+informacje
+Ta strona wyświetla informacje o kanałach DMA (Direct Memory Access-bezpośredni dostęp do pamięci). Kanał DMA to bezpośrednie połączenie, za pomocą którego urządzenie może przesyłać dane z pamięci, nie wykorzystując procesor. Zwykle w architekturze i386 (PC) posiada 8 kanałów DMA (0 - 7).
+Wyświetlane informacje różnią się w zależności od systemu. W niektórych systemach informacje o kanałach DMA może być niedostępna.
+W & Linux; ta informacja jest odczytywana z pliku / proc/ dma, który jest dostępny tylko wtedy, jeśli псевдофайловая system / proc wkompilowana w jądro.
+Zostanie wyświetlona lista zarejestrowanych w tej chwili (na szynie ISA) kanałów DMA, które są w użyciu. Pierwsza kolumna zawiera kanał DMA, druga & oacute; w urządzenie, które z niego korzysta.
+Nieużywane kanały DMA nie są wyświetlane na liście.
+Użytkownik nie może zmieniać ustawienia na tej stronie.
+Żądania przerwania (IRQ)
+& Matthias. Hoelzer - Kluepfel;
+& Helge. Deller;
+& Duncan. Haldane;
+& Mike. McBride;
+Witalij Blondynek vitls@ chat. pl Tłumaczenie na rosyjski
+KDE
+KControl
+Przerwania IRQ
+przerwania
+system information
+Żądania przerwania (IRQ)
+Ta strona wyświetla informacje o векторах żądań przerwania i urządzenia, które ich używają.
+IRQ - to sprzętowy wektor, używane urządzeniami PC, takimi jak klawiatura, modem, karta dźwiękowa itp.), wtedy do odbierania sygnału przerwania do procesora, aby poinformować, że urządzenie jest gotowe do podjęcia lub wysłać dane. Niestety, w architekturze i386 (PC) jest tylko 16 wektorów IRQ (0 - 15), dostępnych do podziału między różnymi urządzeniami.
+Większość sprzętu problemy występują z powodu konfliktów IRQ, gdy dwa urządzenia próbują wykorzystać jedno i to samo przerwanie, czy oprogramowanie jest skonfigurowane nie na to przerwanie, które urządzenie ma korzystać.
+Jakie informacje wyświetlane, zależy od systemu. W niektórych systemach informacje o IRQ nie może być wyświetlona.
+W & Linux; ona jest odczytywany albo z pliku / proc/ interrupts, który jest obecny, jeśli jądro jest włączona obsługa systemu plików / proc.
+Pierwsza kolumna to numer IRQ. Druga kolumna to liczba przerwań, które zostały podjęte od czasu ostatniego restartu. Trzecia kolumna pokazuje typ przerwania. Czwarta pokazuje urządzenie z najlepszym bilansem z drugich to przerwanie.
+Użytkownik nie może zmieniać żadnych ustawień na tej stronie.
+Porty wejścia/ wyjścia
+& Matthias. Hoelzer - Kluepfel;
+& Helge. Deller;
+& Duncan. Haldane;
+& Mike. McBride;
+Witalij Blondynek vitls@ chat. pl Tłumaczenie na rosyjski
+KDE
+KControl
+porty wejścia/ wyjścia
+informacje
+Informacje o portach wejścia/ wyjścia
+Ta strona wyświetla informacje o portach wejścia/ wyjścia.
+Porty we/ wy - adres w pamięci, używane procesorem w celu uzyskania bezpośredniego dostępu do urządzenia, które wysyła do procesora przerwanie.
+Wymiana zespołami między procesorem a urządzeniem odbywa się poprzez adres portu wejścia/ wyjścia, który jest reprezentowany jako liczba szesnastkowa. Żadne dwa urządzenia nie mogą korzystać z tego samego portu. Wiele urządzeń wykorzystuje kilka portów, zajmując zakres liczb szesnastkowych adresów.
+Pokazana dokładne informacje systemowo - zależna. Na niektórych systemach, porty wejścia/ wyjścia na razie nie mogą być wyświetlane.
+W & Linux; ta informacja jest odczytywana z pliku / proc/ ioports, który jest dostępny, jeśli pseudo system plików / proc jest wkompilowana w jądro. Lista wszystkich obecnie stosowanych zakresów portów wejścia/ wyjścia wyświetlany.
+Pierwsza kolumna to numer portu lub zakresu portów), druga - pokazuje urządzenie, które korzysta z tych portów.
+Użytkownik nie może zmieniać żadnych ustawień na tej stronie.
+Informacje o pamięci
+& Mike. McBride;
+Witalij Blondynek mok@ kde. pl Tłumaczenie na rosyjski
+KDE
+KControl
+pamięć
+informacje
+Moduł ten pokazuje bieżące wykorzystanie pamięci. Jest stale aktualizowany i może być przydatny do określania wąskich gardeł podczas wykonywania aplikacji.
+Typy pamięci
+Pierwszą rzeczą, którą musisz zapamiętać, jest to, że istnieją dwa rodzaje pamięci dostępnej dla systemu operacyjnego i programów, które w nim działają.
+Pierwszy typ pamięci o nazwie fizycznym. Jest to pamięć, która znajduje się na układach wewnątrz komputera. Jest to tak zwana RAM (Random Access Memory, czy PZU), jej zakupu wraz z komputerem.
+Drugi typ pamięci o nazwie wirtualny lub подкачкой. Jest to blok pamięci, znajduje się na dysku twardym. System operacyjny rezerwuje przestrzeń na dysku dla partycji wymiany. Ona może już korzystać z pamięci wirtualnej (lub przestrzeń wymiany), jeśli brakuje pamięci fizycznej. Powodem, dla którego taka pamięć nazwana подкачкой jest to, że system operacyjny zapisuje niepotrzebne dane w зарезервированном przestrzeni. A te, które są potrzebne teraz, załaduje do pamięci. System wymienia niepotrzebne dane na te, które są potrzebne teraz, to jest подкачивает ich. Pamięć wirtualna (pompowanie) nie jest tak bystra jak pamięci RAM, dlatego też system operacyjny stara się w miarę możliwości wykorzystać pamięć fizyczną.
+Całkowita pamięć (jest to suma wymiarów pamięci fizycznej i wirtualnej.
+Moduł informacji o pamięci
+Okno to podzielone jest na część górną i dolną sekcji
+Górna część pokazuje całkowity rozmiar pamięci fizycznej, rozmiar wolnej pamięci, pamięci dzielonej i buforów.
+Wszystkie cztery wartości przedstawiane są jako całkowita liczba bajtów, a gdy liczba megabajtów (1 megabajt wynosi około 1 000 000 bajtów)
+Poniżej wyświetlono trzy grafika:
+Całkowita pamięć (suma pamięci fizycznej i wirtualnej).
+Pamięć fizyczna
+Pamięć wirtualna, lub pompowanie.
+Zielone obszary wolne pamięci, czerwony - zajęty.
+Dokładne wartości wymiarów każdego typu pamięci nie ma znaczenia i stale się zmieniają. Na razie rozważają to stronę wygląd się zmieni.
+Czy masz wystarczająco dużo wolnego miejsca (zielone zakresie)? Jeśli nie, należy zwiększyć partycję wymiany lub zwiększenie pamięci RAM.
+Także jeśli twój komputer wydaje się słaby: zapełniona pamięć fizyczna i już ciężko pracuje dysk? Oznacza to, że nie masz wystarczającej pamięci fizycznej, a twój komputer przerzuca na wolniejszej pamięci wirtualnej, często używane dane. Zwiększenie pamięci RAM da lepszy zwrot od komputera.
+Interfejsy sieciowe
+& Lauri. Watts;
+N Szer. shafff@ ukr. net tłumaczenie na rosyjski
+KDE
+KControl
+Sieć
+Interfejsy
+Ta strona zawiera informacje o interfejsach sieciowych zainstalowanych na komputerze.
+Dokładne informacje w tym oknie zależy od systemu. Na niektórych platformach ta informacja jeszcze nie jest dostępna.
+Użytkownik nie może zmieniać ustawienia na tej stronie.
+OpenGL
+Ilya Korniyko k_ ilya@ ukr. net
+Mikołaj Шафоростов shafff@ ukr. net Tłumaczenie na rosyjski
+KDE
+KControl
+OpenGL
+informacje
+OpenGL
+Ta strony wyświetla informacje o zainstalowanych implementacjach OpenGL implementation. OpenGL (Open Graphics Library) jest cross - platform, niezależne interfejs do tworzenia trójwymiarowej grafiki.
+GLX - rozszerzenie X Window do obsługi OpenGL.
+DRI (Direct Rendering Infrastucture) zapewnia sprzętową akcelerację OpenGL. Wymagana karta graficzna 3D kartą i poprawnie zainstalowane sterowniki do niej.
+By dowiedzieć się więcej, odwiedź oficjalną stronę OpenGL http: // www. opengl. org
+Partycje dysku twardego
+& Matthias. Hoelzer - Kluepfel;
+& Helge. Deller;
+& Duncan. Haldane;
+& Mike. McBride;
+Grzegorz Мохин mok@ kde. pl Tłumaczenie na rosyjski
+KDE
+KControl
+drive partition
+system information
+Na tej stronie wyświetla informacje o partycjach dysku twardego.
+Co dokładnie pokazuje, zależy od systemu. Na niektórych platformach informacje o partycjach nie jest dostępna.
+W & Linux; ona jest odczytywany albo z pliku / proc/ partitions, który jest obecny, jeśli jądro jest włączona obsługa / proc file system (na jądrach 2. 1. x lub nowsze).
+Pierwsze dwie kolumny - to major i minor pokoje odpowiednio. Trzecia kolumna to liczba bloków (zazwyczaj 1 blok jest równy 1024 bajtów). Czwarta kolumna to oznaczenie urządzenia.
+Użytkownik nie może zmieniać żadnych ustawień na tej stronie.
+Magistrala PCI i PCI - card
+& Matthias. Hoelzer - Kluepfel;
+& Helge. Deller;
+& Duncan. Haldane;
+& Mike. McBride;
+Grzegorz Мохин mok@ kde. pl Tłumaczenie na rosyjski
+KDE
+KControl
+PCI
+system information
+Na tej stronie wyświetlane są informacje o magistrali PCI i zainstalowanych na nim PCI - kartach, a także w innych urządzeniach obsługujących Peripheral Component Interconnect (PCI) interfejs.
+Co dokładnie pokazuje, zależy od systemu. Na niektórych platformach informacje o PCI może być niedostępna.
+W & Linux; ta informacja jest odczytywana z pliku / proc/ pci, który jest obecny, jeśli jądro jest włączona obsługa / proc file system. Lista wszystkich urządzeń PCI znalezionych podczas ładowania jądra, w tym ich parametry.
+Każdy element rozpoczyna się od magistrali, urządzenia i funkcji.
+Użytkownik nie może zmieniać żadnych ustawień na tej stronie.
+PCMCIA
+& Mike. McBride;
+Grzegorz Мохин mok@ kde. pl Tłumaczenie na rosyjski
+KDE
+KControl
+Laptop
+PCMCIA
+Ten moduł służy do wyświetlania informacji o kartach PCMCIA
+Co dokładnie pokazuje, zależy od systemu. Na większości maszyn w ogóle nie pojawia się żadna informacja.
+Informacje o procesorze
+& Matthias. Hoelzer - Kluepfel;
+& Helge. Deller;
+& Duncan. Haldane;
+& Mike. McBride;
+Witalij Blondynek vitls@ chat. pl Tłumaczenie na rosyjski
+KDE
+KControl
+CPU
+procesor
+informacje
+Ta strona wyświetla informacje na temat procesora (CPU).
+Co dokładnie pokazuje, zależy od systemu. Na niektórych platformach informacje o procesorze nie jest dostępna.
+W & Linux; ona jest odczytywany z pliku / proc/ cpuinfo, który jest obecny, jeśli jądro jest włączona obsługa systemu plików / proc.
+Dokładne informacje w tym oknie zależy od PROCESORA na komputerze, okno zorganizowane w dwa głośniki. Pierwsza kolumna to parametr, drugi - jego wartość.
+Użytkownik nie może zmieniać żadnych ustawień na tej stronie.
+Protokoły
+& Lauri. Watts;
+N Szer. shafff@ ukr. net tłumaczenie na rosyjski
+KDE
+Protokoły
+Obsługi wejścia/ wyjścia
+Po lewej stronie znajduje się lista programów obsługi wejścia/ wyjścia, dostępnych w systemie. Z ich pomocą aplikacji & kde; mówi się z innymi komputerami, aplikacjami lub dokonują czynności z plikami.
+Kliknięcie na nazwę modułu obsługi wejścia/ wyjścia spowoduje wyświetlenie dodatkowych informacji o nim, jak go używać i do czego on w ogóle potrzebny.
+Moduł protokołów ponosi wyłącznie charakter informacyjny, tu nie można nic zmienić.
+Informacje o stanie Samba - serwer
+& Alexander. Scheibenberg;
+Jegor Кобылкин egor@ kobylkin. com Tłumaczenie na rosyjski
+KDE
+KControl
+Samba
+Informacje o systemie
+Monitor stanu samby i NFS jest graficzną nakładką na progamy smbstatus i showmount. Smbstatus daje informacje o aktualnych połączeniach Samba - serwer jest integralną częścią zestawu narzędzi Samby, które implementuje protokół SMB (Session Message Block), znany również jako NetBIOS lub LanManager.
+Protokół ten może być wykorzystywany do udostępniania drukarek czy dysków twardych w sieci, w tym maszyny, na których są zainstalowane różne wersje & Microsoft; & Windows;.
+polecenie showmount jest częścią pakietu NFS. NFS jest skrótem od nfs (network file system), jest to tradycyjny sposób na korzystanie z katalogów w & UNIX;. W tym przypadku wynik jest analizowany showmount - a localhost. W niektórych systemach showmount znajduje się w katalogu / usr/ sbin. Sprawdź, czy został określony ścieżka do showmount w zmiennej PATH.
+Eksportowane katalogi
+Na tej stronie możesz zobaczyć listę połączeń z poszczególnych działów, aktywne w danym momencie, i eksportowane katalogi NFS. Pierwsza kolumna pokazuje, czy katalog jest dostępny za pośrednictwem systemu plików NFS lub SMB, druga - nazwa sekcji, trzecia - nazwa komputera zdalnego, który uzyskuje dostęp do tej sekcji. Pozostałe kolumny zawierają informacje, że ma sens tylko dla Samba partycji.
+Czwarta kolumna zawiera identyfikator użytkownika, który uzyskuje dostęp do tej sekcji. Zauważ, że nie jest to konieczne & UNIX; user ID użytkownika. To samo odnosi się i do następnej kolumny, która wyświetla ID grupy użytkownika.
+Każde połączenie z jednym z partycji obsługiwany oddzielnego procesu smbd, kolejna kolumna pokazuje identyfikator procesu (pid) tego smbd. Jeżeli zamkniesz proces, który jest połączony użytkownik zostanie wyłączony. Jeśli zdalny użytkownik pracuje w & Windows;, to jak tylko taki proces będzie zabity, natychmiast zostanie utworzony nowy użytkownik praktycznie nic nie zauważy.
+Ostatnia kolumna pokazuje, jak wiele otwartych plików ma dany użytkownik w tej chwili. Tutaj możesz zobaczyć tylko ile plików otwarcie w tej chwili, ale nie jest to, ile plików zostało skopiowane lub otwarcie wcześniej itd.
+Importowane katalogi
+Tu pokazano, jakie Samba i NFS - partycje innych hostów zamontowane w twoim lokalnym systemie plików. Pierwsza kolumna pokazuje typ partycji: Samba czy NFS. Druga kolumna to nazwy partycji, i trzecia pokazuje, bez względu na partycje zamontowane.
+Zamontowane NFS - partycje powinny być widoczne w & Linux; (sprawdzone) jak i na & Solaris; (nie zostało to jeszcze potwierdzone).
+Logi
+Przedstawiona zawartość twojego lokalnego dziennika w pliku Samby w formie czytelnej postaci. Najpierw, gdy otworzysz tę stronę, arkusz będzie puste. Należy nacisnąć na przycisk Aktualizuj, tylko wtedy będzie odczytywany jest plik dziennika Samby, pokazane zostaną wyniki. Sprawdź, czy plik dziennika Samby znajduje się tam, gdzie wskazuje drogę na tej stronie. Jeśli znajduje się on w innym miejscu, lub nazywa się inaczej, proszę to poprawić. Po dokonaniu zmian naciśnij ponownie Odśwież.
+Samba dokumentuje swoje czynności, w zależności od parametru loglevel - подробнееоб tym można znaleźć w smb. conf. Jeśli loglevel=1, Samba zapisuje log tylko wtedy, gdy ktoś podłącza się do komputera i gdy jest to połączenie ponownie się zamyka. Jeśli loglevel=2, to jest rejestrowany, który otwiera i zamyka plik. Jeśli loglevel więcej niż dwie, to jest nagrywany jeszcze więcej informacji.
+Jeśli zastanawiasz się, kto zwracał się do państwa samochodzie i w jaki plików, ustawienie loglevel=2 oraz regularnie przeprowadzamy naturalnym plików dziennika. Na przykład, utwórz zadanie crona, która będzie przenosić swój bieżący plik dziennika Samby do innego katalogu. W przeciwnym razie twój plik dziennika Samby może być zbyt duża.
+Pól wyboru na dole długiej listy pomagają określić, które zdarzenia mają się wyświetlać na liście. Należy nacisnąć przycisk Odśwież, aby zobaczyć efekty twoich zmian. Jeśli loglevel Samby zbyt mały, to nie zobaczysz wszystkiego, co możliwe.
+Klikając nagłówek kolumny możesz posortować listę według tej kolumny.
+Statystyki
+Na tej stronie możesz przefiltrować zawartość drugiej strony w poszukiwaniu określonej informacji.
+Niech polu Zdarzenie jest ustawiony jako Połączenie Serwis/ Plik zainstalowano * komputer/ Użytkownik zainstalowany * Zobacz szczegółowe informacje o usłudze wyłączone Pokaż informacje o komputerze wyłączone.
+Jeśli teraz kliknij przycisk Odśwież będzie widać, jak często było utrzymywane połączenie z sekcją * (ie; tzn. z każdym rozdziałem) z hosta * (ie; tzn. z dowolnego hosta). Włącz Pokaż informacje o komputerze i kliknij przycisk Odśwież ponownie. Teraz można zobaczyć, ile połączeń, było otwarte dla każdego hosta, odpowiedniego do szablonu *
+Teraz naciśnij Wyczyść.
+Zaznacz pole Wydarzenie jak Dostęp do Pliku włącz Uwidocznić szczegółowe informacje o usłudze i ponownie kliknij przycisk Aktualizuj.
+Teraz można zobaczyć, jak często zwracały się do każdego pojedynczego pliku. Jeśli jeszcze się Wyświetlać szczegółowe informacje o komputerze, a zobaczycie jak często każdy użytkownik otwiera te pliki.
+W polach Serwis/ Plik Host/ Użytkownik możesz korzystać z szablonów * i? w podobny sposób, jak w wierszu polecenia. Wyrażenia regularne nie są rozpoznawane.
+Klikając myszką na nagłówku kolumny możesz posortować listę według tej kolumny. Tak można określić, który plik otwierał się najczęściej, lub co użytkownik otworzył najwięcej ze wszystkich plików, w ogóle cokolwiek.
+Autor partycji
+Module copyright 2000: Michael Glauche and & Alexander. Scheibenberg; & Alexander. Ehrenfriedersdorf. mail;
+Pierwszy autor: Michael Glauche
+Obsługuje teraz & Alexander. Scheibenberg; & Alexander. Ehrenfriedersdorf. mail;
+Przyczyniły się
+Konwersja do apletu kcontrol
+& Matthias. Hoelzer - Kluepfel; & Matthias. Hoelzer - Kluepfel. mail;
+Korzystanie z K3Process zamiast popen, dodatkowa weryfikacja błędów:
+& David. Faure; & David. Faure. mail;
+Konwersja w kcmodule, dodano zakładkę, 2, 3, 4, błąd:
+& Alexander. Scheibenberg; & Alexander. Ehrenfriedersdorf. mail;
+Documentation copyright 2000 & Alexander. Scheibenberg; & Alexander. Ehrenfriedersdorf. mail;
+Dokumentacja jest przetłumaczony w standardzie docbook & Mike. McBride; & Mike. McBride. mail;
+Egor Kobylkin egor@ kobylkin. com
+Informacje o interfejsach SCSI
+& Matthias. Hoelzer - Kluepfel;
+& Helge. Deller;
+& Duncan. Haldane;
+& Mike. McBride;
+N Szer. shafff@ ukr. net tłumaczenie na rosyjski
+KDE

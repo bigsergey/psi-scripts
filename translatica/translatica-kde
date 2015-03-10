@@ -1,0 +1,1500 @@
+Kierownictwo po
+Mike Diehl
+madpenguin8 yahoo. com
+Ekipa projektantów Amarok
+Projektanci
+Przekład na Rosjanin: Nikita Lyalin tinman321 gmail. com
+Ekipa projektantów Amarok
+Drużyna doKymotion
+
+KDE
+Multimedia
+adapter
+Audio
+ogg
+mp3
+wav
+muzyka
+dźwięk
+scenariusz
+Wprowadzenie
+logo
+
+w
+Może pokazać się, co
+Posiadając mnóstwo list odtwarzania nie da się rozwiązać którym skorzystać dzisiaj. Tu podejdzie przeglądarka list. Jeżeli zaś skomplikowanie zdecydować się, jaką muzykę wybrać, to mogą rozwiązać dynamiczne listy. A mądre listy odtwarzania pozwolą przechodzić do wskazanym częściom kolekcji.
+W Amarok doskonała pomoc adapterów iPod z Apple, iFP od iRiver i mnóstwa standardowych USB- adapterów. Także, podtrzymuje się duża ilość audioprotokół niskiego poziomu, pozwalających wybrać, jak słuchać muzyki. To i liczny inne robi Amarok najbardziej wiele posuniętym przez audioadapter z wszystkich dostępnych.
+Podziękowania i licencja
+Prawa do programu: 2003 - 2005 Mark Kretschmann markey@ web. de i ekipa projektantów AmaroK.
+Ekipa projektantów Amarok
+Christian babe- magnet Muehlhaeuser chris@ chris. de
+Frederik ich bin kein Deustcher! Holljen fh@ ez. no
+Mark it 's good, but it' s not irssi Kretschmann markey@ web. de
+Max Turtle- Power Howell max. howell@ methylblue. com
+Mike purple is not girly! Diehl madpenguin8 yahoo. com
+Pierpaolo Spaghetti Coder Di Panfilo pippo dp@ libero. it
+Roman and God said, let there be Mac Becker roman@ formmorf. de
+Seb Surfin 'down under Ruiz me@ sebruiz. net
+Stanislav did someone say DCOP? Karchebny Stanislav. Karchebny@ kdemail. net
+Uczestnicy:
+Adam Pigg (analizatory, łatki) adam@ piggz. fsnet. co. uk
+Adeodato Simo (łatki) asp16 alu. ua. es
+Alexandre Oliveira (poprawy, naprawienie błędów) aleprj@ gmail. com
+Andreas Mair (pomoce MySql) am ml@ linogate. com
+Andrew de Quincey (pomoc Postgresql) adq dvb@ lidskialf. net
+Christie Harris (roKymoter) dangle. baby@ gmail. com
+Dan Leinir Turthra Jensen (pomocnik przy pierwszym wystrzeleniu) admin@ removeleinir. dk
+Dan Meltzer (roKymoter) hydrogen@ notyetimplemented. com
+Enrico Ros (analizatory, król openGL) eros. kde@ email. it
+Florian 'da- flow' Egerer (znaczek « niebieskiego wilka » do Amarok) flo for never@ gmx. at
+Gérard Dürrmeyer (praca nad znaczkami i przedstawianiami) gerard@ randomtree. com
+Greg Meyer (ogromna pomoc w naprawieniu błędów dla 1. 2) greg@ gkmweb. com
+Harald Sitter (roKymoter, przekłady, naprawienia błędów, zdjęcia dodatku) harald. sitter@ kdemail. net
+Ian Monroe (łatki, szablon scenariusza Ruby (eean)) ian@ monroe. nu
+Jarkko Lehti (tester) grue@ iki. fi
+Jocke Andersson (roKymoter) ajocke@ gmail. com
+Kenneth Wesley Wimer II (znaczki) kwwii@ bootsplash. org
+Kenny Lemieux (inernetowy- mistrz Amarok) swaft@ pwsp. net
+Melchior Franz (rutynowa praca nad FFT, naprawienia błędów) mfranz@ kde. org
+Michael Pyne (kod eksportu w K3B) michael. pyne@ kdemail. net
+Nenad Grujicic (wypływający ekran dla 1. 1) mchitman@ neobee. net
+Olivier Bédard (hosting dla witryny) paleo@ pwsp. net
+Reigo Reinmets (pomoc Wikipiedii, łatki) xatax@ hot. ee
+Roland Gigler (suwak MAS) michael. pyne@ kdemail. net
+Sami Nieminen (pomoc Audioscrobbler) sami. nieminen@ iki. fi
+Scott Wheeler (TagLib) wheeler@ kde. org
+Stefan Bogner (drobiazgi do Loadsa) bochi@ online. ms
+Stefan Siegel (łatki, naprawienia błędów) kde@ sdas. de
+Sven Krohlas (roKymoter) sven@ asbest- online. de
+Whitehawk Stormchaser (tester, łatki) zerokode@ gmx. net
+Prawa do dokumentacji: 2005 Mike Diehl madpenguin8 yahoo. com
+
+urządzenie
+Jak otrzymać
+
+Ostatnia opracowywana wersja być może ściągnięta z SVN projektu
+Jak skompilować
+Dla kompilatorstwa i urządzenia Amarok w system, wprowadźcie idące linie w konsoli z katalogu od Amarok:
+. / configure - - prefix = 'kde- config - - prefix' make su - c \ "make install\"
+Flaga - - enable- final większy niedostępny.
+Od tej chwili, jak
+Parametry konfiguracji
+
+Pewne z parametrów wymagają zaspokojenie określonych zależności. W podziale zależności można poznać większy.
+Parametr
+PO PRZEMILCZENIU
+Opis
+- - enable- debug =
+Nie ma
+Włączanie trybu regulacji. Wykorzystajcie yes, no albo full dla włączania do regulowania wyprowadzenia, odłączenia albo pełnej otrzymywania do regulowania informacji. Wykorzystajcie full, jeżeli zamierzacie pomóc w opracowaniu
+- - enable- mysql
+Odłączone
+Obejmuje pomoc baz danych MySql w
+- - disable- amazon
+włączane
+Odłącza pomoc załadunku okładek albumów z Amazon
+- - without- arts
+Od aRts
+Odłącza pomoc aRts w
+- - without- gstreamer
+Odłącza pomoc GStreamer w
+- - with- helix
+Obejmuje pomoc suwaka Helix w
+- - without- xine
+Odłącza pomoc xine w
+- - with- nmm
+Bez NMM
+Obejmuje pomoc NMM w
+- - with- mas
+Obejmuje pomoc MAS w
+- - without- opengl
+Odłącza pomoc OpenGL (analizatorów) w
+- - without- included- sqlite
+Nie być wykorzystywać włączoną pomoc sqlite
+gopher
+
+gopher opracowywał jak rozdzielona służba pozostawienia i otrzymania informacji w ramach studenckiego miasteczka Uniwersytetu Minnesoty. Ten protokół pozwala otrzymywać informację na serwerach Gopher, rzucanych na węzłach w sieci Internet.
+Gopher wykorzysta interface menu. Użytkownicy wybierają z odpowiednich menu informację, która także może okazać na menu albo plik tekstowy. Zapytany element może kłaść się jak na serwerze, z którym pracujecie bezpośrednio, tak i na przyjacielem Gopher- serwerze. Dla otrzymywania danych z innego serwera, nie odwracając użytkownika, są wykorzystywane tunele. Prawdziwy adres węzła, od którego pytają się o dane, nie widoczny dla użytkownika, co tworzy złudzenie jednolitej hierarchii związanych wzajemnie menu.
+Gopher pozwala tworzyć zakładki na potrzebne elementy, tak co można przejść do nich na przełaj nie przechodzić znowu przez całe menu. Menu Gopher nie standaryzowane i kształtują się każdym serwerem samodzielnie.
+Źródło: http: / / tlc. nlm. nih. gov/ resources/ tutorials/ internetdistlrn/ gophrdef. htm.
+kierownictwo
+Sarang Lakare
+sarang@ users. sf. net
+Olaf Schmidt
+ojschmidt@ kde. org
+Anton Gorbaczow justoff@ hotmail. ru Przekład na rosyjski Oleg Mróz qmor@ rambler. ru Odnowa przekładu
+Sarang Lakare
+Olaf Schmidt
+
+KDE
+kmag
+K Magnifier
+Wprowadzenie
+
+
+wykorzystanie
+Tak wygląda
+okno
+Po wystrzeleniu
+Po przemilczeniu,
+Jeżeli nie chcecie widzieć znak myszy na powiększonym przedstawianiu, wybierzcie przesłonić znak myszy. Zauważcie, co
+Zmiana powiększanego obwodu ekranu
+W trybie Selektor przedstawiania zawsze można zmienić obwód ekranu, którą być potrzebnym powiększyć, (jeśli tylko nie obejmowany tryb śledzić mysz) za pomocą strzałek albo prztyczka na obserwacyjnym oknie:
+Klawisz- strzałki albo lewy przycisk myszy
+Utrzymując naciśniętej ten przycisk myszy i przesuwając mysz, wy możecie przesuwać zawartość obserwacyjnego okna. Zamiast ruchu myszą można wykorzystać klawisz- strzałki.
+Shift; klawisz- strzałki albo
+Jeżeli naciskać
+Ctrl; Strzałki albo Ctrl; przycisk myszy
+Wykorzystać tę kombinację klawiszy możecie zmieniać rozmiar selektora przedstawiania. Należy tylko pamiętać, co przesuwać można prawy dolny kąt okna, a lewy górny ostajotsia w miejscu.
+Dodatkowe funkcje
+
+Informator po poleceniach menu
+Menu Plik
+Ctrl; N Plik Nowe okno
+otwiera nowe okno
+Ctrl; S zapisać plik zdjęcie jak
+Zachować powiększone przedstawianie w plik.
+Ctrl; P Plik Pieczęć...
+Drukować bieżące powiększone przedstawianie.
+Ctrl; Q Plik Wyjście
+Zamknąć dodatek.
+Menu Poprawianie
+Ctrl; C Poprawianie kopiować
+Kopiować bieżące powiększone przedstawianie w schowek. Potem możecie wstawić go w innym dodatku.
+Menu Wygląd
+F5 Wygląd Start/ stóp
+Naczat'/ przerwać odnowa ekranu. Po przystanku odnowy nie jest wykorzystywany czas procesora.
+Wygląd Skala
+Wybierzcie współczynnik powiększenia.
+Ctrl; - Wygląd zmniejszyć
+Naciśnijcie ten guzik żeby zmniejszyć wyodrębnioną dziedzinę.
+Ctrl; Wygląd powiększyć
+Naciśnijcie ten guzik żeby powiększyć wyodrębnioną dziedzinę.
+F6 Wygląd odwracać kolory
+Odwracać kolory na przedstawianiu, to jest czornoje będzie wyglądać białym.
+Wygląd Obrót
+Wybierzcie kąt obrotu (bez obrotu (0 stopni), na lewo (90 stopni), przewrócić (180 stopni), na prawo (270 stopni).
+Rodzaj odnowić
+Wybierzcie częstość odnowy (bardzo niska, Niska, Średnia, Wysoka, bardzo wysoka). Wysoka częstotliwość odnowy wymaga większy od procesorowego czasu.
+Menu Strojenie
+Ctrl; M Strojenie Pokazat'/ przesłonić menu
+Wkluczajet/ wyłącza chodnik menu.
+Strojenie Pokazat'/ ukryć główny chodnik istrumientow
+Wkluczajet/ wyłącza główny pasek narzędzi.
+Strojenie Pokazat'/ przesłonić pasek narzędzi przejrzenia
+Wkluczajet/ wyłącza pasek narzędzi przejrzenia
+Strojenie Pokazat'/ przesłonić pasek narzędzi \ "Nastrojka\"
+Wkluczajet/ wyłącza odzwierciedlenie chodnika strojeń
+F1 Strojenie śledzić mysz
+W tym trybie dziedzina naokoło kursora myszy odzwierciedla się w zwykłym oknie.
+F2 Strojenie wyodrębniona dziedzina okna
+W tym trybie wybrane okno otwarcie. Wybrany obwód odzwierciedla się w zwykłym oknie.
+Strojenie Górna strona ekranu
+W tym trybie dziedzina naokoło kursora wzrośnie w górze ekranu.
+Strojenie lewa strona ekranu
+W tym trybie dziedzina naokoło kursora wzrośnie w lewej stronie ekranu.
+Strojenie prawa strona ekranu
+W tym trybie dziedzina naokoło kursora wzrośnie w prawej stronie ekranu.
+Strojenie Dolna strona ekranu
+W tym trybie dziedzina naokoło kursora wzrośnie na dole ekranu.
+F4 Strojenie Pokazat'/ ukryć kursor myszy
+Pokazywać albo ukrywać kursor myszy w powiększanym obwodzie.
+Strojenie Kombinacji klawiszy...
+Otwiera okno w którym możecie nastawić klawiaturowe skrócenia dla większości poleceń menu.
+Strojenie paska narzędzi...
+Otwiera okno w którym możecie wybrać jakie składniki będą odzwierciedlać się na paski narzędzi.
+Menu Plik
+
+Informator po drużynach
+
+Kombinacje klawiszy domyślnie
+
+Zachować zawartość obserwacyjnego okna w plik.
+F1
+Przestawić się w tryb \ "iść za myszju\".
+F2
+Przestawić się w tryb \ "Cielektor izobrażenija\".
+F4
+F5
+Włączyć odnowę obserwacyjnego okna, jeżeli zostało odłączone wcześniej, albo odłączyć odnowę obserwacyjnego okna, jeżeli ono włączane.
+F6
+Odwracać kolory
+
+To otworzy nowe okno
+
+Otworzyć dialog pieczęci żeby wydrukować zawartość obserwacyjnego okna.
+
+Kopiować zawartość obserwacyjnego okna w schowek.
+
+Otobrazit'/ ukryć chodnik menu.
+
+zmniejszyć
+
+powiększyć
+
+Wyjście z dodatku.
+Podziękowania i licencja
+
+Program —
+W opracowaniu brali udział:
+Michael Forster forster@ fmi. uni- passau. de (początkowy autor)
+Dokumentacja —
+Przekład na Rosjanin: Anton Gorbaczow justoff@ hotmail. ru
+
+urządzenie
+Gdzie wziąć
+
+Montaż i urządzenie
+
+System informacyjny
+
+12 czerwca 2005 KDE
+kmag
+1
+Ekranowy powiększalnik
+kmag klucze
+Opis
+kmag — to ekranowa lupa. Możecie wykorzystać
+Cm. także
+Bardziej szczegółowa informacja dostępna po adresie help: / kmag (wprowadźcie ten
+Także odwiedźcie witrynę projektu
+AUTORZY
+
+kierownictwo
+Jeff Roush
+jeff@ kmousetool. com
+Nikołaj Szaforostow shaforostoff@ gmail. com Przekład na Rosjanin
+Jeff Roush
+
+KDE
+kdeutils
+KMouseTool
+ergonomicznost'
+tiendinit
+kistiewoj tunelowy zespół
+Wprowadzenie
+
+
+A więc,
+wykorzystanie
+wykorzystać
+W trybie przeciągania
+Przy wkluczonnom trybie przeciągania
+Informator po drużynach
+Główne okno
+OPCJE
+wystrzelenie
+Rzuca czyż zatrzymuje
+Minimalny bieg:
+Ilość pikseli, które powinna przejść mysz do prztyczka.
+Zwłoka (w 1 / 10 z):
+Pauza przed naciśnięciem przycisku. Powiększcie to znaczenie, jeżeli
+Mądre przeciąganie
+Włącza czyż wyłącza tryb \ "mądrego pierietaskiwanija\".
+Przy włączonej diecie przeciągania robi się dostępna opcja Czas przeciągania (w 1 / 10 z). Ten parametr odpowiada w okresie, przechodzić między rejestracją naciśnięcia klawisza myszy i jejo programowym puszczaniem w przypadku, gdy mysz nie piermieszczałas'.
+Włączyć zakrętasy
+
+Udźwiękowienie naciśnięcia
+Oddaje dźwięk przy naciśnięciu przycisku. To szczególnie pożyteczne w trybie przeciągania.
+Jeżeli dźwięk odtwarza się z opóźnieniem, otwórzcie
+Wystrzelenie od KDE
+rzucać
+PO PRZEMILCZENIU
+Przywrócić początkowe znaczenia wszystkich parametrów.
+Zrzucanie
+Zrzucić wszystkie strojenia w ten stan, w którym byli na początku dialogu, albo na chwilę ostatniego naciśnięcia przycisku \ "Primienit'\ ".
+zastosować
+Naciśnijcie dla utrzymania przeprogramowań.
+informacja
+Otwiera dane kierownictwo użytkownika.
+zamknąć
+Zamknąć dialog bez utrzymania zmian.
+wyjście
+Wyjście z
+Rady
+Rady pomogą przestudiować
+Możecie zmienić wielkości pauz przed naciśnięciem i przemieszczeniem.
+Lepiej najpierw poćwiczyć sobie z
+W trybie przeciągania może pomóc efekt dźwiękowy.
+Przy wykorzystaniu efektu dźwiękowego wam może jest potrzebowany zmienić strojenia dźwięku
+Pytania i odpowiedzi
+
+Pomóżcie!
+Powinniście opanować nowe nawyki pracy z myszą.
+Przed wszystkiego, pamiętajcie, co prztyczek na szarej części okna albo jałowym miejscu inernetowy- strony do niczego złemu nie przyprowadza, tak co ćwiczcie w tych częściach okien.
+Dalej, powinniście ukształtować się, gdzie trzeba nacisnąć przed przemieszczeniem myszy. Większość ludzi bezładnie poruszają mysz, zanim nie dostaną się tam, gdzie trzeba - ten program wymaga, żeby wyraźnie rozumieliście, gdzie chcecie szczołknut' myszą. Także przedstawia się zabierać ręce z myszy, jeżeli wy jejo nie wykorzystacie.
+Moja mysz hamuje, kiedy ja jejo przesuwam. Czy mogę wykorzystać
+Tak. jeżeli oczyścicie jejo (nie tylko sama kulka ale też rolki wewnątrz myszy).
+Najpierw rozbierzcie mysz i wyjmijcie kulkę. Myszy bywają różne, ale zazwyczaj naraz jasno, jak to zrobić.
+Wewnątrz będą widoczne rolki i brud, przylepić się na nich, lekko można odskrobać ostrzem albo paznokciem.
+
+czasem
+To może zdarzyć się, na przykład, przy wykorzystaniu
+Wyjście z tej sytuacji - pewnego razu szczołknut' ręcznie.
+
+Przy wprowadzeniu tekstu
+Odsuńcie kursor od pola tekstowego przed wprowadzeniem w bezpieczne miejsca - w szare strefy paska narzędzi albo na nagłówki okien.
+Próbuję wykorzystać tryb przeciągania ale nie mogę zrozumieć, jak z jego pomocą redagować tekst.
+Dla opanowania nawykami pracy z trybem przeciągania jest potrzebny czas. Oto kilka rad:
+Nie wykorzystajcie trybu przeciągania naraz. Możecie wyodrębniać tekst za pomocą klawiatury, ścisnąwszy klawisz Shift i przesuwając na bok, albo szczołknuw pewnego razu w jaki- to miejscu i potem drugi raz z naciśniętym klawiszem Shift w końcu wyodrębnianego bloku.
+Wykorzystajcie efekt dźwiękowy. To będzie oddawać dźwięk przy naciśnięciu przycisku myszy za pomocą
+Powinniście wiedzieć, gdzie chciejcie nacisnąć przed pierwiastkiem przeciągania.
+Autorskie prawa osobiste i licencjonowanie
+
+Program -
+Uczestnicy:
+Dżef Roche (Jeff Roush) jeff@ mousetool. com
+Gunnar Szmi Dt (Gunnar Schmi Dt) gunnar@ schmi- dt. de
+Ołaf Szmidt (Olaf Schmidt) ojschmidt@ kde. org
+Dokumentacja -
+Przekład na Rosjanin - Nikołaj Szaforostow shaforostoff@ gmail. com
+
+urządzenie
+Jak otrzymać
+
+żądania
+dla wykorzystania
+Dla wykorzystania efektu dźwiękowego powinniście posiadać nabudowaną kartę dźwiękową.
+Montaż i urządzenie
+
+kierownictwo
+Gunnar Schmi Dt
+gunnar@ schmi- dt. de
+Anton Gorbaczow justoff@ hotmail. ru Przekład na Rosjanin
+Gunnar Schmi Dt
+
+KDE
+kdeutils
+KMouth
+synteza mowy
+ludzie z naruszenijami mowy
+Wprowadzenie
+
+Uwaga:
+Wypowiadajcie wasze życzenia i uwagi o pracy
+wykorzystanie
+Pierwszy wystrzelenie
+Przy pierwszym wystrzeleniu
+mistrz
+mistrz
+Na pierwszej stronie mistrza strojenia (lewe zdjęcie) wskazujecie drużynę, która będzie wykorzystywana dla przekształcenia tekstu w mowę. Dla otrzymywania dodatkowej informacji zwróćcie się do opisu dialogu konfiguracji.
+Na drugi strona musi wybrać najbardziej wiele będącą dobrą dla was z gotowych książek fraz. W dalszym możecie wybierać z książki gotowe frazy zamiast tego, żeby ich nabierać. Naturalnie, w
+Główne okno
+Główne okno
+Główne okno
+Zdjęcie ekranu
+Jeżeli poprawnie przeprowadziliście strojenie
+Z książek fraz (rozmieszczonych w linii pod paskiem narzędzi) możecie wybierać najczęściej ispolzujemyje frazy.
+Dialog konfiguracji
+Okno strojeń dostępnie przez menu menu Strojenie nastawić
+Wkładanie Synteza mowy
+Wkładanie Parametry
+W polu wprowadzania wkładania Strojenie syntezy mowy wskazuje się drużyna dla wezwania syntezatora mowy. Niższy tego pola znajduje się wypadająca lista, za pomocą którego wytwarza się wybór kodowania, w którym tekst będzie udzielać się syntezatorowi mowy.
+
+Innym sposobem staje się przekazywanie tekstu w charakterze parametru. Przed wezwaniem syntezatora
+szablon
+Zastępuje się na
+% t
+Tekst frazy
+% f
+Imię czasowego pliki z tekstem frazy
+% l
+Kod języka, związany z bieżącym słowariom awozawierszenija
+% %
+Znak%
+Drużyna mówienia może odznaczać się dla różnych syntezatorów mowy. Dla drobiazgowego opisu drużyn zwróćcie się do dokumentacji syntezatora mowy, który wykorzystacie. Przykłady drużyn doprowadzone w dodatku.
+Jeżeli zaznaczona chorągiewka wykorzystać kttsd, jeżeli to możliwe,
+Wkładanie Parametry
+Wkładanie Parametry
+Na wkładaniu Parametry możecie nastawić zachowanie
+Z pomocą pierwszego wypadającej listy, Wybór frazy w książce fraz, możecie wskazać jakie działanie będzie spełniać się przy komplecie skrócenia, odpowiedniego do frazy albo wyborze frazy w menu Książka fraz, albo w chodniku książki fraz.
+Jeżeli wybrany punkt mówić natychmiast, wybrana fraza naraz zostanie powiedziana i dodana w pismo proizniesionnych fraz. Jeżeli wybrany punkt wstawić w pole redagowania, fraza zostanie skopiowana w płci redagowania frazy.
+Z pomocą drugiego wypadającej listy, Zamknięcie okna redagowania książki fraz, wy możecie wskazać metodę utrzymania książki fraz przy zamknięciu okna redagowania.
+Jeżeli wybrany punkt zachować książkę fraz, książka fraz zostanie zachowana. Jeżeli wybrany punkt odchylić zmiany, zmiany książki fraz zostaną zniesione. Jeżeli wybrany punkt pytać o utrzymanie,
+Strona autozakończenie słów
+Strona autozakończenie słów
+The autozakończenie słów page contains a list of dictionaries used for the word completion. (kmouth; will display a combo box next to the edit field in the main window if this list contains more than one dictionary. You can use this combo box in order to select the dictionary that actually gets used for the word completion.)
+Strona Służba syntezy mowy KTTSD
+Okno redagowania książki fraz
+Wykorzystać punkt menu Książki fraz Poprawianie... możecie otworzyć okno redagowania książki fraz.
+Okno redagowania książki fraz
+Zdjęcie ekranu
+Zasadnicza część okna redagowania książki podzielona na dwie części. W górnej pół do odzwierciedlają się książki fraz w charakterze drzewa.
+W dolnej pół do okna możecie redagować wyodrębniony element. Jeżeli wyodrębniona fraza, wy możecie redagować jak samą frazę, aż jejo skrócenie. Jeżeli wyodrębniona książka fraz, wy możecie zmienić tylko jejo nazwa.
+Takie działania, jak dodawanie nowych fraz i książek fraz albo usuwanie wybranych fraz i książek fraz, można wywołać wykorzystać główne menu, pasek narzędzi albo wypadające menu.
+Możecie zmienić porządek następowania fraz albo książek fraz przesuwając ich za pomocą klawisz kierowania kursorem przy naciśniętym klawiszu
+Informator po drużynach
+Drużyny głównego okna
+Menu Plik
+Ctrl; O Plik zainstalować w pismo...
+Ładuje tekstowy plik w pismo proizniesionnych fraz.
+Ctrl; S zapisać plik pismo jak...
+Zachowuje pismo proizniesionnych fraz w tekstowy plik.
+Ctrl; P Plik Pieczęć pisma...
+Otwiera pismo proizniesionnych fraz.
+Ctrl; Q Plik Wyjście
+Zamyka
+Menu Poprawianie
+Ctrl; X Poprawianie wyciąć
+Oddala wyodrębnianie i umieszcza go w schowek. Jeżeli był wyodrębnionym tekstem w płci redagowania frazy, on będzie pomieszczon w schowek. W innym przypadku, w schowek będzie umieszczoną frazą z pisma proizniesionnych fraz.
+Ctrl; C Poprawianie kopiować
+Kopiuje wyodrębnianie w schowek. Jeżeli był wyodrębnionym tekstem w płci redagowania frazy, on będzie pomieszczon w schowek. W innym przypadku, w schowek będzie umieszczoną frazą z pisma proizniesionnych fraz.
+Ctrl; V Poprawianie wstawić
+Wstawia zawartość schowka w bieżącą pozycję kursora w płci redagowania frazy.
+Poprawianie powiedzieć
+Mówi bieżącą frazę (frazy). Jeżeli pole redagowania frazy utrzymuje tekst, to on będzie proizniesion. W innym przypadku będzie powiedzianą wyodrębnioną frazą z pisma proizniesionnych fraz.
+Menu Książki fraz.
+Książki fraz Poprawianie...
+Otwiera okno redagowania książki fraz.
+Menu Strojenie
+Ctrl; M Strojenie pokazać menu
+Strojenie pokazać pasek narzędzi
+Wkluczajet/ odłącza odzwierciedlenie przesuwanego paska narzędzi, który utrzymuje guziki dla wezwania często ispolzujemych drużyn. zazwyczaj pasek narzędzi znajduje się w górnej części okna, przed siebie z głównym menu. Powlókłszy za ten pasek można przesuwać chodnik.
+Strojenie pokazać linię stanu
+Wkluczajet/ odłącza odzwierciedlenie niedużego chodnika na dole głównego okna, w której jest zawarta informacja o bieżącym statusie
+Strojenie pokazać pasek narzędzi rozmówek
+Wkluczajet/ odłącza odzwierciedlenie przesuwanego paska narzędzi, który utrzymuje guziki dla wezwania często ispolzujemych drużyn. zazwyczaj pasek narzędzi znajduje się w górnej części okna, przed siebie z głównym menu. Prztyczek po pasku skrywajet/ otwiera chodnik. Powlókłszy za ten pasek można przesuwać chodnik.
+Strojenie nastawić KMouth...
+Otwiera dialog strojenia syntezatora mowy i inne strojenia.
+Menu Informacja
+
+Wypływające menu zapisywań pisma
+powiedzieć
+Mówi wyodrębnioną frazę.
+Oddalić
+Oddala wyodrębnioną frazę z pisma.
+wyciąć
+Oddala wyodrębnioną frazę i umieszcza jejo w schowek.
+kopiować
+Kopiuje wyodrębnioną frazę w schowek.
+Wyodrębnić wsio
+Wyodrębnia wszystko zapisywania w piśmie.
+Zdjąć wyodrębnianie
+Zdejmuje wyodrębnianie od wszystkich nagrań w piśmie.
+Ctrl; O Plik zainstalować w pismo...
+Ctrl; S zapisać plik pismo jak...
+Drużyny okna redagowania książek fraz
+Plik Nowa fraza
+Dodaje nową frazę.
+Plik Nowa książka fraz
+Sozdajot nową książkę fraz.
+Ctrl; S zapisać plik
+Zachowuje książkę fraz.
+Plik Import...
+Importuje plik i dodaje go zawartość w książkę fraz
+Plik Import standardowej książki fraz
+Importuje standardową książkę fraz i dodaje jejo utrzymywane w bieżącą książkę fraz
+Plik Eksport...
+Eksportuje wyodrębnione frazy albo książki fraz w plik
+Ctrl; P Plik Pieczęć...
+Otwiera wyodrębnione frazy albo książki fraz
+Ctrl; W Plik zamknąć
+Zamyka okno
+Oddala wyodrębnione elementy i umieszcza ich w schowek.
+Kopiuje wyodrębnione elementy w schowek.
+Umieszcza zawartość schowka w książkę fraz.
+Poprawianie oddalić
+Oddala wyodrębnione elementy.
+Wypływające menu
+t
+t
+Import...
+Import standardowej książki fraz
+Eksport...
+Ctrl; X wyciąć
+Ctrl; C kopiować
+Ctrl; V wstawić
+Wstawia zawartość schowka w książkę fraz w danej pozycji.
+Pytania i odpowiedzi
+
+Mowa nie wymawia się.
+Most likely you did not configure correctly (or not at all?) the text- to- speech command. Use Strojenie Configure
+Podziękowania i licencja
+
+Programowanie - -
+Dokumentacja - -
+Przekład na Rosjanin: Anton Gorbaczow justoff@ hotmail. ru
+
+The option posyłać dane na standardowe wprowadzenie must be enabled.
+For the third example the option posyłać dane na standardowe wprowadzenie must be enabled. (This one is the preferred example for the use with FreeTTS.)
+All parts of this command need to be written into one line. The option posyłać dane na standardowe wprowadzenie must be enabled.
+As the configuration of the speech synthesizer is done in KTTSD the only
+Of course you need to configure KTTSD. You may do this with the configuration page Służba syntezy mowy KTTSD that is added to the configuration dialog of
+urządzenie
+Gdzie wziąć
+
+żądania
+Dla pełnowartościowego wykorzystania
+Montaż i urządzenie
+
+Strojenie sieci
+Sean Wheller
+In Words Techdoc Solutions sean@ inwords. co. za
+Christoph Eckert
+Władimir Ryczkow vvgtr2 mail. ru Przekład na Rosjanin
+In Words Techdoc Solutions
+Christoph Eckert
+W tym rozdziale opowiada się, jak ustalić i poprawnie wykorzystać
+KDE
+sieć
+ethernet
+Wprowadzenie
+
+
+Przywłaszczyć interface'owi IP- adres
+Zadać do interface'u maskę sieci
+Rzucać i zatrzymywać sieciowy interface
+Nastawiać trasowanie
+Zadać imię hosta (sieciowego węzła) i nazwa domeny
+Nastawić przekształcenie adresów i imion
+Kierować znane z listy sieciowe węzły
+Po urządzeniu nowy moduł Strojenie sieci dostępny w
+
+Zwróćcie uwagę, co
+W przytłaczającej większości przypadków, drivery dla sieciowych urządzeń i innej instalacji, ustalają się i nastawiają się na etapie urządzenia Linux. Skoro dodajecie nowy osprzęt sieci już po instalacji, to wy trzeba wskazać, jakie drivery powinny być ładowanymi. To można zrobić zredagowawszy jeden z wynikających plików, w zależności od wersji jądra Linux:
+
+/ etc/ modules. conf
+
+/ etc/ modprobe. conf
+Wykorzystanie modułu Strojenie sieci
+Moduł Strojenie sieci ładuje się przy wyborze opcji Strojenia sieci w menu
+W przypadku, jeżeli go nie udastsia określić automatycznie, wam zostanie polecone wybrać go ręcznie. Wybierzcie z listy platformę, najodpowiedniejszą do wersji waszej dystrybucji oprogramowania. Ustalcie przełącznik nie pytać znowu żeby zapamiętać ten wybór. I przy następującym wystrzeleniu Strojenia sieci wybrana platforma zostanie przyjęta domyślnie.
+Dla zmiany systemowych strojeń sieci, powinniście nabrać przywilejów systemowego administratora. Inaczej wszystkie opcje zostaną podświetlone przez szary kolor (niedostępne). To znaczy, że możecie tylko oglądać znaczenie parametrów ale nie zmieniać ich. Dla otrzymywania przywilejów administratora naciśnijcie guzik Tryb administratora w lwem dolnym kątowi modułu. Wprowadźcie wasze hasło w pojawić się dialogu wprowadzenia hasła.
+kappname; w trybie z prawami administratora
+kappname; w trybie z prawami administratora
+Nabrawszy praw administratora możecie wykorzystać wszystkie możliwości modułu. Funkcje organizowane w charakterze drzewa.
+Kierowanie sieciowymi interface'ami
+Dla kierowania nastawionymi w systemie sieciowymi urządzeniami, jest wykorzystywane wkładanie Sieciowe interface'y. Tam przyprowadzone wszystkie dostępne sieciowe interface'y. Na wkładaniu Sieciowe interface'y dostępne następujące działania:
+Interface
+Do każdej sieciowej budowy można przejrzeć wynikające właściwości:
+Interface
+Wykazuje imię sieciowego interface'u. Na przykład eth0, eth1, wlan0.
+IP- adres
+Bieżący IP- adres.
+protokół
+Protokół załadunku.
+stan
+Pokazuje bieżący stan interface'u (aktiwien/ nieaktywny).
+Komentarz
+Wykazuje komentarz.
+Strojenie sieciowego urządzenia
+Dla zmiany parametrów sieciowego urządzenia trzeba wybrać go w liście a następnie nacisnąć guzik nastawić interface.
+Strojenie sieciowego urządzenia
+Strojenie sieciowego urządzenia
+Po przemilczeniu dostępne podstawowe strojenia TCP/ IP. Naciśnijcie guzik Dodatkowe strojenia, żeby rozwinąć dialog i nabrać dostępu do poszerzonym właściwościom.
+Dodatkowe strojenia urządzenia
+W danym dialogu dostępne wynikające opcje:
+Automatycznie
+Wybierzcie opcję automatycznie jeżeli strojenia TCP/ IP powinny kształtować się za pomocą DHCP albo BOOTP serwera. Strojenia TCP/ IP ustalają się w automatycznym trybie tylko jeżeli w systemie rzucane odpowiednie służby (DHCP albo BOOTP). Serwery DHCP i BOOTP posyłają wszystkie strojenia TCP/ IP przy każdym starcie systemu i nie ma potrzeby nastawiać ich ręcznie. Z wypadającej listy wybierzcie DHCP albo BOOTP zgodnie z potrzebami waszej sieci.
+ręcznie
+Ustalcie przełącznik ręcznie? jeśli nie trzeba stosować DHCP albo BOOTP dla strojenia TCP/ IP. W płci IP- adres wprowadźcie TCP/ IP adres do bieżącego sieciowego interface'u. A w płci Maska sieci, wprowadźcie maskę waszej podsieć.
+Aktywować przy wystrzeleniu komputera
+Jeżeli dana opcja włączana, to sieciowy interface będzie aktywować się w procesie ładowania systemu. Jeżeli w tym nie jest potrzebny - - pozostawcie opcję wyłączonej.
+Opis
+Wprowadźcie opis
+Szerokoradiofoniczny
+Wprowadźcie szerokoradiofoniczny adres. Ten adres przeznaczony dla obiegu naraz do wszystkich węzłom waszej podsieć.
+Znaczenia, które wy wskażcie w danym dialogu, będą odzwierciedlać się jak właściwości urządzenia w liście instalacji.
+Jeżeli wy nie zapewnione o tym, co znacie jak wypełnić pola tego dialogu, zwróćcie się do systemowego administratora! Proszę, przekonajcie się co wprowadzony przez was IP- adres nie jest wykorzystywany jaki- albo urządzeniem w waszej sieci. Dublowanie IP- adresy sprowadzi do niezdolności do pracy TCP/ IP. Skorzystajcie z drużyny ping z
+Włączanie sieciowego urządzenia
+Sieciowe urządzenie być może włączane albo wyłączone zależnie od potrzeb systemu. Włączyć nieaktywny sieciowy interface, można wybrać go w liście i nacisnąć aktywować interface.
+Wyłączanie sieciowego urządzenia
+Sieciowe urządzenie być może włączane albo wyłączone zależnie od potrzeb systemu. Dla wyłączania aktywnego sieciowego interface'u wystarczy wybrać go w liście i nacisnąć guzik wyłączyć interface.
+Strojenie trasowania
+Wkładanie Trasy pozwala nastawić trasowanie w waszym systemie.
+Śluza domyślnie
+Dane pole powinno utrzymywać IP- adres węzła z waszej lokalnej podsieć, który podłączony do innym sieciom. Ten adres będzie wykorzystywany do pracy z komputerami w innych sieciach.
+Wybierzcie sieciowe urządzenie z wypadającej listy dla redagowania znaczenia Śluza domyślnie.
+Jeżeli na waszym komputerze ustalone większy od jednego sieciowego interface'u, wybierzcie z nich ten, który jest podłączony do sieci gdzie śluzowy komputer.
+Ustawienie parametrów DNS
+Wkładanie System domenowych im'n (DNS) dajot możliwość nastawienia parametrów DNS.
+Imię hosta
+To imię, z którym sieciowy węzeł będzie znany w waszej podsieć.
+Nazwa domeny
+Nazwa domeny, której przypada sieciowy węzeł.
+Serwery DNS
+Lista DNS- serwerów na zasadzie priorytetu (patrzcie).
+Statyczne hosty
+Lista znanych sieciowych węzłów w waszej podsieć (patrzcie).
+Strojenie DNS- serwerów
+Komputer od pracującego DNS porównuje pełna nazwa domeny z odpowiednim IP- adresem. To ważne ponieważ przy sieciowym współdziałaniu komputery wykorzystają właśnie IP- adresy. Do przykładu, jeżeli komputer kieruje pytanie do http: / / www. somedomain. com, DNS w odpowiedź wierniot IP- adres wyglądu 123. 45. 202. 90.
+Wkładanie Serwery DNS (część System domenowych imion (DNS)), pozwala lekko sprawować rządy lista. Można dodawać, oddalać i zmieniać nagrania o serwerach. Zapisywaniu DNS wolno ustawić w wymagane następstwo za pomocą guziki przesunąć w górę i przesunąć na dół.
+Dodawanie DNS- serwera
+W grupie Serwery DNS naciśnijcie guzik dodać. Po tego pojawić się dialog uzupełnić nowy DNS serwer.
+Wprowadźcie IP- adres DNS- serwera i naciśnijcie guzik dodać. Nowy wpis pojawić się w liście DNS- serwerów.
+Zmiana zapisywania o serwerze DNS
+Na wkładaniu Serwery DNS wybierzcie zapisywanie DNS- serwera i naciśnijcie guzik zmienić. Pojawi się dialog redagowania zapisywania DNS- serwera.
+Redagowanie zapisywania DNS- serwera
+Zmieńcie IP- adres i naciśnijcie guzik OK. Po tego zapisywanie o serwerze odnowi się.
+Kierowanie statycznymi (znanymi) hostami
+Lista Statyczne hosty utrzymuje linie zgodności między imieniem hosta i IP- adresem. Często ta lista jest wykorzystywana w czasie załadunku komputera, kiedy niedostępne DNS- serwery. W niedużych zamkniętych sieciach daną lista można wykorzystać zamiast DNS- serwera.
+Po przemilczeniu, lista Statyczne hosty już utrzymują kilka zapisywań. W tej liczbie opisujących
+Dodawanie statycznych hostów
+Naciśnijcie guzik dodać. Pojawi się dialog Dodawanie nowego statycznego hosta.
+Wprowadźcie IP- adres statycznego sieciowego węzła i naciśnijcie guzik dodać. Pojawi się dialog Dodawanie nowego pseudonimu.
+Wprowadźcie nazwę statycznego sieciowego węzła i naciśnijcie guzik dodać. Jeżeli statyczny host ma nieco imion, znowu naciśnijcie guzik dodać i wprowadźcie jeszczo jeden pseudonim.
+Kiedy wprowadzicie wszystkie pseudonimy statycznego hosta, naciśnijcie guzik OK i lista nazw statycznych sieciowych węzłów odnowi się.
+Redagowanie statycznych hostów
+Wybierzcie w liście jedną z zapisywań statycznego hosta. Naciśnijcie guzik redagować, powinien pojawić się dialog redagowanie statycznego hosta.
+Wykonawszy każde z tych działań, naciśnijcie guzik OK dla odnowy listy statycznych hostów.
+Zmienić IP- adres można wprowadziwszy nowy i nacisnąwszy guzik OK.
+Uzupełnić nowy pseudonim można nacisnąwszy guzik dodać.
+Dla zmiany pseudonimu wybierzcie nagranie i naciśnijcie guzik redagować.
+Dla usuwania pseudonimu wybierzcie w liście nagranie i naciśnijcie guzik oddalić.
+Zastosować zmiany
+Zmiany, zrobione za pomocą modułu Strojenia sieci, zaczną działać w systemie tylko po tego как puścicie Konsolę i wykonajcie wynikającą komendę.
+/ etc/ init. d/ networking restart
+urządzenie
+żądania
+Do pracy modułu strojeń sieci knetwork- conf, wam jest potrzebny wprowadzone wersje KDE 3. x i QT 3. x.
+Moduł strojeń sieci knetwork- conf można wykorzystać na idących platformach:
+Kubuntu
+Conectiva
+Debian
+Fedora Core
+FreeBSD
+Gentoo
+Mandrake
+PLD
+OpenNA
+Red Hat
+SuSE
+Jak nabrać modułu knetwork- conf
+Strona domowa modułu knetwork- conf http: / / knetworkconf. sourceforge. net. Tam możecie załadować kody źródłowe.
+Urządzenie plików binarnych
+Jeżeli wykorzystacie dystrybucje oprogramowania z plikami binarnymi (na przykład, ten rpm), to wystarczy mieć ustalone przez KDE i QT.
+Dla mniej doświadczonych użytkowników przedstawia się urządzenie właśnie z binarnych paczek. Dla tego po prostu załadujcie paczki i ustalicie ich w Konsole wykorzystać RPM jak to pokazane poniżej:
+rpm - i knetwork- conf- versionnumber. rpm
+Oprócz tego, możecie wykorzystać i dodatek z graficznym interface'em, takie jak kpackage. Albo ustalcie moduł za pomocą specjalnego programu z waszej dystrybucji oprogramowania.
+Kompilatorstwo i urządzenie
+W tym przypadku, oprócz binarnych fałów KDE i QT, wam są potrzebni i paczki do opracowania. Paczki opracowania utrzymują niezbędne biblioteki i pewne inne informacje.
+Urządzenie z kodu źródłowego przedstawia się tylko dla doświadczonych użytkowników. Chociaż, kompilatorstwo
+. / configure - - prefix = (kde- config - - prefix) make make install
+Uwaga! Drużyna make install powinna zostać wykonaną użytkownika w imieniu root.
+Jeżeli powstaną jaki- albo problemy - dajcie nam arystokrację.
+Informacja techniczna
+W pierwszej części tego rozdziału jest zawarta informacja o podstawowych zasadach pracy w sieci. W drugi - - przyprowadzona lista wszystkich konfiguracyjnych plików systemu, które mogą zostać zmienionymi
+Praca w sieci od IPv4
+Ta część nie pretenduje na rolę pełnego wykładu o pracy w sieci od IPv4 (IP protokół wersji 4). Tu zebrana tylko podstawowa informacja, która pomoże wam włączyć waszą maszynę w niedużą sieć (na przykład sieć domową).
+W czas teraźniejszy, praca w większości IP- sieci idiot ze stosowaniem protokołu TCP/ IP wersji 4 (IPv4). Protokół IPv5 nie otrzymał szerokiego rozszerzania. Oczekuje się że protokół IPv6 będzie rasprostranion w najbliższej przyszłości. Ten dokument poswiaszczon IPv4, jak najczęstsze ispolzujemomu.
+Jedna z najważniejszych rzeczy, która trzeba wiedzieć dla strojenia sieciowego interface'u - - to IP- adres. Na przykład, w sieci waszego biura powinniście spytać IP- adres u systemowego administratora albo skorzystać z DHCP. W dowolnym przypadku nie można po prostu tak wybrać IP- adres bez uzasadnienia.
+Jeżeli ustalacie własną małą sieć domu, to powinniście wykorzystać IP- adres ze specjalnie odprowadzonych grup. To zapobiegnie konfliktom z globalną siecią Internet. Adresy, które przyprowadzone w tabeli, nie przepuszczają się w globalną sieć to jest możecie wykorzystać ich na wasze uznanie.
+Rozumie się, maszyny z takimi adresami mogą zostać nastawionymi dla dostępu do globalnej sieci! To robi się za pomocą sieciowych śluz.
+Możecie swobodnie wyznaczać wynikające adresy.
+IP- adresy dla ilorazów sieci.
+klasa
+SKALA
+A
+z 10. 0. 0. 0 po 10. 255. 255. 255
+b
+z 172. 16. 0. 0 po 172. 31. 0. 0
+c
+z 192. 168. 0. 0 po 192. 168. 255. 0
+Dla małych sieci z ilością maszyn do 254, całkowicie starcza adresów ze skali od 192. 168. 1. 1 do 192. 168. 1. 254.
+Bardziej tego, jeżeli maska sieci zadana jak 255. 255. 255. 0. to wszyscy te 254 sieciowych węzła znajdują się w jednej podsieć.
+Pewne adresy zarezerwowane dla specjalnych celów. To - 0. 0. 0. 0 i 127. 0. 0. 1. Adres 0. 0. 0. 0 nosi nazwę trasy domyślnie, a 127. 0. 0. 1 - - pierścieniowym (loopback) interface'em. Trasa domyślnie potrzebny dla trasowania (określenia drogi) dla IP- protokołu.
+Adres 127. 0. 0. 1 zarezerwowany tylko dla oznaczenia lokalnej maszyny. Jak sprawowało rządy, adres 127. 0. 0. 1 przywłaszczony specjalnemu systemowemu urządzeniu - tak nazywanemu \ "pierścieniowemu intierfiejsu\". Pierścieniowy interface pracuje po prostu: wsio co w niego zostało wysłane - tu zaś z niego i wraca.
+Śluza domyślnie - - to komputer albo specjalne sieciowe urządzenie, które łączy dwie różne sieci. Być może, jeżeli ustawiliście własną sieć domową, wam zachce się mieć dostęp do sieci Internet. Ale tego nie można zrobić wykorzystać wasze lokalne adresy dlatego że oni nie są wykorzystywani w globalnej sieci. Decyzją będzie komputer, który pieriedajot dane wśród dwóch różnych sieci. Taki komputer powinien mieć, przynajmniej, dwa sieciowych interface'u. Najszybciej jeden z ich - sieciowa mapa Ethernet, która włączana do waszej sieci lokalnej. Drugi - - zewnętrzny sieciowy interface, na ogół, staje się załatwieniem liczbowego dostępu, to być może xDSL- modem albo co- to inne podłączone do sieci Internet. Na oba sieciowych interface'ach ustalone różne IP- adresy. Ten komputer wykonuje tak nazywaną \ "transmisję sieciowych adriesow\" (NAT - Network Adress Translation, tak zaś nazywają IP- forwarding). Żeby dać maszynom z waszej sieci lokalnej dostęp do Internet, wam tylko trzeba wskazać im IP- adres tego komputera w jakości śluzy domyślnie.
+Konfiguracyjne pliki
+W tym rozdziale przyprowadzona lista plików, które zmieniają się
+resolv. conf
+W tym pliku jest przechowywana lista serwerów imion.
+Gdzie szukać resolv. conf
+platforma
+Wersja
+droga
+Conectiva
+9. 2
+/ etc/ resolv. conf
+Debian
+3. 0
+Fedora Core
+1
+FreeBSD
+5
+Gentoo
+Mandrake
+PLD
+2. 0
+OpenNA
+1. 0
+Red Hat
+9. 0
+SuSE
+Czasem zawartość tego pliku zmienia się dynamicznie DSL- połączeniami. Nie dziwcie się jeżeli w pliku nie będzie linii, które dodaliście do ustalenia DSL- połączenia.
+hosts
+W tym pliku jest przechowywana lista imion znanych sieciowych węzłów
+Gdzie szukać pliku hosts
+Dystrybucja oprogramowania
+Wersja
+/ etc/ hosts
+
+Wiadomo że w SuSe skrypt SuSEconfig często zmienia ten plik. Tak co nie dziwcie się jeżeli zobaczycie co- to niespodziewane.
+Lista projektantów i licencja
+twórcy
+Dziękuję wszystkim, kto pracował nad
+Projektanci
+Jean Łuiza Biptist (Juan Luis Baptiste) juan. baptiste@ kdemail. net
+David Sensom (David Sansome) me@ davidsansome. com
+Carlos Garnaczo (Carlos Garnacho) garnacho@ tuxerver. net
+Simon Edwards (Simon Edwards) simon@ simonzone. com
+Pedro Dżurado Makiedo (Pedro Jurado Maquedo) pjmelenas@ biwemail. com
+Fłorin Fiernandiez (Florian Fernandez) florian. fernandez2 wanadoo. fr
+Unai Garro (Unai Garro) Unai. Garro@ ee. ed. ac. uk
+Christoph Eckert (Christoph Eckert) mchristoph. eckert@ t- online. de
+Dżejm Torries (Jaime Torres) jtorres@ telecorp. net
+Wszyscy, kto zapomniałem tutaj wpisać - wiecie, kto wy! you@ foo. tld
+AUTORZY
+Christoph Eckert (Christoph Eckert): mchristoph. eckert@ t- online. de
+Sin Weller (Sean Wheller): sean@ inwords. co. za
+licencja
+Prawa na
+Władimir Ryczkow vvgtr2 mail. ru Przekład na Rosjanin
+
+kierownictwo
+Morgan N. Sandquist
+Morgan N. Sandquist
+Gary Meyer
+projektant
+Lauri Watts
+redaktor
+Andrei Darashenka adorosh KDE. RU@ smolevichi. org. by Przekład na Rosjanin
+Morgan N. Sandquist
+
+KDE
+kdeadmin
+KCron
+cron
+crontab
+planista
+Wprowadzenie
+cron - ten dodatek do planowania uruchomienia programów w tła trybie.
+wykorzystanie
+Nie zapomnijcie cisnąć crond - demon cron, inaczej
+wystrzelenie
+Po wystrzeleniu
+okno
+okno
+Zaplanowane zadania
+Zaplanowane zadania pokazują się na wkładaniu Zadania. Dla każdego zadania odzwierciedla się następne:
+imię
+Nazwa dla identyfikacji zaplanowanego zadania
+Znaczenie
+Plik programu i parametry wystrzelenia.
+Opis
+Zrozumiały opis zaplanowanego zadania
+Jeżeli zadanie zablokowane, nazwa pliku i parametry wystrzelenia przestaną być dostępni, i opis toże zablokuje się.
+Zmienne otoczenia
+Zmienne otoczenia powstają pod teczką Zmienne. Dla każdej zmiennej otoczenia odzwierciedla się następne:
+Imię zmiennej.
+Znaczenie zmiennej.
+Zrozumiały opis zmiennej.
+Zmienne otoczenia, pokazane tu, zastąpią każdą inną zmienną otoczenia dla wszystkich zaplanowanych zadań. Jeżeli zmienna otoczenia zostanie zablokowana, to zablokują się znaczenie i opis zmiennej.
+Główne okno
+Główne okno
+Dodawanie zaplanowanych zadań
+Dla dodawania nowego zadania najpierw wybierzcie teczkę Zadania. Następnie wybierzcie Poprawianie Nowe.... Można także wykorzystać prawy przycisk myszy i wybrać Nowe..., albo po prostu nacisnąć Ctrl N.
+Dialog Poprawianie zadania
+Dialog Poprawianie zadania.
+Dialog Poprawianie zadania
+Komentarz
+Wprowadźcie opis zadania, który trzeba zaplanować.
+Program
+Wprowadźcie nazwę programu. Można wskazywać jak absolutny jak i względny droga. Jeżeli chciejcie znaleźć program w systemie plików, naciśnijcie wybrać....
+włączane
+Dla włączania albo wyłączania zadania wybierzcie czyż zdejmijcie znak od chorągiewki włączane
+Bez zawiadomień
+Wyłącza żurnalirowanije i wyprowadzenie drużyny.
+miesiące
+Wybierzcie miesiące, po których zadanie będzie spełniać się.
+Dni miesiąca
+Wybierzcie dni miesiąca, po których zadanie będzie spełniać się.
+Dni tygodnia
+Wybierzcie dni tygodnia, po których zadanie będzie spełniać się.
+codziennie
+Jeżeli chciejcie, żeby zadanie spełniało się codziennie, wybierzcie wykonywać każdy dzień
+godziny
+Wybierzcie zegarek, po których zadanie będzie uruchamiać się na wykonywanie.
+Minuty
+Wybierzcie minuty, po których zadanie będzie uruchamiać się na wykonywanie.
+ok
+Zakończyć stworzenie tego zadania.
+zniesienie
+Przerwać proces stworzenia tego zadania.
+Jeżeli wybrać dni tygodnia i dni miesiąca razem, zadanie będzie spełniać się przy osiąganiu każdego z warunków. Na przykład, jeżeli wskazać wykonywanie 1 - go i 15 - go liczby dowolnego miesiąca i wskazać spełniać się w niedziele, to zadanie uruchomi się i 1 - go, i 15 - go liczby poza zależnością od dnia tygodnia, i będzie zapuskt'sia po wszystkich niedzielom miesiąca.
+Zaplanowane zadanie nie ustali się w systemie i nie naczniot spełniać się, na razie nie będzie sochraniot plik crontab.
+Kierowanie zaplanowanymi zadaniami
+Także jak i ze stworzeniem, zmiana zaplanowanego zadania nie zostanie wprowadzona w działanie i nie naczniot nie będzie spełniać się po nowym rozkładzie, na razie sochraniot plik crontab.
+Wycięcie zaplanowanego zadania
+Dla wycięcia zaplanowanego zadania, snaczały wybierzcie to zadanie. Potem naciśnijcie Poprawianie wyciąć.
+Także można nacisnąć prawy przycisk myszy i wybrać wyciąć albo po prostu nacisnąć Ctrl X
+Kopiowanie zaplanowanych zadań
+Żeby skopiować zaplanowane zadanie, wybierzcie najpierw zadanie dla kopiowania, następnie naciśnijcie Poprawianie kopiować.
+Także można nacisnąć prawy przycisk myszy i wybrać kopiować albo po prostu nacisnąć Ctrl C.
+Wstawianie zaplanowanych zadań
+Żeby wstawić zadania, oni powinni najpierw być wyciętymi albo skopiowane w zderzak, po czym zakończy się wstawianie zadań. Wybierzcie teczkę Zadania i po tego Poprawianie wstawić.
+Także można nacisnąć prawy przycisk myszy i wybrać wstawić albo po prostu nacisnąć Ctrl V.
+Zmiana zaplanowanych zadań
+Dla zmiany zaplanowanego zadania najpierw wybierzcie go a potem naciśnijcie Poprawianie zmienić.
+Także można nacisnąć prawy przycisk myszy i wybrać zmienić... albo po prostu nacisnąć Ctrl O. zobaczycie dialog Poprawianie zadania, w którym można zmienić wsio także, jak i w dialogu Nowe zadanie.
+Usuwanie zaplanowanych zadań
+Dla usuwania zaplanowanego zadania najpierw wybierzcie go, następnie naciśnijcie Poprawianie oddalić.
+Także można wykorzystać prawy przycisk myszy i wybrać oddalić.
+Wkluczenije/ wyłączanie zaplanowanych zadań
+Dla pozwolenia zaprieszczonych zaplanowane zadania najpierw wyodrębnicie go. Zaprieszczonnyje zadania posiadają uwagę odłączone w opisie. Następnie wybierzcie Poprawianie włączane.
+Także można wykorzystać prawy przycisk myszy i wybrać włączane. Przekonajcie się o poprawności odzwierciedlanego pliku programu, parametrów i opisu.
+Wykonywanie zaplanowanych zadań
+Można naraz puścić zadanie na wykonywanie wybrawszy Poprawianie cisnąć teraz.
+Także można wykorzystać prawy przycisk myszy i wybrać cisnąć teraz.
+Dodawanie zmiennych otoczenia
+Dla stworzenia nowej zmiennej otoczenie najpierw wybierzcie teczkę Zmienne i potem naciśnijcie Poprawianie Nowa....
+Także można wykorzystać prawy przycisk myszy i wybrać Nowa.... albo po prostu nacisnąć Ctrl N.
+Dialog Poprawianie zmiennej
+Dialog redagować zmienne
+Dialog redagować zmienne
+zmienna
+Wprowadźcie imię zmiennej otoczenia. Można wykorzystać wypadającą listę dla wprowadzenia najczęściej ispolzujemych imion zmiennych otoczenia, włączając w to:
+home
+Jest wykorzystywany dla zmiany celu katalogu domowego użytkownika.
+MAILTO
+Adresat dla odprawy listów zamiast adresu użytkownika.
+PATH
+Lista katalogów dla poszukiwania wypełnianych plików.
+SHELL
+Będzie rzucanym program- powłoka zamiast ispolzujemoj domyślnie.
+Wprowadźcie znaczenie zmiennej otoczenia.
+Wprowadźcie opis dla tej zmiennej otoczenia, na przykład cel jejo wykorzystania.
+włączyć
+Do wkluczenija/ wyłączania wykorzystania zmiennej otoczenia, wybierzcie guzik włączyć.
+Kończy urządzenie zmiennej.
+Znosi urządzenie zmiennej.
+Zmienna otoczenia nabierze mocy do utrzymania pliku crontab.
+Kierowanie zmiennymi otoczenia
+Także jak i przy stworzeniu zmiennych, zmiana ich nabierze mocy do utrzymania pliku crontab.
+Wycięcie zmiennych otoczenia
+Dla wycięcia zmiennej otoczenie najpierw wyodrębnicie niezbędną zmienną. Następnie wybierzcie Poprawianie wyciąć.
+Kopiowanie zmiennych otoczenia
+Dla kopiowania zmiennej otoczenie najpierw wyodrębnicie niezbędną zmienną. Następnie wybierzcie Poprawianie kopiować.
+Także można wykorzystać prawy przycisk myszy i wybrać kopiować albo po prostu nacisnąć Ctrl C.
+Wstawianie zmiennych otoczenia
+Dla wstawiania zmiennej otoczenia najpierw niezbędne jejo skopiować albo wyciąć w schowek. Tylko po kopiowaniu albo wycięciu pojawi się możliwość wstawiania. Wybierzcie teczkę Zmienne, następnie wybierzcie Poprawianie wstawić.
+Zmiana zmiennych otoczenia
+Dla zmiany zmiennej otoczenie najpierw wyodrębnicie niezbędną zmienną. Następnie wybierzcie Poprawianie zmienić.... Także można wykorzystać prawy przycisk myszy i wybrać zmienić... albo po prostu nacisnąć Ctrl O. pojawi się dialog Poprawianie zmiennej, w którym można naprawiać zmienną jak i w dialogu nowej zmiennej.
+Usuwanie zmiennych otoczenia
+Dla usuwania zmiennej otoczenie najpierw wyodrębnicie niezbędną zmienną. Następnie wybierzcie Poprawianie oddalić.
+Wkluczenije/ Wyłączanie zmiennych otoczenia
+Dla włączania albo odłączenia zmiennej otoczenie najpierw wyodrębnicie niezbędną zmienną. Odłączone zmienni będą zaznaczone jak odłączone. Następnie wybierzcie Poprawianie włączyć.
+Także można wykorzystać prawy przycisk myszy i wybrać włączane. Przekonajcie się, co imię i znaczenie zmiennej otoczenia wierne.
+Utrzymanie pliku crontab
+Po urządzeniu wszystkich niezbędnych zadań i zmiennych otoczenia, zapiszcie plik crontab, wybrawszy Plik zachować.
+Także można po prostu nacisnąć Ctrl S. Dodawania albo zmiany nabiorą mocy aż nie zrobicie to.
+Pieczęć pliku crontab
+Dla otwierania pliku crontab po utrzymaniu, wybierzcie Plik Pieczęć.
+Pieczęć pliku crontab
+Pieczęć pliku crontab
+Odzwierciedli się standardowy dialog pieczęci
+Pieczęć Crontab
+Drukuje plik crontab dla bieżącego użytkownika.
+Drukować dla wszystkich użytkowników
+Drukuje plik crontab dla wszystkich użytkowników. To strojenie aktywna tylko dla superużytkownik.
+Informator po drużynach
+Główne okno
+Menu Plik
+Ctrl; S zapisać plik
+Zachować zmiany w pliku crontab.
+Ctrl; P Plik Pieczęć...
+Drukować plik crontab.
+Ctrl; Q Plik Wyjście
+Wyjść z
+Menu Poprawianie
+Ctrl; X Poprawianie wyciąć
+Wyciąć wybrane zadanie albo zmienną.
+Ctrl; C Poprawianie kopiować
+Kopiować wybrane zadanie albo zmienną.
+Ctrl; V Poprawianie Wstawianie
+Wstawić zadanie albo zmienną, która wcześniej została skopiowana albo wycięta.
+Ctrl; N Poprawianie Nowe...
+Stworzyć nowe zadanie albo zmienną.
+Ctrl; O Poprawianie zmienić...
+Zmienić wybrane zadania albo zmienne.
+Poprawianie oddalić
+Oddalić wybrane zadanie albo zmienną.
+Poprawianie włączany
+Razrieszyt'/ zabronić wybrane zadanie albo zmienną.
+Poprawianie wykonać teraz
+Natychmiast puścić wybrane zadanie.
+Menu Parametry
+Parametry pokazać pasek narzędzi
+Odzwierciedlać pasek narzędzi.
+Parametry pokazać linię stanu
+Odzwierciedlać linię stanu.
+Menu Informacja
+
+Pytania i odpowiedzi
+Dlaczego są nieczynne zmiany, które ja wnios w zaplanowane zadania?
+Te zmiany będą posiadać siłę tylko po utrzymaniu pliku crontab.
+Autorskie prawa osobiste i licencjonowanie
+
+Autorskie prawa osobiste przypadają Gary Meyer gary@ meyer. net, 2002
+Autorskie prawa osobiste na dokumentację przypadają Morgan N. Sandquist morgan@ pipeline. com, 2000
+Przekład na Rosjanin: Andriej Doroszenko adorosh KDE. RU@ smolevichi. org. by
+
+urządzenie
+Jak otrzymać
+
+żądania
+Dla tego, żeby z powodzeniem zebrać
+cron, na przykład vixie cron.
+
+Montaż i urządzenie
+
+Informacyjne kierownictwo KUser
+Matt Johnston
+Matt Johnston
+Lauri Watts
+sprawdzanie
+Jonathan Singer
+Anton Iwanów a- i@ bk. ru Przekład na język rosyjski
+Matt Johnston
+Ten dokument opisuje program KUser wersji 1. 0. Ona pozwala wam kierować użytkownikami i grupami użytkowników w waszym systemie.
+kuser
+użytkownik
+kierowanie
+Administrator
+programy narzędziowe
+Grupa
+Hasło
+Wprowadzenie
+Krótki wstęp do KUser. Bardziej szczegółowa informacja jest zawarta w rozdziale Praca z programem.
+Żeby zacząć pracę z KUser, trzeba najpierw przeprowadzić strojenie programu.
+Po zakończeniu strojenia naciśnijcie zachować, żeby zmiany nabrały mocy. Wykorzystajcie albo znaczek na paski narzędzi, albo odpowiedni punkt w menu Plik.
+Praca z programem
+Główne okno
+KUser - - to bardzo prosty program. W głównym oknie jest dwoma wkładaniami: jedna z listą użytkowników, inna z listą grup. Dwukrotnie szczołknitie z imienia użytkownika albo grupy, i pojawi się dialog strojeń.
+Główne okno programu KUser
+Główne okno programu KUser
+Dialog właściwości użytkownika
+W dialogu właściwości użytkownika jest kilkoma wkładaniem.
+Liczba wkładań zależy od tego, której jest wykorzystywany sposób ochrony danych o użytkowniku i od tego, czy są wykorzystywane ograniczenia obszaru tarczowego. Dodatkowe wkładania także pojawią się jeżeli wykorzystacie cieniste (ukryte) hasła albo podobne mechanizmy, na przykład, plik / etc/ master. passwd w BSD- systemach.
+Wkładanie Wiadomości o użytkowniku
+Na wkładaniu Wiadomości o użytkowniku możecie zmienić wynikające parametry:
+ID (identyfikator) użytkownika
+Pełne imię
+Powłoka wejścia w system (ich lista bieriotsia z pliku / etc/ shells)
+Katalog domowy
+Wiadomości o dwóch miejscach pracy
+Adres
+Hasło
+Wkładanie Kierowanie hasłem
+Wkładanie Kierowanie hasłem pojawia się w przypadku, gdy są wykorzystywane cieniste hasła albo podobne rzeczy, takie jak / etc/ master. passwd w BSD - systemach.
+Na wkładaniu Dodatkowa informacja możecie zmienić pewne dodatkowe opcje, powiązane z kierowaniem uczotnoj zapisywaniem.
+Minimalna ilość dni między zmianami hasła
+Liczba dni, po których termin ważności hasła upływa, jeżeli nie był izmienion.
+Liczba dni do upływu terminu ważności hasła, kiedy użytkownik będzie prieduprieżdion.
+Trzeba czy odłączać uczotnuju zapisywanie (i jeżeli trzeba, to kiedy) po zakończeniu terminu ważności hasła.
+Data upływu terminu ważności uczotnoj zapisywania
+Klasa (na BSD - systemach)
+Data zmiany ostatecznej hasła odzwierciedla się w górnej części dialogu.
+Wkładanie Ograniczenia
+Dostrzeżecie wkładanie Ograniczenia tylko w tej okazji, jeżeli w systemie zmontowany chociażby jeden rozdział z włączonymi ograniczeniami i jest obecny plik ograniczeń. Możecie zmienić wynikające parametry:
+Giętkie ograniczenie ilości plików
+Żostkoje ograniczenie ilości plików
+Ograniczenie w czasie
+Giętkie ograniczenie ilości inode
+Żostkoje ograniczenie ilości inode
+Ograniczenie w czasie inode
+Wszyscy te parametry mogą być zmienione dla każdego systemu plików, na której obejmowane ograniczenia. System plików, parametry która trzeba zawieść, być może wybrany z listy system plików z ograniczeniami
+Wkładanie Grupy
+Wkładanie Grupy utrzymuje informację o tom, do jakich grup należy użytkownik. Pierwotna grupa, do której należy użytkownik, pokazana w wypadającej liście Pierwotna grupa. Możecie zaznaczyć chorągiewki w liście, żeby objąć użytkownika w inne grupy.
+Właściwości grupy
+Dialog Właściwości grupy utrzymuje lista wszystkich użytkowników. Żeby objąć użytkownika w grupy, zaznaczcie odpowiednią chorągiewkę.
+Dodawanie, zmiana i usuwanie użytkowników i grup
+Żeby dodać w system użytkownika albo grupę, wybierzcie albo punkt dodać z menu Użytkownik albo Grupa, albo naciśnijcie odpowiedni guzik na paski narzędzi. Dokładnie tak zaś możecie zmieniać właściwość użytkowników i grupy i oddalać ich.
+Strojenie KUser
+Przeprogramowanie domyślnie przy stworzeniu użytkownika
+Żeby redagować dane domyślnie przy stworzeniu użytkownika, wykorzystajcie dialog redagowania strojeń domyślnie z menu Strojenie nastawić KUser. Tam możecie zmienić strojenia domyślnie, ispolzujemyje przy stworzeniu użytkownika: powłoka, teczka albo rozdział z katalogami domowymi użytkowników. Możecie wybrać, trzeba czy tworzyć katalog domowy, i trzeba czy kopiować strukturę (standardowe pliki strojeń) w katalog domowy. Także możecie włączyć opcję do twarzy grupa użytkownika, żeby stworzyć dla użytkownika oddzielną grupę. Przy usuwaniu użytkownika ta grupa także zostanie oddalona.
+Pliki struktury mogą być wskazanymi na wkładaniu tekstami wyjściowymi.
+Projektanci i licencja
+kuser
+Autor programu: 1997 - 2000, Dienis Pierszyn dyp@ inetlab. com
+Dokumentacja: 1997 - 2000, Dienis Pierszyn dyp@ inetlab. com
+Dokumentacja: 2000, Mett Dżonston mattj@ flashmail. com
+Przekład na Rosjanin: Anton Iwanów a- i@ bk. ru
+
+Kierownictwo użytkownika
+Peter Penz
+peter. penz@ gmx. at
+Orville Bennett
+
+Michael Austin
+tuxedup@ users. sourceforge. net
+David Edmundson
+kde@ davidedmundson. co. uk
+Alan Blanchflower
+Orville Bennett
+Peter Penz
+
+Michael Austin
+
+KDE
+Dolphin
+Menedżer plików
+plik
+kierowanie
+Wprowadzenie
+
+O każdych problemach związanych z
+wykorzystanie
+Interface użytkownika
+Interface użytkownika
+Interface użytkownika
+Kierownictwo użytkownika
+Oto zdjęcie okna programu
+Interface użytkownika
+Tryb przejrzenia Kolumny można dostrzec wielopoziomową strukturę teczek. Przy prztyczku na elemencie przedstawiającym włożoną teczkę - z prawej strony od bieżącej listy pojawi się nowy, w którym będzie pokazaną zawartością tej włożonej teczki.
+Punkty wejścia
+w
+Punkty wejścia
+Chodnik punktu wejścia zazwyczaj rozmieszczony w oknie z lewej strony. Ona utrzymuje zakładki dla szybkiego przejścia do często odwiedzanych teczek. Także na tym chodniku pokazane wszystkie dyski i zmianowi nosiciele podłączani do komputera.
+wiadomości
+Na chodniki Wiadomości pokazuje się szczegółowa informacja o wybranych plikach, w szczególności, rozmiar, typ i data zmiany ostatecznej a także poprzednie przejrzenie zawartości wybranego pliku.
+Teczki
+Na chodniki Teczki pokazuje się drzewa katalogów waszego komputera. Prztyczek na teczce w tym chodniku priwiediot do jejo odkryciu w
+terminal
+Ten chodnik wbudowuje konsola w okno
+Rady i podpowiadania
+Wiedza następnych prijomow pozwoli zaoszczędzić wam czas przy pracy z
+Szybkie urządzenie zakładki
+Poszukiwanie plików
+Podłączenie zewnętrznych zbiorników
+Zniesienie działań
+Przemianowanie grupy plików
+Porównanie grup plików
+Poszukiwanie plików
+wykorzystanie
+Zdjęcie okna
+nawigacja
+plik
+plik
+Kierownictwo użytkownika
+wykorzystanie
+Jan Schaumann jschauma@ netmeister. org
+April 8, 2003
+kappfinder
+1
+Dodatek pozwalające dodawać inne dodatku w
+kappfinder - - dir katalog klucze KDE klucze Qt
+Opis
+Poszukiwacz programów (kappfinder;) szuka programów ustalonych wcześniej i programów innych producentów, i dodaje ich w systemowe menu KDE.
+klucze
+- - dir katalog
+Ustalić. desktop pliki w katalog katalog
+Cm. także
+Bardziej uszczegóławiane kierownictwo dostępnie tu: help: / kappfinder (po prostu nabierzcie ten URL w
+AUTORZY
+
+Ta strona kierownictwa man przygotowany Jan Schaumann jschauma@ netmeister. org do Missing Man Pages Project (http: / / www. netmeister. org/ misc/ m2p2 / index. html.
+Informacyjne kierownictwo po
+
+Jekatierina Pyżowa haleth@ yandex. ru Przekład na Rosjanin
+
+
+KDE
+kdeutils
+kfind
+poszukiwanie
+poszukiwanie
+Wprowadzenie
+
+wystrzelenie
+Ten program narzędziowy - - narzędzie dla poszukiwania plików z nazwy na waszym komputerze, albo plików po szablonie. Na przykład za pomocą niejo można znaleźć pliki opriedielonnogo typu albo tylko sodierżaszyje litery w nazwie. Żeby puścić program szczołknitie na guziku Poszukiwanie plików i teczek.
+Poszukiwanie plików
+Imia/ Rozmieszczanie
+Przy wystrzeleniu
+Można wykorzystać idące szablony:
+
+Zwiozdoczka oznacza dowolną ilość (w tej liczbie i zero) wycedzonych symbolów. To oznacza, na przykład, co w rezultacie poszukiwania marc * otrzymacie marc, marc. png i marc must not read this. kwd. Poszukiwanie mar *. kwd, z kolei, priwiediot do wyników marketplace. kwd i marc must not read this. kwd.
+Znak zapytania?
+W różnicę od zwiozdoczki, znak zapytania oznacza, co przepuszczony równo jeden symbol, tak co w rezultacie poszukiwania mar? otrzymacie marc, a po marc? nie znajdziecie niczego ponieważ nasze pliki mają tytuł marc i marc. png. W warunek poszukiwania można umieścić mnóstwo znaków zapytania, i znajdziecie równo tyle symbolów.
+
+Zawartość
+Typ pliku
+Tu można uściślić typ potrzebnego pliku.
+Utrzymuje tekst
+Wprowadźcie słowo albo frazę, będące zawarte w pliku, którego szukacie. Pamiętajcie że jesteś poszukiwaniem idiot w dużym katalogu albo z uwagą włączając podkatalogi on może zająć wiele czasów.
+Ta opcja jest nieczynna dla wszystkich plików wyliczonych w liście Typ pliku. Podtrzymują się tylko idące typy:
+Pliki tekstowe, na przykład kody źródłowe i pliki README
+
+
+
+OpenOffice. org Writer
+OpenOffice. org Impress
+OpenOffice. org Calc
+Poszukiwanie z uczotom rejestru
+Jeżeli wy wybierzcie tę opcję,
+Wyrażenie regularne
+Jeżeli u was ustalony
+
+Właściwości
+Dodatkowe warunki dla poszukiwania:
+Znaleźć wszystkie pliki stworzone albo izmienionnyje:
+Tu możecie obliczyć dwie daty, między którymi byli zawiedzionymi albo stworzonymi plikami, także można zadać opriedielonnyj okres czasu.
+
+W tym polu można wskazać, większy albo mniejszy od jakiego znaczenia powinien być znalezionym plikiem.
+
+Tu można uściślić użytkownika i grupę.
+Autorskie prawa osobiste i licencjonowanie
+
+
+Projektanci
+Martin Chartig (Martin Hartig)
+Stefan Kułow (Stephan. Kulow;)
+Mario Wiejłguni (Mario. Weilguni;)
+Alex Ziepieda (Alex. Zepeda;) jazepeda@ pacbell. net
+Mirosław Flir (Miroslav Flídr) flidr@ kky. zcu. cz
+Charri Portien (Harri. Porten;)
+Dima Rogozin (Dima Rogozin) dima@ mercury. co. il
+Karstien Pfajffier (Carsten. Pfeiffer;)
+Hans- Piettier Bikier (Hans Petter Bieker) bieker@ kde. org
+Waldo Bastian (Waldo. Bastian;)
+Autorskie prawa osobiste na dokumentację przypadają Dirku Diorflingieru (Dirk. Doerflinger;)
+(z) 2004 przekład Pyżowa Jekatierina haleth@ yandex. ru
+
+urządzenie
+Jak otrzymać
+
+żądania
+dla wykorzystania
+Kompilatorstwo i urządzenie
+
+Kierownictwo użytkownika KDE
+
+7 czerwca 2005 K Desktop Environment
+kfind
+1
+program poszukiwania plików w
+kfind put' poszukiwania specyficzne parametry KDE specyficzne parametry Qt
+Opis
+
+
+OPCJE
+put' poszukiwania
+Możecie na życzenie wskazać razdielonnyj dwojetoczijami droga, żeby najpierw wypełnić dialog. To być może wykorzystane dla stworzenia na chodniki albo na stole do pracy zesłań dla szybkiego wyszukiwania w opriedielonnych miejscach.
+Parametry programu jak lista zmiennych
+Cm. także
+Bardziej szczegółowa dokumentacja użytkownika dostępna na help: / kfind (wprowadźcie ten URL w adresową linię
+AUTORZY
+Lista osób, biorących udział w opracowaniu dostępny w pełnym kierownictwie użytkownika, które dostępnie przez khelpcenter.
+To kierownictwo zostało przygotowane
+Centrum informacji
+Michael McBride
+
+Nikołaj Szaforostow shaforostoff@ kde. ru Przekład na rosyjski Grigorij Mochin mok@ kde. ru Redakcja Rosjanina przekładu
+Tu myli się centrum informacyjne
+KDE
+kinfocenter
+System
+Informacja
+Moduł
+
+On posiada modułową strukturę. Każdy taki moduł staje się oddzielnym dodatkiem a centrum informacji wykonuje ich konsolidację.
+wykorzystanie
+Dalej mylą się szczegóły wykorzystania centrum informacji. Dla informacji po opriedielonnym modułom cm. Moduły centrum informacji
+wystrzelenie
+
+
+Naciśnięciem Alt; F2.
+
+
+Wszyscy te sposoby przytoczą do jednego wyniku.
+ekran
+Po wystrzeleniu centrum informacji pojawia się okno, dzielone przez 3 funkcjonalnych części.
+
+Z lewej strony rozlokowana kolumna, w której możecie wybrać moduł. Dla szczegółów cm. Przemieszczenie po modułach.
+W głównym chodniku odzwierciedla się systemowa informacja, wyprowadzana wybranym modułem.
+
+
+Menu Plik
+Tu tylko jeden punkt.
+
+Opuścić centrum informacji
+Menu Informacja
+
+Wystąpienie z centrum informacji
+To można zrobić trzema sposobami:
+
+
+Nacisnąć guzik zamknąć w górze z prawej strony.
+Moduły
+
+To lista modułów standardowej konfiguracji (po kategorii), stawianych w paczce kdebase.
+
+Kanały DMA
+Przerywania
+Porty wwoda/ wyprowadzenia
+Pamięć
+Sieciowe interface'y
+OpenGL
+Rozdziały
+
+PCMCIA
+Procesor
+Protokoły
+Stan Samba
+SCSI
+dźwięk
+Urządzenia USB
+
+Podziękowania i licencja
+
+Program: (z) 1997 - 2001 projektanci
+Wpłacili wkład:
+Matthias Hoelzer- Kluepfel
+
+Dokumentacja: copyright 2000 Michael McBride
+
+
+
+
+
+
+Martin Jones
+
+
+
+
+Ellis Whitehead ewhitehe@ uni- freiburg. de
+Przekład na Rosjanin: Nikołaj Szaforostow shafff@ ukr. net Redakcja Rosjanina przekładu: Grigorij Mochin mok@ kde. ru
+
+Wiadomości o urządzeniach
+
+
+
+
+N sz shafff@ ukr. net przekład na Rosjanin
+KDE
+KControl
+urządzenie
+Systemowa informacja
+Na tej stronie pochodzić informacja o będących urządzeniach.
+Co właśnie odzwierciedla się zależy od systemu. Na pewnych platformach informacja o urządzeniach wszyscy jeszczo niedostępna.
+w
+Użytkownik nie może zmieniać strojenie na tej stronie.
+Informacja o kanałach DMA
+
+
+
+
+N sz shafff@ ukr. net przekład na Rosjanin
+KDE
+KControl
+DMA
+Systemowa informacja
+Ta strona pokazuje informację o kanałach DMA (Direct Memory Access, bezpośredni dostęp do pamięci). Kanał DMA - to proste połączenie, za pomocą którego urządzenia mogą przesyłać dane w/ z pamięci, nie zadiejstwuja procesor. Zazwyczaj w architekturze i386 (PC) są 8 kanałów DMA (0 - 7).
+Odzwierciedlana informacja zależy od systemu. Na pewnych systemach informacja o kanałach DMA być może niedostępna.
+w
+Odzwierciedla się lista zarejestrowanych na daną chwilę (na oponie ISA) kanałów DMA, które znajdują się w wykorzystaniu. Pierwsza kolumienka utrzymuje kanał DMA, druga
+Nieispolzujemyje kanały DMA nie odzwierciedlają się w liście.
+Użytkownik nie może zmieniać strojenie na tej stronie.
+Zapotrzebowania na przerywania (IRQ)
+
+
+
+
+Witalij Łopatin vitls@ chat. ru Przekład na Rosjanin
+KDE
+KControl
+IRQ
+Przerywania
+system information
+Zapotrzebowania na przerywania (IRQ)
+Ta strona pokazuje informację o wektorach zapotrzebowań na przerywania i urządzenia, które ich wykorzystają.
+IRQ - to aparatowy wektor, ispolzujemyj urządzeniami PC, takimi jak klawiatura, modem, karta dźwiękowa i t. d., dla wysyłki sygnału przerywania procesorowi, żeby zawiadomić, co urządzenie gotowe przyjąć albo odprawić dane. Do żalu z powodu, w architekturze i386 (PC) w sumie jest tylko 16 wektorem IRQ (0 - 15), dostępnych dla dzielenia między różnymi urządzeniami.
+Większość aparatowni problemów odbywają się z- za konfliktów IRQ, kiedy dwa urządzenia próbują wykorzystać jeden w dodatku zaś przerywanie albo oprogramowanie nastawione nie na to przerywanie, które powinno wykorzystać urządzenie.
+Która właśnie informacja pokazuje się, zależy od systemu. Na pewnych systemach informacja o IRQ na razie nie być może wykazana.
+na
+Pierwsza kolumienka - to numer IRQ. Druga kolumienka - ta liczba przerywań, które zostały przyjęte od chwili ostatniego uruchamiania ponownego. Trzecia kunę syberyjską pokazuje typ przerywania. Czwarta pokazuje budowę, zająć dane przerywanie.
+Użytkownik nie może zmieniać żadne strojenia na tej stronie.
+Porty wwoda/ wyprowadzenia
+
+
+
+
+Witalij Łopatin vitls@ chat. ru Przekład na Rosjanin
+KDE
+KControl
+Porty wwoda/ wyprowadzenia
+Systemowa informacja
+Informacja o portach wwoda/ wyprowadzenia
+Ta strona pokazuje informację o portach wwoda/ wyprowadzenia.
+Porty wwoda/ wyprowadzenia - to adresy w pamięci, ispolzujemyje procesorem dla oczywistej odezwy do urządzenia, która posyła procesorowi przerywanie.
+Wymiana drużyn między procesorem a urządzeniem odbywa się przez adres portu wwoda/ wyprowadzenia, który przedstawiony jak szestnadcatiericznoje liczba. Żadne dwa urządzenia nie mogą wykorzystać ten sam port. Liczny urządzenia wykorzystają kilka portów zajmując skala szestnadcatiericznych adresów.
+Wykazana dokładna informacja sistiemno- zależna. Na pewnych systemach porty wwoda/ wyprowadzenia na razie nie mogą zostać pokazanymi.
+w
+Pierwsza kolumienka - to numer portu (albo skala portów), druga - wskazuje urządzenie, które wykorzysta te porty.
+Użytkownik nie może zmieniać żadne strojenia na tej stronie.
+Informacja o pamięci
+
+Witalij Łopatin mok@ kde. ru Przekład na Rosjanin
+KDE
+KControl
+Pamięć
+Systemowa informacja
+Ten moduł pokazuje bieżące wykorzystanie pamięci. Ona stale odnawia się i być może pożyteczny dla określenia wąskich miejsc przy wykonywaniu priłożenij.
+Typy pamięci
+Pierwsze, co powinniście przyswoić, to to, co istnieje dwa wyglądy pamięci, dostępnej dla systemu operacyjnego i programów, które w niej spełniają się.
+Pierwszy typ pamięci wprasza się fizycznym. To pamięć, która znajduje się na chipach wewnątrz komputera. To tak nazywany RAM (Random Access Memory albo PZU), jejo zdobywacie razem z komputerem.
+Drugi typ pamięci wprasza się wirtualnym albo dopompowywaniem. To blok pamięci, rozlokowany na dysku twardym. System operacyjny rezerwuje obszar na dysku dla podziału dopompowywania. Ona może wykorzystać tę wirtualną pamięć (albo dopompowywanie), jeżeli jej brakuje fizycznej pamięci. Przyczyna, do której taka przytomność nazwana przez dopompowywanie - to to, że system operacyjny zachowuje niepotrzebne dane w zarezerwowanym obszarze. A te, które potrzebne teraz, ładuje w pamięć operacyjną. System wymienia niepotrzebne dane na te, co potrzebne teraz, to jest podpompowywać ich. Wirtualna pamięć (dopompowywanie) nie tak szybka как pamięć operacyjny, dlatego system operacyjny próbuje po mierze możliwości wykorzystać fizyczną pamięć.
+Wspólna pamięć - to suma rozmiarów fizycznej i wirtualnej pamięci.
+Moduł informacji o pamięci
+To okno podzielone na górną i dolną sekcje
+Górna sekcja pokazuje wspólny rozmiar fizycznej pamięci, rozmiar swobodnej przytomności, dzielonej pamięci i zderzaków.
+Wszystkie cztery znaczenia przedstawione jak bardziej ogólne ilość bajt, i jak liczba megabajt (1 megabajt przykładnie równy 1 000 000 bajt)
+Na dole wykazane trzy harmonogramy:
+Wspólna pamięć (suma fizycznej i wirtualnej pamięci).
+Fizyczna pamięć
+Wirtualna pamięć albo dopompowywanie.
+Zielone dziedziny - swobodnie pamięci, czerwone - zajęte.
+Ścisłe znaczenia rozmiarów każdego typu pamięci nie zasadniczo i oni stale zamieniają się. Na razie rozpatrujecie to stronę wygląd zmieni się.
+Czy u was starcza wolny obszaru (zielone dziedziny)? Jeżeli nie ma powinniście powiększyć podział dopompowywania albo zwiększyć pamięć operacyjny.
+Także, jeżeli wasz komputer wydaje się apatyczny: wypełniona fizyczna przytomność a już za całej siły działa dysk? To pokazuje to, że u was nie ma wystarczającej fizycznej pamięci i wasz komputer przerzuca na zwlekaną wirtualną pamięć często ispolzujemyje dane. Powiększenie pamięć operacyjny da lepsze oddanie od komputera.
+Sieciowe interface'y
+
+N sz shafff@ ukr. net przekład na Rosjanin
+KDE
+KControl
+sieć
+Interface'y
+Ta strona utrzymuje informację o sieciowych interface'ach, ustalonych na waszym komputerze.
+Dokładna informacja w tym oknie zależy od systemu. Na pewnych platformach ta informacja wszyscy jeszczo niedostępna.
+Użytkownik nie może zmieniać strojenie na tej stronie.
+OpenGL
+Ilya Korniyko k ilya@ ukr. net
+Nikołaj Szaforostow shafff@ ukr. net Przekład na Rosjanin
+KDE
+KControl
+OpenGL
+Systemowa informacja
+OpenGL
+Ta strony odzwierciedla informację o wprowadzonych realizacjach OpenGL implementation. OpenGL (\ "Open Graphics Library\") - to cross- płatformiennyj, apparatno- niezależny interface dla stworzenia triochmiernoj harmonogramy.
+GLX - rozszerzanie X Window dla pomocy OpenGL.
+DRI (Direct Rendering Infrastucture) zapewnia aparatowe przyśpieszenia do OpenGL. Dla tego jest potrzebna karta graficzna z 3 D- przyśpiesznikiem i poprawnie ustalone drivera dla niejo.
+Dla szczegółów, odwiedźcie oficjalną witrynę OpenGL http: / / www. opengl. org
+Podziały dysku twardego
+
+
+
+
+Grigorij Mochin mok@ kde. ru Przekład na Rosjanin
+KDE
+KControl
+drive partition
+system information
+Na tej stronie pokazuje się informacja o podziałach dysku twardego.
+Co właśnie pokazuje się zależy od systemu. Na pewnych platformach informacja o rozdziałach niedostępna.
+na
+Pierwsze dwie kolumienki - to major i minor numery odpowiednie. Trzecia kolumienka - ta liczba bloków (zazwyczaj 1 blok równy 1024 bajt). Czetwiortaja kolumienka - to znak urządzenia.
+Użytkownik nie może zmieniać żadne strojenia na tej stronie.
+Opona PCI i PCI - opłaty
+
+
+
+
+Grigorij Mochin mok@ kde. ru Przekład na Rosjanin
+KDE
+KControl
+PCI
+system information
+Na tej stronie pochodzić informacja o oponie PCI i ustalonych na niej przez PCI - opłatach a także innych urządzeniach, wykorzystać Peripheral Component Interconnect (PCI) interface.
+Co właśnie pokazuje się zależy od systemu. Na pewnych platformach informacja o PCI być może niedostępna.
+na
+Każdy element zaczyna się z numeru opony, urządzenia i funkcji.
+Użytkownik nie może zmieniać żadne strojenia na tej stronie.
+PCMCIA
+
+Grigorij Mochin mok@ kde. ru Przekład na Rosjanin
+KDE
+KControl
+laptop
+PCMCIA
+Ten moduł służy dla pokazu wiadomości o opłatach PCMCIA
+Co właśnie pokazuje się zależy od systemu. Na większości maszyn w ogóle nie pochodzić żadna informacja.
+Informacja o procesorze
+
+
+
+
+Witalij Łopatin vitls@ chat. ru Przekład na Rosjanin
+KDE
+KControl
+CPU
+Procesor
+Systemowa informacja
+Ta strona pokazuje informację o procesorze (CPU).
+Co właśnie pokazuje się zależy od systemu. Na pewnych platformach informacja o procesorze niedostępna.
+na
+Dokładna informacja w tym oknie zależy od CPU na waszej maszynie; okno organizowane w dwie kolumienki. Pierwsza kolumienka - to parametr, druga - jego znaczenie.
+Użytkownik nie może zmieniać żadne strojenia na tej stronie.
+Protokoły
+
+N sz shafff@ ukr. net przekład na Rosjanin
+KDE
+Protokoły
+Obrabiacz wwoda/ wyprowadzenia
+Z lewej strony odzwierciedla się lista obrabiacz wwoda/ wyprowadzenia, dostępnych w waszym systemie. Z ich pomocą dodatku
+Prztyczek na nazwie obrabiacz wwoda/ wyprowadzenia priwiediot do odzwierciedlenia informacji o niom, na przykład jak go wykorzystać, i dla czego on w ogóle potrzebny.
+Moduł protokołów niesiot lisz informacyjny charakter, tu nie można całkiem całkiem zmienić.
+Wiadomości o statusie Samba- serwera
+
+Jegor Kobyłkin egor@ kobylkin. com Przekład na Rosjanin
+KDE
+KControl
+samba
+Informacja o systemie
+Samba i monitor stanu NFS - to graficzna powłoka dla programów smbstatus i showmount. Smbstatus daje informację o bieżących połączeniach Samba- serwera i staje się częścią składu programów narzędziowych Samby, które realizują protokół SMB (Session Message Block), także znany как NetBIOS albo LanManager.
+Ten protokół być może wykorzystany dla ogólnego dostępu do drukarek albo dysków twardych w sieci, włączając w to maszyny na które wprowadzone różne wersje
+showmount staje się częścią programowej paczki NFS. NFS stawać się skróceniem z Network File System (sieciowy system plików), to tradycyjny sposób wspólnego wykorzystania katalogów w
+Eksportowane katalogi
+Na tej stronie możecie zobaczyć dużą listę, w którym wyliczone połączenia z powszechnymi podziałami, aktywne na daną chwilę i eksportowane katalogi NFS waszego komputera. Pierwsza kolumienka pokazuje, czy ukazuje się katalog dostępnym po drugiej stronie NFS albo SMB, druga - imię rozebrała, trzecia - nazwa oddalonego komputera, który zwraca się do tego rozdziału. Zostać kolumienki utrzymują informację, posiadającą sens tylko dla samba- rozdziałów.
+Czetwiortaja kolumienka utrzymuje identyfikator User ID użytkownika, który zwraca się do tego rozdziału. Zauważcie, że to nie obowiązkowe
+Każde połączenie z jednym z waszych rozdziałów obsługuje się poszczególnym procesem smbd, idąca kolumienka pokazuje identyfikator procesu (pid) tego smbd. Jeżeli wy ubjotie ten proces, podłączony użytkownik zostanie odłączony. Jeżeli oddalony użytkownik pracuje w
+Ostatnia kolumienka pokazuje, ile otwartych plików posiada dany użytkownik w obecny moment. Tu możecie zobaczyć tylko ile plików otwarcie w daną chwilę, ale bo inaczej, ile plików były skopiowane albo otwarte wcześniej i t. d.
+Importowane katalogi
+Tu pokazane, które Samba - i NFS - podziały innych hostów zmontowane w wasz lokalny system. Pierwsza kunę syberyjską pokazuje typ rozdziału: Samba albo NFS - rozebrał. Druga kolumienka - to nazwy rozdziałów, i trzecia pokazuje, gdzie rozdziały zmontowane.
+Zmontowane przez NFS - rozdziały powinny być widoczni jak w
+Łogi
+Tu przedstawiona treść waszego lokalnego jar- pliku Samby w czytelnym wyglądzie. Najpierw, kiedy otworzycie tę stronę, liść będzie głupstwem. Niezbędne nacisnąć na guzik odnowić, tylko wtedy będzie przeczytanym jar- plik Samby, i wam będą uzyskanymi wynikami. Sprawdźcie, rzeczywiście czy jar- plik Samby znajduje się tam, gdzie wskazuje droga na tej stronie. Jeżeli on znajduje się gdzie indziej czyż nosi nazwę po innemu, naprawcie to. Po wprowadzeniu zmian znowu naciśnijcie odnowić.
+Samba dokumentuje swoje działania zależnie od parametru loglevel - podrobniejeob tym patrzcie w smb. conf. Jeżeli loglevel = 1, Samba zapisuje jar tylko wtedy, kiedy kto- to podłącza się do waszej maszyny i kiedy to połączenie znowu zamyka się. Jeżeli loglevel = 2, to zapisuje się, kto otwierał i zamykał plik. Jeżeli loglevel większy dwóch, to zapisuje się jeszcze większy od informacji.
+Jeżeli ciekawe dla was, kto zwracał się do waszej maszyny i do których właśnie plikom, wystawcie loglevel = 2 i regularnie wywołujcie rotację jar- plików. Na przykład, stwórzcie zadanie cron, która będzie przesuwać wasz bieżący jar- plik Samby w inny katalog. Inaczej wasz jar- plik Samby może stać się za duży.
+Chorągiewki na dole dużej listy pomagają określić, jakie wydarzenia powinny pokazywać się w liście. Niezbędne nacisnąć odnowić, żeby zobaczyć wyniki waszych zmian. Jeżeli loglevel Samby za mały, to nie zobaczycie wszystkiego, co być może.
+Szczołknuw po nagłówku kolumienki, możecie posortować listę według tej kolumienki.
+STATYSTYKA
+Na tej stronie możecie przefiltrować zawartość innej strony w w poszukiwaniu obliczonej informacji.
+Niech pole Wydarzenie ustalone jak Połączenie, Służba/ Plik ustalone jak *, Chost/ Użytkownik ustalony jak *, pokazać szczegółową informację o służbie wyłączone pokazać szczegółową informację o hoście wyłączone.
+Jeżeli teraz nacisnąć odnowić będzie widać jak często ustalało się połączenie z rozdziałem * (ie; t. je. z dowolnym rozdziałem) od hosta * (ie; t. je. od każdego hosta). Włączcie pokazać szczegółową informację o hoście i naciśnijcie odnowić znowu. Teraz możecie zobaczyć, ile połączeń były otwarte do każdego hosta, podchodzącego do szablonu *
+Teraz naciśnijcie oczyścić.
+Wprowadźcie pole Wydarzenie jak Dostęp do Pliku włączcie pokazywać szczegółową informację o służbie i znowu naciśnijcie odnowić.
+Teraz możecie widzieć jak często zwracali się do każdego poszczególnego pliku. Jeżeli jeszcze i pozwolić pokazywać szczegółową informację o hoście, to zobaczycie jak często każdy konkretny użytkownik otwierał te pliki.
+W polach wprowadzania Służba/ Plik i Chost/ Użytkownik możecie wykorzystać szablony * i? tak samo jak i zazwyczaj w linii strategicznej. Wyrażenia regularne nie rozpoznają się.
+Stuknąwszy myszą po nagłówku kolumienki możecie posortować listę według tej kolumienki. Tak można określić, jaki plik otwierał się najczęściej czyż jaki użytkownik otworzył największy z plików, w sumie wszystko.
+Autor rozdziału
+Module copyright 2000: Michael Glauche and
+Pierwszy autor: Michael Glauche
+Podtrzymuje się obecnie
+Wpłacili wkład
+Przekształcenie w aplet kcontrol
+
+Wykorzystanie K3Process zamiast popen i dodatkowe sprawdzanie błędów:
+
+Przekształcenie w kcmodule, dodane zakładki 2, 3, 4, poprawiony błąd:
+
+Documentation copyright 2000
+Dokumentacja przetłumaczona w standard docbook
+Egor Kobylkin egor@ kobylkin. com
+Wiadomości o interface'ach SCSI
+
+
+
+
+N sz shafff@ ukr. net przekład na Rosjanin
+KDE
